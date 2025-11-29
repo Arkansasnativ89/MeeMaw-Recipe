@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MeeMaw's Recipe Book</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>🍳 MeeMaw Carle's Recipe Book</h1>
+            <p class="subtitle">A treasured collection from Alma Finken Carle</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <!-- Search and Filter Section -->
+        <div class="controls">
+            <div class="search-box">
+                <input type="text" id="searchInput" placeholder="Search recipes...">
+            </div>
+            <div class="filter-box">
+                <label for="categoryFilter">Filter by Category:</label>
+                <select id="categoryFilter">
+                    <option value="all">All Categories</option>
+                </select>
+            </div>
+        </div>
+
+        <!-- Recipe Grid -->
+        <div id="recipeGrid" class="recipe-grid">
+            <!-- Recipes will be dynamically loaded here -->
+        </div>
+
+        <!-- Recipe Detail Modal -->
+        <div id="recipeModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <div id="recipeDetail">
+                    <!-- Recipe details will be loaded here -->
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>Recipes compiled from Alma Finken Carle's collection • Some recipes from Clara Keller Finken, Caroline Nagel, Lizzie Walters, and family friends</p>
+            <p class="note">Note: Most recipes have been modified to use egg substitutes and vegetable oils</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
