@@ -757,3 +757,197 @@ function printRecipe() {
         printWindow.print();
     }, 250);
 }
+
+// Mobile Navigation Functions
+function toggleMobileNav() {
+    const mobileNav = document.getElementById('mobileNav');
+    mobileNav.classList.toggle('active');
+}
+
+function closeMobileNav() {
+    const mobileNav = document.getElementById('mobileNav');
+    mobileNav.classList.remove('active');
+}
+
+// Smooth scroll to section
+function scrollToSection(sectionId) {
+    const section = document.getElementById(sectionId);
+    if (section) {
+        const headerOffset = 100;
+        const elementPosition = section.getBoundingClientRect().top;
+        const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+
+        window.scrollTo({
+            top: offsetPosition,
+            behavior: 'smooth'
+        });
+    }
+    closeMobileNav();
+}
+
+// Header search functionality with live results dropdown
+function setupHeaderSearch() {
+    const headerSearchInput = document.getElementById('headerSearchInput');
+    const headerSearchResults = document.getElementById('headerSearchResults');
+    
+    if (headerSearchInput && headerSearchResults) {
+        headerSearchInput.addEventListener('input', (e) => {
+            const searchTerm = e.target.value.toLowerCase().trim();
+            
+            if (!searchTerm) {
+                headerSearchResults.classList.remove('active');
+                headerSearchResults.innerHTML = '';
+                return;
+            }
+            
+            // Filter recipes based on search term
+            const matchingRecipes = recipes.filter(recipe => 
+                recipe.name.toLowerCase().includes(searchTerm) ||
+                (recipe.category && recipe.category.toLowerCase().includes(searchTerm))
+            );
+            
+            if (matchingRecipes.length > 0) {
+                headerSearchResults.innerHTML = matchingRecipes
+                    .slice(0, 8) // Limit to 8 results
+                    .map(recipe => `
+                        <div class="header-search-result-item" onclick="openRecipeFromHeaderSearch(${recipe.id})">
+                            <div class="header-search-result-name">${recipe.name}</div>
+                            <div class="header-search-result-category">${recipe.category || 'Recipe'}</div>
+                        </div>
+                    `).join('');
+                headerSearchResults.classList.add('active');
+            } else {
+                headerSearchResults.innerHTML = '<div class="header-search-no-results">No recipes found</div>';
+                headerSearchResults.classList.add('active');
+            }
+        });
+        
+        // Close dropdown when clicking outside
+        document.addEventListener('click', (e) => {
+            if (!headerSearchInput.contains(e.target) && !headerSearchResults.contains(e.target)) {
+                headerSearchResults.classList.remove('active');
+            }
+        });
+        
+        // Clear on escape key
+        headerSearchInput.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') {
+                headerSearchInput.value = '';
+                headerSearchResults.classList.remove('active');
+                headerSearchResults.innerHTML = '';
+            }
+        });
+    }
+}
+
+// Open recipe from header search dropdown
+function openRecipeFromHeaderSearch(recipeId) {
+    const recipe = recipes.find(r => r.id === recipeId);
+    if (recipe) {
+        showRecipeDetail(recipe);
+        
+        // Clear and hide search results
+        const headerSearchInput = document.getElementById('headerSearchInput');
+        const headerSearchResults = document.getElementById('headerSearchResults');
+        if (headerSearchInput) headerSearchInput.value = '';
+        if (headerSearchResults) {
+            headerSearchResults.classList.remove('active');
+            headerSearchResults.innerHTML = '';
+        }
+    }
+}
+
+// Initialize mobile navigation
+document.addEventListener('DOMContentLoaded', () => {
+    // Existing initialization
+    loadRecipes();
+    
+    // Mobile nav event listeners
+    const hamburgerBtn = document.getElementById('hamburgerBtn');
+    const mobileNavClose = document.getElementById('mobileNavClose');
+    const mobileNavLinks = document.querySelectorAll('.mobile-nav-links a');
+    
+    if (hamburgerBtn) {
+        hamburgerBtn.addEventListener('click', toggleMobileNav);
+    }
+    
+    if (mobileNavClose) {
+        mobileNavClose.addEventListener('click', closeMobileNav);
+    }
+    
+    // Close nav when clicking a link
+    mobileNavLinks.forEach(link => {
+        link.addEventListener('click', (e) => {
+            e.preventDefault();
+            const sectionId = link.getAttribute('data-section');
+            scrollToSection(sectionId);
+        });
+    });
+    
+    // Close nav when clicking outside
+    document.addEventListener('click', (e) => {
+        const mobileNav = document.getElementById('mobileNav');
+        const hamburgerBtn = document.getElementById('hamburgerBtn');
+        
+        if (mobileNav && hamburgerBtn && 
+            !mobileNav.contains(e.target) && 
+            !hamburgerBtn.contains(e.target) &&
+            mobileNav.classList.contains('active')) {
+            closeMobileNav();
+        }
+    });
+    
+    // Setup header search
+    setupHeaderSearch();
+    
+    // Setup quick jump navigation
+    setupQuickJump();
+});
+
+// Quick Jump Navigation
+function setupQuickJump() {
+    const quickJumpBtn = document.getElementById('quickJumpBtn');
+    const quickJumpMenu = document.getElementById('quickJumpMenu');
+    const quickJumpClose = document.getElementById('quickJumpClose');
+    const quickJumpLinks = document.querySelectorAll('.quick-jump-link');
+    
+    if (quickJumpBtn && quickJumpMenu) {
+        quickJumpBtn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            quickJumpMenu.classList.toggle('active');
+        });
+        
+        if (quickJumpClose) {
+            quickJumpClose.addEventListener('click', () => {
+                quickJumpMenu.classList.remove('active');
+            });
+        }
+        
+        quickJumpLinks.forEach(link => {
+            link.addEventListener('click', (e) => {
+                e.preventDefault();
+                const targetId = link.getAttribute('data-target');
+                
+                if (targetId === 'top') {
+                    window.scrollTo({
+                        top: 0,
+                        behavior: 'smooth'
+                    });
+                } else {
+                    scrollToSection(targetId);
+                }
+                
+                quickJumpMenu.classList.remove('active');
+            });
+        });
+        
+        // Close when clicking outside
+        document.addEventListener('click', (e) => {
+            if (!quickJumpMenu.contains(e.target) && 
+                !quickJumpBtn.contains(e.target) &&
+                quickJumpMenu.classList.contains('active')) {
+                quickJumpMenu.classList.remove('active');
+            }
+        });
+    }
+}
