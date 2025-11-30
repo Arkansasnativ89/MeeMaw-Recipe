@@ -318,12 +318,16 @@ function showRecipeDetail(recipe) {
         `;
     }
     
-    // Create image link
+    // Create image link and hidden print image
     const imageLink = `
         <div class="cookbook-image-link">
             <button onclick="showCookbookImage('${imagePath}')" class="view-original-btn">
                 📖 View Original Cookbook Page
             </button>
+        </div>
+        <div class="cookbook-image-print" data-image-path="${imagePath}">
+            <h3>Original Cookbook Page</h3>
+            <img src="${imagePath}" alt="Original Cookbook Page">
         </div>
     `;
     
@@ -902,6 +906,24 @@ document.addEventListener('DOMContentLoaded', () => {
     
     // Setup quick jump navigation
     setupQuickJump();
+    
+    // Handle cookbook image print checkbox
+    const checkbox = document.getElementById('includeCookbookImage');
+    const modal = document.getElementById('recipeModal');
+    if (checkbox && modal) {
+        // Set initial state
+        if (checkbox.checked) {
+            modal.classList.add('print-include-image');
+        }
+        // Listen for changes
+        checkbox.addEventListener('change', function() {
+            if (this.checked) {
+                modal.classList.add('print-include-image');
+            } else {
+                modal.classList.remove('print-include-image');
+            }
+        });
+    }
 });
 
 // Quick Jump Navigation
