@@ -8,15 +8,67 @@
 </head>
 <body>
     <header>
-        <div class="container">
-            <h1>MeeMaw Carle's Recipe Book</h1>
-            <p class="subtitle">A treasured collection from Alma Finken Carle</p>
+        <div class="container header-content">
+            <button class="hamburger-menu" id="hamburgerBtn" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <div class="header-main">
+                <h1>MeeMaw Carle's Recipe Book</h1>
+                <p class="subtitle">A treasured collection from Alma Finken Carle</p>
+            </div>
         </div>
     </header>
 
-    <main class="container">
+    <!-- Mobile Navigation Menu -->
+    <nav class="mobile-nav" id="mobileNav">
+        <div class="mobile-nav-content">
+            <button class="mobile-nav-close" id="mobileNavClose" aria-label="Close menu">&times;</button>
+            <ul class="mobile-nav-links">
+                <li><a href="#kitchen-memo" data-section="kitchen-memo">Kitchen Memorandum</a></li>
+                <li><a href="#family-memories" data-section="family-memories">Family Memories</a></li>
+                <li><a href="#recipes" data-section="recipes">Recipes</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Floating Quick Jump Button -->
+    <button class="quick-jump-btn" id="quickJumpBtn" aria-label="Quick navigation">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M3 12h18M3 6h18M3 18h18"/>
+        </svg>
+    </button>
+
+    <!-- Quick Jump Menu -->
+    <div class="quick-jump-menu" id="quickJumpMenu">
+        <div class="quick-jump-header">
+            <h3>Jump to Section</h3>
+            <button class="quick-jump-close" id="quickJumpClose">&times;</button>
+        </div>
+        <div class="quick-jump-links">
+            <a href="#top" class="quick-jump-link" data-target="top">
+                <span class="jump-icon">🏠</span>
+                <span>Top of Page</span>
+            </a>
+            <a href="#kitchen-memo" class="quick-jump-link" data-target="kitchen-memo">
+                <span class="jump-icon">📖</span>
+                <span>Kitchen Memorandum</span>
+            </a>
+            <a href="#family-memories" class="quick-jump-link" data-target="family-memories">
+                <span class="jump-icon">📷</span>
+                <span>Family Memories</span>
+            </a>
+            <a href="#recipes" class="quick-jump-link" data-target="recipes">
+                <span class="jump-icon">🍳</span>
+                <span>Browse Recipes</span>
+            </a>
+        </div>
+    </div>
+
+    <main class="container" id="top">
         <!-- Welcome Section / Kitchen Memorandum -->
-        <section class="kitchen-memo">
+        <section class="kitchen-memo" id="kitchen-memo">
             <div class="memo-header">
                 <h2>📖 Memorandum from Wilfred Carle</h2>
                 <p class="memo-date">April 8, 1995</p>
@@ -31,7 +83,7 @@
         </section>
 
         <!-- Family Memories Section -->
-        <section class="family-memories">
+        <section class="family-memories" id="family-memories">
             <h2>Family Memories</h2>
             <p class="memories-intro">Cherished moments from the Carle family kitchen, where recipes became traditions and traditions became memories.</p>
             <div class="memories-grid">
@@ -54,76 +106,124 @@
                     </div>
                 </div>
                 <div class="memory-card">
-                    <img src="assets/C010000-R1-66-67.JPG" alt="Family memory" class="memory-image">
+                    <img src="assets/20210523_093538~2.jpg" alt="Family memory" class="memory-image">
                     <div class="memory-caption">
                         <p>Creating memories one recipe at a time</p>
                     </div>
                 </div>
                 <div class="memory-card">
-                    <img src="assets/C011000-R1-03-4.JPG" alt="Family memory" class="memory-image">
+                    <img src="assets/2024-02-21 (1).jpg" alt="Family memory" class="memory-image">
                     <div class="memory-caption">
                         <p>Family gatherings</p>
                     </div>
                 </div>
                 <div class="memory-card">
-                    <img src="assets/C011000-R1-48-49.JPG" alt="Family memory" class="memory-image">
+                    <img src="assets/2024-02-21 (2).jpg" alt="Family memory" class="memory-image">
                     <div class="memory-caption">
                         <p>Sharing the love of cooking</p>
                     </div>
                 </div>
                 <div class="memory-card">
-                    <img src="assets/C140000-R1-34-35.JPG" alt="Family memory" class="memory-image">
+                    <img src="assets/2024-02-21 (3).jpg" alt="Family memory" class="memory-image">
                     <div class="memory-caption">
                         <p>Passed down with love</p>
                     </div>
                 </div>
                 <div class="memory-card">
-                    <img src="assets/C140000-R1-57-58.JPG" alt="Family memory" class="memory-image">
+                    <img src="assets/2024-02-21.jpg" alt="Family memory" class="memory-image">
                     <div class="memory-caption">
                         <p>Timeless family traditions</p>
                     </div>
                 </div>
                 <div class="memory-card">
-                    <img src="assets/C230000-R1-134-135.JPG" alt="Family memory" class="memory-image">
+                    <img src="assets/C010000-R1-66-67.JPG" alt="Family memory" class="memory-image">
                     <div class="memory-caption">
                         <p>Home-cooked with heart</p>
                     </div>
                 </div>
                 <div class="memory-card">
-                    <img src="assets/C300000-R1-71-72.JPG" alt="Family memory" class="memory-image">
+                    <img src="assets/C011000-R1-03-4.JPG" alt="Family memory" class="memory-image">
                     <div class="memory-caption">
                         <p>Celebrating together</p>
                     </div>
                 </div>
                 <div class="memory-card">
-                    <img src="assets/C300000-R1-72-73.JPG" alt="Family memory" class="memory-image">
+                    <img src="assets/C011000-R1-48-49.JPG" alt="Family memory" class="memory-image">
                     <div class="memory-caption">
                         <p>Food brings us together</p>
                     </div>
                 </div>
                 <div class="memory-card">
-                    <img src="assets/C300000-R1-74-75.JPG" alt="Family memory" class="memory-image">
+                    <img src="assets/C140000-R1-34-35.JPG" alt="Family memory" class="memory-image">
                     <div class="memory-caption">
                         <p>Kitchen magic</p>
                     </div>
                 </div>
                 <div class="memory-card">
-                    <img src="assets/C300000-R1-75-76.JPG" alt="Family memory" class="memory-image">
+                    <img src="assets/C140000-R1-57-58.JPG" alt="Family memory" class="memory-image">
                     <div class="memory-caption">
                         <p>Recipes and memories</p>
                     </div>
                 </div>
                 <div class="memory-card">
-                    <img src="assets/C500001-R1-37-38.JPG" alt="Family memory" class="memory-image">
+                    <img src="assets/C180000-R1-47-48.jpg" alt="Family memory" class="memory-image">
                     <div class="memory-caption">
                         <p>The heart of our home</p>
+                    </div>
+                </div>
+                <div class="memory-card">
+                    <img src="assets/C190000-R1-97-98.jpg" alt="Family memory" class="memory-image">
+                    <div class="memory-caption">
+                        <p>Gathered around the table</p>
+                    </div>
+                </div>
+                <div class="memory-card">
+                    <img src="assets/C230000-R1-115-116.jpg" alt="Family memory" class="memory-image">
+                    <div class="memory-caption">
+                        <p>Made with love</p>
+                    </div>
+                </div>
+                <div class="memory-card">
+                    <img src="assets/C230000-R1-134-135.JPG" alt="Family memory" class="memory-image">
+                    <div class="memory-caption">
+                        <p>Cooking brings joy</p>
+                    </div>
+                </div>
+                <div class="memory-card">
+                    <img src="assets/C300000-R1-71-72.JPG" alt="Family memory" class="memory-image">
+                    <div class="memory-caption">
+                        <p>Family first</p>
+                    </div>
+                </div>
+                <div class="memory-card">
+                    <img src="assets/C300000-R1-72-73.JPG" alt="Family memory" class="memory-image">
+                    <div class="memory-caption">
+                        <p>Treasured times</p>
+                    </div>
+                </div>
+                <div class="memory-card">
+                    <img src="assets/C300000-R1-74-75.JPG" alt="Family memory" class="memory-image">
+                    <div class="memory-caption">
+                        <p>Generations of flavor</p>
+                    </div>
+                </div>
+                <div class="memory-card">
+                    <img src="assets/C300000-R1-75-76.JPG" alt="Family memory" class="memory-image">
+                    <div class="memory-caption">
+                        <p>Together in the kitchen</p>
+                    </div>
+                </div>
+                <div class="memory-card">
+                    <img src="assets/C500001-R1-37-38.JPG" alt="Family memory" class="memory-image">
+                    <div class="memory-caption">
+                        <p>Where memories are made</p>
                     </div>
                 </div>
             </div>
         </section>
 
         <!-- Search and Filter Section -->
-        <div class="controls">
+        <div class="controls" id="recipes">
             <div class="view-toggle">
                 <button id="categoryViewBtn" class="view-btn active" onclick="toggleViewMode('category')">By Category</button>
                 <button id="indexViewBtn" class="view-btn" onclick="toggleViewMode('index')">A-Z Index</button>
