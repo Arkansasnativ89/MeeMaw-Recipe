@@ -1,5 +1,19 @@
 :root {
-    /* German-inspired color palette */
+    /* The Emerald Hearth - Dark Mode Palette */
+    --heritage-green: #0A4D34;
+    --heritage-green-dark: #083d29;
+    --heritage-green-darker: #062d1f;
+    --royal-blue: #4A90E2;
+    --heraldic-gold: #FDC500;
+    --gold-muted: #d4a800;
+    --paper-white: #F9F9F9;
+    --pure-white: #FFFFFF;
+    --text-white: #F5F5F5;
+    --text-light: #E0E0E0;
+    --soft-green: #0d6645;
+    --dark-green: #063322;
+    
+    /* Legacy colors (kept for gradual transition) */
     --german-red: #8b2e1f;
     --german-gold: #d4a574;
     --bavarian-blue: #2d5a7b;
@@ -13,10 +27,11 @@
     --text-muted: #6b5447;
     --border-gold: #d9c9b3;
     
-    /* Shadows */
-    --shadow-sm: 0 1px 3px rgba(107, 33, 20, 0.12);
-    --shadow: 0 2px 8px rgba(107, 33, 20, 0.15);
-    --shadow-lg: 0 4px 20px rgba(107, 33, 20, 0.2);
+    /* Modern Heirloom Shadows - Enhanced for Dark Mode */
+    --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.3);
+    --shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+    --shadow-md: 0 6px 25px rgba(0, 0, 0, 0.5);
+    --shadow-lg: 0 10px 40px rgba(0, 0, 0, 0.6);
     --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -29,23 +44,32 @@
 
 body {
     font-family: 'Georgia', 'Palatino Linotype', 'Book Antiqua', serif;
-    background-color: var(--cream);
-    background-image: 
-        radial-gradient(circle at 25% 25%, rgba(212, 165, 116, 0.05) 0%, transparent 50%),
-        radial-gradient(circle at 75% 75%, rgba(139, 46, 31, 0.04) 0%, transparent 50%),
-        repeating-linear-gradient(
-            0deg,
-            transparent,
-            transparent 2px,
-            rgba(212, 165, 116, 0.02) 2px,
-            rgba(212, 165, 116, 0.02) 4px
-        );
-    color: var(--text-dark);
+    background-color: var(--heritage-green);
+    color: var(--pure-white);
     line-height: 1.7;
     overflow-x: hidden;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    position: relative;
+}
+
+body::before {
+    content: '';
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100vw;
+    height: 100vh;
+    background-image: url('carle-crest.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: blur(8px);
+    opacity: 0.08;
+    z-index: 0;
+    pointer-events: none;
 }
 
 .container {
@@ -53,16 +77,23 @@ body {
     margin: 0 auto;
     padding: 0 clamp(1rem, 3vw, 2rem);
     width: 100%;
+    position: relative;
+    z-index: 1;
 }
 
-/* Header Styles - German Folk Art Inspired */
+/* Header Styles - The Emerald Hearth */
 header {
-    background: linear-gradient(135deg, var(--german-red) 0%, var(--deep-red) 50%, var(--warm-brown) 100%);
-    color: white;
-    padding: clamp(2rem, 5vw, 3.5rem) 0;
+    background: var(--dark-green);
+    color: var(--heraldic-gold);
+    padding: clamp(2rem, 5vw, 3rem) 0;
     text-align: center;
-    box-shadow: var(--shadow-lg);
-    border-bottom: 4px solid var(--german-gold);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+    border-bottom: 2px solid var(--heraldic-gold);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    backdrop-filter: blur(10px);
+    background-color: rgba(6, 51, 34, 0.98);
     position: relative;
     overflow: hidden;
 }
@@ -70,34 +101,43 @@ header {
 header::before {
     content: '';
     position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-image: 
-        repeating-linear-gradient(
-            45deg,
-            transparent,
-            transparent 25px,
-            rgba(255, 255, 255, 0.03) 25px,
-            rgba(255, 255, 255, 0.03) 50px
-        ),
-        repeating-linear-gradient(
-            -45deg,
-            transparent,
-            transparent 25px,
-            rgba(255, 255, 255, 0.03) 25px,
-            rgba(255, 255, 255, 0.03) 50px
-        );
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: clamp(200px, 40vw, 400px);
+    height: clamp(200px, 40vw, 400px);
+    background-image: url('carle-crest.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.04;
+    filter: blur(1px);
     pointer-events: none;
+    z-index: 0;
 }
 
-header::after {
-    content: '';
-    position: absolute;
-    bottom: -2px;
-    left: 0;
-    right: 0;
+header .container {
+    position: relative;
+    z-index: 1;
+}
+
+header h1 {
+    font-size: clamp(2rem, 6vw, 3.5rem);
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-bottom: 0.5rem;
+    color: var(--heraldic-gold);
+    text-shadow: 0 2px 8px rgba(253, 197, 0, 0.3);
+}
+
+.subtitle {
+    font-size: clamp(0.95rem, 2.5vw, 1.15rem);
+    opacity: 0.9;
+    font-style: italic;
+    font-weight: 300;
+    color: var(--pure-white);
+    margin-top: 0.25rem;
+}
     height: 6px;
     background: repeating-linear-gradient(
         90deg,
@@ -128,6 +168,158 @@ header h1 {
     margin-top: 0.25rem;
 }
 
+/* Kitchen Memorandum Landing Section - The Emerald Hearth */
+.kitchen-memo {
+    background: var(--dark-green);
+    border-radius: 8px;
+    padding: clamp(2rem, 5vw, 4rem);
+    margin: clamp(2rem, 5vw, 3rem) 0;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+    border-left: 3px solid var(--heraldic-gold);
+    position: relative;
+}
+
+.memo-header {
+    text-align: center;
+    margin-bottom: clamp(2rem, 4vw, 3rem);
+    position: relative;
+}
+
+.memo-header h2 {
+    font-size: clamp(1.5rem, 4vw, 2.25rem);
+    color: var(--heraldic-gold);
+    margin-bottom: 0.5rem;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+}
+
+.memo-date {
+    font-size: clamp(0.9rem, 2vw, 1.1rem);
+    color: var(--royal-blue);
+    font-style: italic;
+    margin-bottom: 1.5rem;
+    opacity: 0.9;
+}
+
+.memo-image {
+    max-width: 100%;
+    width: clamp(300px, 80vw, 600px);
+    height: auto;
+    border-radius: 4px;
+    box-shadow: var(--shadow);
+    border: 1px solid rgba(10, 77, 52, 0.15);
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.memo-image:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-lg);
+}
+
+.memo-text {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.memo-text p {
+    font-size: clamp(1rem, 2.5vw, 1.15rem);
+    line-height: 1.8;
+    color: var(--pure-white);
+    margin-bottom: 1.25rem;
+    padding: 0 clamp(0.5rem, 3vw, 2rem);
+}
+
+.memo-text p:last-child {
+    font-style: italic;
+    color: var(--royal-blue);
+    padding: 1.5rem clamp(1rem, 4vw, 2rem);
+    background: rgba(253, 197, 0, 0.1);
+    border-radius: 4px;
+    border-left: 3px solid var(--heraldic-gold);
+}
+
+/* Family Memories Section */
+.family-memories {
+    background: var(--dark-green);
+    border-radius: 8px;
+    padding: clamp(2rem, 5vw, 3rem);
+    margin: clamp(2rem, 5vw, 3rem) 0;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+    border: 2px solid rgba(253, 197, 0, 0.3);
+}
+
+.family-memories h2 {
+    color: var(--heraldic-gold);
+    font-size: clamp(1.75rem, 4vw, 2.25rem);
+    margin-bottom: 1rem;
+    text-align: center;
+    font-weight: 500;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.memories-intro {
+    text-align: center;
+    color: var(--text-light);
+    font-size: clamp(1rem, 2.5vw, 1.15rem);
+    font-style: italic;
+    margin-bottom: 2rem;
+    opacity: 0.95;
+}
+
+.memories-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr));
+    gap: clamp(1.5rem, 3vw, 2rem);
+}
+
+.memory-card {
+    background: var(--heritage-green-dark);
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+    transition: var(--transition);
+    border: 1px solid rgba(253, 197, 0, 0.2);
+}
+
+.memory-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.6);
+    border-color: var(--heraldic-gold);
+}
+
+.memory-image {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    display: block;
+    transition: var(--transition);
+}
+
+.memory-card:hover .memory-image {
+    transform: scale(1.05);
+}
+
+.memory-caption {
+    padding: 1.5rem;
+}
+
+.memory-caption h3 {
+    color: var(--heraldic-gold);
+    font-size: 1.15rem;
+    margin: 0 0 0.25rem 0;
+    font-weight: 500;
+}
+
+.memory-caption p {
+    color: var(--text-light);
+    margin: 0;
+    line-height: 1.6;
+    font-size: 0.95rem;
+    font-style: italic;
+}
+
 /* Controls Section - Mobile First */
 .controls {
     display: flex;
@@ -135,6 +327,54 @@ header h1 {
     margin: clamp(1.5rem, 4vw, 2.5rem) 0;
     flex-wrap: wrap;
     align-items: stretch;
+}
+
+/* View Toggle Buttons */
+.view-toggle {
+    display: flex;
+    gap: 0.5rem;
+    flex: 1 1 100%;
+    margin-bottom: 0.5rem;
+}
+
+@media (min-width: 640px) {
+    .view-toggle {
+        flex: 0 1 auto;
+        margin-bottom: 0;
+    }
+}
+
+.view-btn {
+    flex: 1;
+    padding: 0.75rem 1.5rem;
+    border: 1px solid rgba(253, 197, 0, 0.3);
+    border-radius: 4px;
+    background: var(--heritage-green-dark);
+    color: var(--text-white);
+    font-family: Georgia, serif;
+    font-size: 0.95rem;
+    cursor: pointer;
+    transition: var(--transition);
+    font-weight: 500;
+}
+
+@media (min-width: 640px) {
+    .view-btn {
+        flex: 0 1 auto;
+    }
+}
+
+.view-btn:hover {
+    background: var(--heritage-green-darker);
+    border-color: var(--heraldic-gold);
+    color: var(--heraldic-gold);
+}
+
+.view-btn.active {
+    background: var(--heraldic-gold);
+    color: var(--heritage-green-darker);
+    border-color: var(--heraldic-gold);
+    font-weight: 600;
 }
 
 .search-box {
@@ -151,26 +391,25 @@ header h1 {
 .search-box input {
     width: 100%;
     padding: clamp(0.75rem, 2vw, 1rem) clamp(1rem, 3vw, 1.5rem);
-    border: 2px solid var(--border-gold);
-    border-radius: 12px;
+    border: 1px solid rgba(253, 197, 0, 0.3);
+    border-radius: 4px;
     font-size: clamp(0.95rem, 2vw, 1.05rem);
     font-family: 'Georgia', serif;
-    background-color: white;
-    color: var(--text-dark);
+    background-color: var(--dark-green);
+    color: var(--pure-white);
     transition: var(--transition);
-    box-shadow: var(--shadow-sm);
-    -webkit-appearance: none;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
 }
 
 .search-box input::placeholder {
-    color: var(--text-muted);
-    opacity: 0.7;
+    color: var(--pure-white);
+    opacity: 0.4;
 }
 
 .search-box input:focus {
     outline: none;
-    border-color: var(--german-gold);
-    box-shadow: 0 0 0 4px rgba(212, 165, 116, 0.2), var(--shadow);
+    border-color: var(--heraldic-gold);
+    box-shadow: 0 0 0 3px rgba(253, 197, 0, 0.25);
 }
 
 .filter-box {
@@ -187,8 +426,8 @@ header h1 {
 }
 
 .filter-box label {
-    font-weight: 600;
-    color: var(--text-dark);
+    font-weight: 500;
+    color: var(--pure-white);
     font-size: clamp(0.9rem, 2vw, 1rem);
     white-space: nowrap;
 }
@@ -196,18 +435,18 @@ header h1 {
 .filter-box select {
     flex: 1;
     padding: clamp(0.75rem, 2vw, 1rem) clamp(1rem, 3vw, 1.5rem);
-    border: 2px solid var(--border-gold);
-    border-radius: 12px;
+    border: 1px solid rgba(253, 197, 0, 0.3);
+    border-radius: 4px;
     font-size: clamp(0.95rem, 2vw, 1.05rem);
     font-family: 'Georgia', serif;
-    background-color: white;
-    color: var(--text-dark);
+    background-color: var(--dark-green);
+    color: var(--pure-white);
     cursor: pointer;
     transition: var(--transition);
-    box-shadow: var(--shadow-sm);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
     -webkit-appearance: none;
     -moz-appearance: none;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%236b5447' d='M6 9L1 4h10z'/%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%23FDC500' d='M6 9L1 4h10z'/%3E%3C/svg%3E");
     background-repeat: no-repeat;
     background-position: right 1rem center;
     padding-right: 2.5rem;
@@ -215,8 +454,8 @@ header h1 {
 
 .filter-box select:focus {
     outline: none;
-    border-color: var(--german-gold);
-    box-shadow: 0 0 0 4px rgba(212, 165, 116, 0.2), var(--shadow);
+    border-color: var(--heraldic-gold);
+    box-shadow: 0 0 0 3px rgba(253, 197, 0, 0.25);
 }
 
 /* Recipe Grid - Fully Responsive */
@@ -234,18 +473,68 @@ header h1 {
 }
 
 .recipe-card {
-    background: white;
-    border-radius: 14px;
-    padding: clamp(1.25rem, 4vw, 1.75rem);
-    box-shadow: var(--shadow);
+    background: var(--heritage-green-dark);
+    border-radius: 4px;
+    padding: 0;
+    box-shadow: var(--shadow-sm);
     cursor: pointer;
     transition: var(--transition);
-    border: 2px solid var(--border-gold);
+    border: 1px solid rgba(253, 197, 0, 0.2);
     position: relative;
     overflow: hidden;
     display: flex;
     flex-direction: column;
     min-height: 180px;
+}
+
+.recipe-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background: var(--heraldic-gold);
+    transform: scaleX(0);
+    transition: var(--transition);
+}
+
+.recipe-card:hover::before {
+    transform: scaleX(1);
+}
+
+.recipe-card:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-lg);
+    border-color: var(--heraldic-gold);
+}
+
+.recipe-card h3 {
+    font-size: clamp(1.1rem, 3vw, 1.35rem);
+    color: var(--heraldic-gold);
+    font-weight: 500;
+    margin-bottom: 0.75rem;
+    line-height: 1.4;
+    padding: 1.25rem 1.25rem 0;
+    transition: var(--transition);
+}
+
+.recipe-card:hover h3 {
+    color: var(--pure-white);
+}
+
+.recipe-card .recipe-category {
+    background: transparent;
+    color: var(--text-light);
+    padding: 0.4rem 1.25rem;
+    border-radius: 0;
+    font-size: clamp(0.8rem, 2vw, 0.9rem);
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    display: inline-block;
+    border-left: 3px solid var(--heraldic-gold);
+    margin: 0.5rem 0;
 }
 
 .recipe-card::before {
@@ -277,52 +566,35 @@ header h1 {
     transform: translateY(-2px);
 }
 
-.recipe-card h3 {
-    color: var(--german-red);
-    font-size: clamp(1.15rem, 3.5vw, 1.4rem);
-    margin-bottom: clamp(0.5rem, 2vw, 0.75rem);
-    font-weight: 600;
-    line-height: 1.3;
-    flex-shrink: 0;
-}
 
-.recipe-category {
-    display: inline-block;
-    background: linear-gradient(135deg, var(--german-red), var(--warm-brown));
-    color: white;
-    padding: 0.4rem 1rem;
-    border-radius: 20px;
-    font-size: clamp(0.8rem, 2vw, 0.85rem);
-    margin-bottom: clamp(0.5rem, 2vw, 0.75rem);
-    font-weight: 500;
-    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
-    border: 1px solid rgba(255, 255, 255, 0.2);
-    align-self: flex-start;
-}
+
+
 
 .recipe-source {
     font-size: clamp(0.85rem, 2vw, 0.9rem);
-    color: var(--text-muted);
+    color: var(--text-light);
     font-style: italic;
     margin-bottom: 0.4rem;
     line-height: 1.5;
+    padding: 0 1.25rem;
 }
 
 .recipe-servings {
     font-size: clamp(0.85rem, 2vw, 0.9rem);
-    color: var(--text-muted);
+    color: var(--text-light);
     font-weight: 500;
     margin-top: auto;
+    padding: 0 1.25rem 1.25rem;
 }
 
 .no-results {
     text-align: center;
     padding: clamp(2rem, 6vw, 4rem) clamp(1rem, 3vw, 2rem);
-    color: var(--text-muted);
+    color: var(--text-light);
     font-size: clamp(1rem, 3vw, 1.2rem);
-    background-color: white;
+    background-color: var(--heritage-green-dark);
     border-radius: 14px;
-    border: 2px dashed var(--border-gold);
+    border: 2px dashed var(--heraldic-gold);
     font-style: italic;
 }
 
@@ -336,7 +608,7 @@ header h1 {
     width: 100%;
     height: 100%;
     overflow: auto;
-    background-color: rgba(44, 24, 16, 0.7);
+    background-color: rgba(6, 45, 31, 0.95);
     animation: fadeIn 0.3s;
     -webkit-overflow-scrolling: touch;
 }
@@ -347,13 +619,13 @@ header h1 {
 }
 
 .modal-content {
-    background-color: var(--parchment);
+    background-color: var(--heritage-green-darker);
     margin: clamp(1rem, 3vw, 2rem) auto;
     padding: clamp(1.25rem, 4vw, 2.5rem);
     border-radius: 16px;
     max-width: min(800px, calc(100% - 2rem));
     box-shadow: var(--shadow-lg);
-    border: 3px solid var(--german-gold);
+    border: 3px solid var(--heraldic-gold);
     animation: slideIn 0.3s;
     position: relative;
 }
@@ -370,7 +642,7 @@ header h1 {
 }
 
 .close {
-    color: var(--text-muted);
+    color: var(--text-light);
     position: absolute;
     top: clamp(0.75rem, 2vw, 1rem);
     right: clamp(0.75rem, 2vw, 1rem);
@@ -385,16 +657,16 @@ header h1 {
     align-items: center;
     justify-content: center;
     border-radius: 50%;
-    background-color: rgba(255, 255, 255, 0.8);
-    border: 2px solid var(--border-gold);
+    background-color: rgba(253, 197, 0, 0.2);
+    border: 2px solid var(--heraldic-gold);
     z-index: 10;
 }
 
 .close:hover,
 .close:focus {
-    color: white;
-    background-color: var(--german-red);
-    border-color: var(--german-red);
+    color: var(--heritage-green-darker);
+    background-color: var(--heraldic-gold);
+    border-color: var(--heraldic-gold);
     transform: rotate(90deg);
 }
 
@@ -403,48 +675,47 @@ header h1 {
 }
 
 #recipeDetail h2 {
-    color: var(--german-red);
+    color: var(--heraldic-gold);
     margin-bottom: clamp(1rem, 3vw, 1.5rem);
     font-size: clamp(1.5rem, 5vw, 2.2rem);
     font-weight: 700;
     line-height: 1.2;
-    border-bottom: 4px solid var(--german-gold);
+    border-bottom: 4px solid var(--heraldic-gold);
     padding-bottom: clamp(0.5rem, 2vw, 0.75rem);
-    background: linear-gradient(to right, rgba(212, 165, 116, 0.1), transparent);
+    background: linear-gradient(to right, rgba(253, 197, 0, 0.15), transparent);
     padding-left: clamp(0.5rem, 2vw, 1rem);
     margin-left: clamp(-0.5rem, -2vw, -1rem);
 }
 
 #recipeDetail .detail-category {
-    background: linear-gradient(135deg, var(--german-red), var(--warm-brown));
-    color: white;
+    background: transparent;
+    color: var(--text-light);
     padding: clamp(0.4rem, 2vw, 0.6rem) clamp(1rem, 3vw, 1.5rem);
     border-radius: 25px;
     font-size: clamp(0.85rem, 2vw, 0.95rem);
     display: inline-block;
     margin-bottom: clamp(0.75rem, 2vw, 1rem);
     font-weight: 600;
-    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
-    border: 1px solid rgba(255, 255, 255, 0.2);
+    border: 1px solid var(--heraldic-gold);
 }
 
 #recipeDetail .detail-source,
 #recipeDetail .detail-servings {
-    color: var(--text-muted);
+    color: var(--text-light);
     font-style: italic;
     margin-bottom: clamp(0.4rem, 1.5vw, 0.5rem);
     font-size: clamp(0.9rem, 2vw, 0.95rem);
 }
 
 #recipeDetail h3 {
-    color: var(--warm-brown);
+    color: var(--heraldic-gold);
     margin-top: clamp(1.5rem, 4vw, 2rem);
     margin-bottom: clamp(0.75rem, 2vw, 1rem);
     font-size: clamp(1.2rem, 3.5vw, 1.5rem);
     font-weight: 600;
-    border-left: 5px solid var(--german-gold);
+    border-left: 5px solid var(--heraldic-gold);
     padding-left: clamp(0.75rem, 2vw, 1rem);
-    background: linear-gradient(to right, rgba(212, 165, 116, 0.15), transparent);
+    background: linear-gradient(to right, rgba(253, 197, 0, 0.15), transparent);
 }
 
 #recipeDetail ul {
@@ -455,10 +726,11 @@ header h1 {
 
 #recipeDetail ul li {
     padding: clamp(0.6rem, 2vw, 0.75rem) 0 clamp(0.6rem, 2vw, 0.75rem) clamp(1.75rem, 4vw, 2.25rem);
-    border-bottom: 1px solid rgba(217, 201, 179, 0.4);
+    border-bottom: 1px solid rgba(253, 197, 0, 0.2);
     position: relative;
     line-height: 1.7;
     font-size: clamp(0.9rem, 2vw, 1rem);
+    color: var(--text-white);
 }
 
 #recipeDetail ul li::before {
@@ -466,7 +738,7 @@ header h1 {
     position: absolute;
     left: clamp(0.25rem, 1vw, 0.5rem);
     top: clamp(0.6rem, 2vw, 0.75rem);
-    color: var(--german-gold);
+    color: var(--heraldic-gold);
     font-size: clamp(1rem, 2.5vw, 1.2rem);
 }
 
@@ -486,10 +758,11 @@ header h1 {
     padding-left: clamp(2.75rem, 6vw, 3.5rem);
     position: relative;
     margin-bottom: clamp(1rem, 3vw, 1.5rem);
-    border-bottom: 1px solid rgba(217, 201, 179, 0.4);
+    border-bottom: 1px solid rgba(253, 197, 0, 0.2);
     padding-bottom: clamp(1rem, 3vw, 1.25rem);
     line-height: 1.7;
     font-size: clamp(0.9rem, 2vw, 1rem);
+    color: var(--text-white);
 }
 
 #recipeDetail ol li:last-child {
@@ -501,8 +774,8 @@ header h1 {
     position: absolute;
     left: 0;
     top: 0;
-    background: linear-gradient(135deg, var(--german-red), var(--warm-brown));
-    color: white;
+    background: var(--heraldic-gold);
+    color: var(--heritage-green-darker);
     width: clamp(2rem, 5vw, 2.5rem);
     height: clamp(2rem, 5vw, 2.5rem);
     border-radius: 50%;
@@ -512,7 +785,7 @@ header h1 {
     font-weight: 700;
     font-size: clamp(0.9rem, 2vw, 1.05rem);
     box-shadow: var(--shadow-sm);
-    border: 2px solid var(--german-gold);
+    border: 2px solid var(--heraldic-gold);
 }
 
 /* Ingredient Table Styles - Mobile Responsive */
@@ -520,17 +793,17 @@ header h1 {
     width: 100%;
     border-collapse: collapse;
     margin-bottom: clamp(1rem, 3vw, 1.5rem);
-    background-color: white;
+    background-color: var(--heritage-green-dark);
     box-shadow: var(--shadow);
     border-radius: 10px;
     overflow: hidden;
-    border: 2px solid var(--border-gold);
+    border: 2px solid var(--heraldic-gold);
     font-size: clamp(0.85rem, 2vw, 0.95rem);
 }
 
 .ingredient-table thead {
-    background: linear-gradient(135deg, var(--german-red), var(--warm-brown));
-    color: white;
+    background: var(--heritage-green-darker);
+    color: var(--heraldic-gold);
 }
 
 .ingredient-table th {
@@ -538,7 +811,7 @@ header h1 {
     text-align: left;
     font-weight: 700;
     font-size: clamp(0.85rem, 2vw, 0.95rem);
-    border-bottom: 3px solid var(--german-gold);
+    border-bottom: 3px solid var(--heraldic-gold);
 }
 
 .ingredient-table th:first-child {
@@ -552,7 +825,7 @@ header h1 {
 }
 
 .ingredient-table tbody tr {
-    border-bottom: 1px solid rgba(217, 201, 179, 0.3);
+    border-bottom: 1px solid rgba(253, 197, 0, 0.2);
     transition: background-color 0.2s;
 }
 
@@ -561,71 +834,30 @@ header h1 {
 }
 
 .ingredient-table tbody tr:hover {
-    background-color: rgba(212, 165, 116, 0.08);
+    background-color: rgba(253, 197, 0, 0.1);
 }
 
 .ingredient-table td {
     padding: clamp(0.7rem, 2vw, 0.95rem) clamp(0.75rem, 2vw, 1rem);
-    color: var(--text-dark);
+    color: var(--text-white);
     line-height: 1.6;
 }
 
 .ingredient-table td:first-child {
     font-weight: 600;
-    color: var(--german-red);
+    color: var(--heraldic-gold);
 }
 
 .table-note {
     font-size: clamp(0.85rem, 2vw, 0.9rem);
-    color: var(--text-muted);
+    color: var(--text-light);
     font-style: italic;
     margin-top: clamp(-0.5rem, -1vw, -0.25rem);
     margin-bottom: clamp(1rem, 3vw, 1.5rem);
     padding: clamp(0.6rem, 2vw, 0.75rem) clamp(0.75rem, 2vw, 1rem);
-    background-color: rgba(212, 165, 116, 0.1);
-    border-left: 4px solid var(--german-gold);
+    background-color: rgba(253, 197, 0, 0.1);
+    border-left: 4px solid var(--heraldic-gold);
     border-radius: 6px;
-}
-
-/* Footer - German Inspired */
-footer {
-    background: linear-gradient(135deg, var(--german-red) 0%, var(--deep-red) 50%, var(--warm-brown) 100%);
-    color: white;
-    text-align: center;
-    padding: clamp(2rem, 4vw, 3rem) clamp(1rem, 3vw, 2rem);
-    margin-top: auto;
-    border-top: 4px solid var(--german-gold);
-    box-shadow: 0 -4px 12px rgba(107, 33, 20, 0.15);
-    position: relative;
-}
-
-footer::before {
-    content: '';
-    position: absolute;
-    top: -4px;
-    left: 0;
-    right: 0;
-    height: 6px;
-    background: repeating-linear-gradient(
-        90deg,
-        var(--german-gold) 0px,
-        var(--german-gold) 20px,
-        var(--mustard) 20px,
-        var(--mustard) 40px
-    );
-}
-
-footer p {
-    margin-bottom: clamp(0.4rem, 1.5vw, 0.6rem);
-    line-height: 1.7;
-    font-size: clamp(0.9rem, 2vw, 1rem);
-}
-
-footer .note {
-    font-size: clamp(0.85rem, 2vw, 0.9rem);
-    opacity: 0.9;
-    font-style: italic;
-    font-weight: 300;
 }
 
 /* Responsive Breakpoints */
@@ -682,7 +914,7 @@ footer .note {
 
 /* Print Styles */
 @media print {
-    .controls, .close, footer, .recipe-grid {
+    .controls, .close, .recipe-grid {
         display: none;
     }
 
@@ -723,20 +955,20 @@ footer .note {
 
 /* Polished Recipe Format Enhancements */
 .metric-conversion {
-    color: var(--german-gold);
+    color: var(--gold-muted);
     font-size: 0.9em;
     font-weight: 500;
     margin-left: 0.5rem;
 }
 
 .ingredient-note {
-    color: var(--text-muted);
+    color: var(--text-light);
     font-size: 0.95em;
 }
 
 .recipe-notes {
-    background: rgba(212, 165, 116, 0.08);
-    border-left: 4px solid var(--german-gold);
+    background: rgba(253, 197, 0, 0.1);
+    border-left: 4px solid var(--heraldic-gold);
     padding: 1rem 1.5rem;
     border-radius: 6px;
     list-style: none;
@@ -747,6 +979,7 @@ footer .note {
     line-height: 1.7;
     position: relative;
     padding-left: 1.5rem;
+    color: var(--text-white);
 }
 
 .recipe-notes li::before {
@@ -757,7 +990,7 @@ footer .note {
 }
 
 #recipeDetail h4 {
-    color: var(--warm-brown);
+    color: var(--heraldic-gold);
     font-size: clamp(1rem, 2.5vw, 1.2rem);
     margin-top: 1rem;
     margin-bottom: 0.5rem;
@@ -765,6 +998,425 @@ footer .note {
 
 /* Improved spacing for structured ingredients */
 #recipeDetail ul li strong {
-    color: var(--german-red);
+    color: var(--heraldic-gold);
     font-weight: 600;
+}
+
+/* Recipe Tabs Styling */
+.recipe-tabs {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 1.5rem;
+    border-bottom: 1px solid rgba(253, 197, 0, 0.3);
+    padding-bottom: 0;
+}
+
+.tab-button {
+    background: transparent;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-family: Georgia, serif;
+    font-size: 1rem;
+    color: var(--text-light);
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+    transition: var(--transition);
+    position: relative;
+    bottom: -2px;
+    opacity: 0.6;
+}
+
+.tab-button:hover {
+    color: var(--heraldic-gold);
+    opacity: 1;
+}
+
+.tab-button.active {
+    color: var(--heraldic-gold);
+    border-bottom-color: var(--heraldic-gold);
+    font-weight: 500;
+    opacity: 1;
+}
+
+.tab-content {
+    display: none;
+    animation: fadeIn 0.3s ease-in;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Modal Header with Print Button */
+.modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid rgba(253, 197, 0, 0.3);
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.print-controls {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.print-option {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    cursor: pointer;
+    font-size: 0.95rem;
+    color: var(--text-white);
+    user-select: none;
+}
+
+.print-option input[type="checkbox"] {
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+    accent-color: var(--heraldic-gold);
+}
+
+.print-option span {
+    white-space: nowrap;
+}
+
+.print-btn {
+    background: var(--heraldic-gold);
+    color: var(--heritage-green-darker);
+    border: none;
+    padding: 0.6rem 1.2rem;
+    border-radius: 4px;
+    font-family: Georgia, serif;
+    font-size: 0.95rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: var(--transition);
+    box-shadow: var(--shadow-sm);
+    white-space: nowrap;
+}
+
+.print-btn:hover {
+    background: var(--pure-white);
+    color: var(--heritage-green-darker);
+    box-shadow: var(--shadow);
+    transform: translateY(-1px);
+}
+
+.print-btn:active {
+    transform: translateY(0);
+}
+
+/* Cookbook Image Link */
+.cookbook-image-link {
+    margin: 1rem 0 1.5rem 0;
+    text-align: center;
+}
+
+.view-original-btn {
+    display: inline-block;
+    background: transparent;
+    color: var(--heraldic-gold);
+    text-decoration: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 4px;
+    font-size: 0.95rem;
+    font-weight: 500;
+    border: 1px solid var(--heraldic-gold);
+    transition: var(--transition);
+    cursor: pointer;
+    font-family: Georgia, serif;
+}
+
+.view-original-btn:hover {
+    background: var(--heraldic-gold);
+    color: var(--heritage-green-darker);
+    border-color: var(--heraldic-gold);
+}
+
+/* Image Modal for Cookbook Pages */
+.image-modal {
+    display: block;
+    position: fixed;
+    z-index: 10000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(10, 77, 52, 0);
+    backdrop-filter: blur(0px);
+    transition: all 0.3s ease;
+    opacity: 0;
+}
+
+.image-modal.active {
+    background-color: rgba(10, 77, 52, 0.95);
+    backdrop-filter: blur(8px);
+    opacity: 1;
+}
+
+.image-modal-content {
+    position: relative;
+    margin: 2% auto;
+    padding: 0;
+    width: 90%;
+    max-width: 1200px;
+    height: 96vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: scale(0.7);
+    transition: transform 0.3s ease;
+}
+
+.image-modal.active .image-modal-content {
+    transform: scale(1);
+}
+
+.image-modal-content img {
+    max-width: 100%;
+    max-height: 96vh;
+    width: auto;
+    height: auto;
+    border-radius: 4px;
+    box-shadow: 0 10px 50px rgba(0, 0, 0, 0.5);
+    object-fit: contain;
+}
+
+.image-close {
+    position: absolute;
+    top: -40px;
+    right: 0;
+    color: white;
+    font-size: 40px;
+    font-weight: 300;
+    cursor: pointer;
+    transition: var(--transition);
+    z-index: 10001;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+}
+
+.image-close:hover {
+    background: rgba(253, 197, 0, 0.3);
+    transform: rotate(90deg);
+}
+
+/* Category View Styles */
+.category-view {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.category-section {
+    background: var(--heritage-green-dark);
+    border-radius: 4px;
+    padding: clamp(1rem, 3vw, 1.5rem);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+    transition: var(--transition);
+    border: 1px solid rgba(253, 197, 0, 0.2);
+}
+
+.category-section:hover {
+    box-shadow: 0 6px 25px rgba(0, 0, 0, 0.6);
+    border-color: var(--heraldic-gold);
+}
+
+.category-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding-bottom: 0.75rem;
+    border-bottom: 2px solid var(--heraldic-gold);
+    margin-bottom: 1rem;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.category-header h2 {
+    font-size: clamp(1.25rem, 3vw, 1.5rem);
+    color: var(--heraldic-gold);
+    font-weight: 500;
+    margin: 0;
+}
+
+.recipe-count {
+    font-size: 0.9rem;
+    color: var(--text-light);
+    opacity: 0.8;
+    font-style: italic;
+}
+
+.recipe-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 250px), 1fr));
+    gap: 0.75rem;
+}
+
+.recipe-link {
+    padding: 0.75rem 1rem;
+    cursor: pointer;
+    transition: var(--transition);
+    border-left: 3px solid transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.5rem;
+    border-radius: 0 4px 4px 0;
+}
+
+.recipe-link:hover {
+    background: rgba(253, 197, 0, 0.1);
+    border-left-color: var(--heraldic-gold);
+}
+
+.recipe-name {
+    color: var(--text-white);
+    transition: var(--transition);
+    font-weight: 400;
+    flex: 1;
+    font-size: 1.05rem;
+}
+
+.recipe-link:hover .recipe-name {
+    color: var(--heraldic-gold);
+    font-weight: 500;
+}
+
+.version-badge {
+    font-size: 0.75rem;
+    color: var(--text-light);
+    opacity: 0.7;
+    white-space: nowrap;
+    font-style: italic;
+}
+
+/* Index View Styles */
+.index-view {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.letter-section {
+    background: var(--heritage-green-dark);
+    border-radius: 4px;
+    padding: clamp(1rem, 3vw, 1.5rem);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+    transition: var(--transition);
+    border: 1px solid rgba(253, 197, 0, 0.2);
+}
+
+.letter-section:hover {
+    box-shadow: 0 6px 25px rgba(0, 0, 0, 0.6);
+    border-color: var(--heraldic-gold);
+}
+
+.letter-header {
+    margin-bottom: 1rem;
+}
+
+.letter-header h2 {
+    font-size: clamp(1.75rem, 4vw, 2rem);
+    color: var(--heraldic-gold);
+    border-bottom: 2px solid var(--heraldic-gold);
+    padding-bottom: 0.5rem;
+    margin: 0 0 1rem 0;
+    display: inline-block;
+    min-width: 3rem;
+}
+
+.recipe-meta {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+}
+
+.category-tag {
+    font-size: 0.75rem;
+    color: var(--text-light);
+    padding: 0.25rem 0.5rem;
+    border-radius: 3px;
+    border: 1px solid rgba(253, 197, 0, 0.4);
+    opacity: 0.8;
+    white-space: nowrap;
+    transition: var(--transition);
+    background: rgba(253, 197, 0, 0.1);
+}
+
+.recipe-link:hover .category-tag {
+    opacity: 1;
+    border-color: var(--heraldic-gold);
+    background: rgba(253, 197, 0, 0.2);
+    color: var(--heraldic-gold);
+}
+
+/* Responsive adjustments for new views */
+@media (max-width: 640px) {
+    .category-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .recipe-list {
+        grid-template-columns: 1fr;
+    }
+    
+    .recipe-link {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .recipe-meta {
+        width: 100%;
+        justify-content: space-between;
+    }
+}
+
+/* View Original Button - Active State */
+.view-original-btn:active {
+    transform: translateY(0);
+}
+
+/* Print Media Queries */
+@media print {
+    .recipe-tabs,
+    .cookbook-image-link,
+    .print-btn,
+    .modal-header,
+    .close {
+        display: none !important;
+    }
+    
+    .tab-content {
+        display: block !important;
+    }
+    
+    .tab-content:not(.active) {
+        display: none !important;
+    }
 }

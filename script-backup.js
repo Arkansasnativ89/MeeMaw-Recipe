@@ -2,7 +2,6 @@
 let recipes = [];
 let filteredRecipes = [];
 let recipeData = null; // Store full recipe data including both versions
-let viewMode = 'category'; // 'category' or 'index'
 
 // Load recipes from JSON file
 async function loadRecipes() {
@@ -37,7 +36,7 @@ async function loadRecipes() {
         filteredRecipes = [...recipes];
         
         populateCategoryFilter();
-        displayCategoryView();
+        displayRecipes(filteredRecipes);
     } catch (error) {
         console.error('Error loading recipes:', error);
         document.getElementById('recipeGrid').innerHTML = 
@@ -92,135 +91,6 @@ function createRecipeCard(recipe) {
     `;
 
     return card;
-}
-
-// Display recipes in category view
-function displayCategoryView() {
-    const recipeGrid = document.getElementById('recipeGrid');
-    recipeGrid.innerHTML = '';
-    recipeGrid.className = 'category-view';
-    
-    // Group recipes by category
-    const categoryGroups = {};
-    filteredRecipes.forEach(recipe => {
-        if (!categoryGroups[recipe.category]) {
-            categoryGroups[recipe.category] = [];
-        }
-        categoryGroups[recipe.category].push(recipe);
-    });
-    
-    // Sort categories
-    const sortedCategories = Object.keys(categoryGroups).sort();
-    
-    sortedCategories.forEach(categoryName => {
-        const categorySection = document.createElement('div');
-        categorySection.className = 'category-section';
-        
-        const categoryHeader = document.createElement('div');
-        categoryHeader.className = 'category-header';
-        categoryHeader.innerHTML = `
-            <h2>${categoryName}</h2>
-            <span class="recipe-count">${categoryGroups[categoryName].length} recipes</span>
-        `;
-        
-        const recipeList = document.createElement('div');
-        recipeList.className = 'recipe-list';
-        
-        categoryGroups[categoryName].sort((a, b) => a.name.localeCompare(b.name)).forEach(recipe => {
-            const recipeLink = document.createElement('div');
-            recipeLink.className = 'recipe-link';
-            recipeLink.onclick = () => showRecipeDetail(recipe);
-            
-            const versionBadge = recipe._hasOriginal && recipe._hasImproved 
-                ? '<span class="version-badge">2 versions</span>' 
-                : '';
-            
-            recipeLink.innerHTML = `
-                <span class="recipe-name">${recipe.name}</span>
-                ${versionBadge}
-            `;
-            
-            recipeList.appendChild(recipeLink);
-        });
-        
-        categorySection.appendChild(categoryHeader);
-        categorySection.appendChild(recipeList);
-        recipeGrid.appendChild(categorySection);
-    });
-}
-
-// Display recipes in index (alphabetical) view
-function displayIndexView() {
-    const recipeGrid = document.getElementById('recipeGrid');
-    recipeGrid.innerHTML = '';
-    recipeGrid.className = 'index-view';
-    
-    // Group recipes by first letter
-    const letterGroups = {};
-    filteredRecipes.forEach(recipe => {
-        const firstLetter = recipe.name[0].toUpperCase();
-        if (!letterGroups[firstLetter]) {
-            letterGroups[firstLetter] = [];
-        }
-        letterGroups[firstLetter].push(recipe);
-    });
-    
-    // Sort letters
-    const sortedLetters = Object.keys(letterGroups).sort();
-    
-    sortedLetters.forEach(letter => {
-        const letterSection = document.createElement('div');
-        letterSection.className = 'letter-section';
-        
-        const letterHeader = document.createElement('div');
-        letterHeader.className = 'letter-header';
-        letterHeader.innerHTML = `<h2>${letter}</h2>`;
-        
-        const recipeList = document.createElement('div');
-        recipeList.className = 'recipe-list';
-        
-        letterGroups[letter].sort((a, b) => a.name.localeCompare(b.name)).forEach(recipe => {
-            const recipeLink = document.createElement('div');
-            recipeLink.className = 'recipe-link';
-            recipeLink.onclick = () => showRecipeDetail(recipe);
-            
-            const categoryTag = `<span class="category-tag">${recipe.category}</span>`;
-            const versionBadge = recipe._hasOriginal && recipe._hasImproved 
-                ? '<span class="version-badge">2 versions</span>' 
-                : '';
-            
-            recipeLink.innerHTML = `
-                <span class="recipe-name">${recipe.name}</span>
-                <div class="recipe-meta">
-                    ${categoryTag}
-                    ${versionBadge}
-                </div>
-            `;
-            
-            recipeList.appendChild(recipeLink);
-        });
-        
-        letterSection.appendChild(letterHeader);
-        letterSection.appendChild(recipeList);
-        recipeGrid.appendChild(letterSection);
-    });
-}
-
-// Toggle view mode
-function toggleViewMode(mode) {
-    viewMode = mode;
-    const categoryBtn = document.getElementById('categoryViewBtn');
-    const indexBtn = document.getElementById('indexViewBtn');
-    
-    if (mode === 'category') {
-        categoryBtn.classList.add('active');
-        indexBtn.classList.remove('active');
-        displayCategoryView();
-    } else {
-        indexBtn.classList.add('active');
-        categoryBtn.classList.remove('active');
-        displayIndexView();
-    }
 }
 
 // Fuzzy match recipe name to image filename
@@ -582,51 +452,38 @@ function searchRecipes(searchTerm) {
         return instructionMatch;
     });
 
-    if (viewMode === 'category') {
-        displayCategoryView();
-    } else {
-        displayIndexView();
-    }
+    applyFilters();
 }
 
 // Filter by category
 function filterByCategory(category) {
-    const searchTerm = document.getElementById('searchInput').value.toLowerCase();
-    
     if (category === 'all') {
-        if (searchTerm) {
-            searchRecipes(searchTerm);
-        } else {
-            filteredRecipes = [...recipes];
-            if (viewMode === 'category') {
-                displayCategoryView();
-            } else {
-                displayIndexView();
-            }
-        }
+        applyFilters();
     } else {
-        const searchFiltered = searchTerm ?  
+        const searchTerm = document.getElementById('searchInput').value.toLowerCase();
+        const searchFiltered = searchTerm ? 
             recipes.filter(recipe => {
                 return recipe.name.toLowerCase().includes(searchTerm) ||
                        recipe.category.toLowerCase().includes(searchTerm) ||
-                       (recipe.source && recipe.source.toLowerCase().includes(searchTerm));
+                       (recipe.source && recipe.source.toLowerCase().includes(searchTerm)) ||
+                       recipe.ingredients.some(ing => ing.toLowerCase().includes(searchTerm)) ||
+                       recipe.instructions.some(inst => inst.toLowerCase().includes(searchTerm));
             }) : recipes;
 
         filteredRecipes = searchFiltered.filter(recipe => recipe.category === category);
-        if (viewMode === 'category') {
-            displayCategoryView();
-        } else {
-            displayIndexView();
-        }
+        displayRecipes(filteredRecipes);
     }
 }
 
-// Apply all active filters (deprecated - kept for compatibility)
+// Apply all active filters
 function applyFilters() {
-    if (viewMode === 'category') {
-        displayCategoryView();
+    const category = document.getElementById('categoryFilter').value;
+    
+    if (category === 'all') {
+        displayRecipes(filteredRecipes);
     } else {
-        displayIndexView();
+        const categoryFiltered = filteredRecipes.filter(recipe => recipe.category === category);
+        displayRecipes(categoryFiltered);
     }
 }
 

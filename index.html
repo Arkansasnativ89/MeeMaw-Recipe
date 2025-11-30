@@ -9,14 +9,125 @@
 <body>
     <header>
         <div class="container">
-            <h1>🍳 MeeMaw Carle's Recipe Book</h1>
+            <h1>MeeMaw Carle's Recipe Book</h1>
             <p class="subtitle">A treasured collection from Alma Finken Carle</p>
         </div>
     </header>
 
     <main class="container">
+        <!-- Welcome Section / Kitchen Memorandum -->
+        <section class="kitchen-memo">
+            <div class="memo-header">
+                <h2>📖 Memorandum from Wilfred Carle</h2>
+                <p class="memo-date">April 8, 1995</p>
+                <a href="MeeMaw Recipe Book Image File/Memorandum.png" target="_blank">
+                    <img src="MeeMaw Recipe Book Image File/Memorandum.png" alt="Kitchen Memorandum" class="memo-image">
+                </a>
+            </div>
+            <div class="memo-text">
+                <p>These recipes are those that are in use by Alma Finken Carle. Some of them were handed down from her Mother, Clara Keller Finken, some from her Grandmother Keller; others were handed down from Wilfred's grandmothers, Caroline Nagel, and Lizzie Walters. Other recipes were from friends, recipe books and magazines.</p>
+                <p>Most of them were modified by substituting egg substitutes for eggs, vegetable oils for lard, shortening, or animal fats. Changes were also made to accommodate taste preferences.</p>
+            </div>
+        </section>
+
+        <!-- Family Memories Section -->
+        <section class="family-memories">
+            <h2>Family Memories</h2>
+            <p class="memories-intro">Cherished moments from the Carle family kitchen, where recipes became traditions and traditions became memories.</p>
+            <div class="memories-grid">
+                <div class="memory-card">
+                    <img src="assets/0210000-R1-107-108.JPG" alt="Family memory" class="memory-image">
+                    <div class="memory-caption">
+                        <p>Treasured family moments</p>
+                    </div>
+                </div>
+                <div class="memory-card">
+                    <img src="assets/0210000-R1-42-43.JPG" alt="Family memory" class="memory-image">
+                    <div class="memory-caption">
+                        <p>Baking together through generations</p>
+                    </div>
+                </div>
+                <div class="memory-card">
+                    <img src="assets/20210523_092139.jpg" alt="Family memory" class="memory-image">
+                    <div class="memory-caption">
+                        <p>Kitchen traditions</p>
+                    </div>
+                </div>
+                <div class="memory-card">
+                    <img src="assets/C010000-R1-66-67.JPG" alt="Family memory" class="memory-image">
+                    <div class="memory-caption">
+                        <p>Creating memories one recipe at a time</p>
+                    </div>
+                </div>
+                <div class="memory-card">
+                    <img src="assets/C011000-R1-03-4.JPG" alt="Family memory" class="memory-image">
+                    <div class="memory-caption">
+                        <p>Family gatherings</p>
+                    </div>
+                </div>
+                <div class="memory-card">
+                    <img src="assets/C011000-R1-48-49.JPG" alt="Family memory" class="memory-image">
+                    <div class="memory-caption">
+                        <p>Sharing the love of cooking</p>
+                    </div>
+                </div>
+                <div class="memory-card">
+                    <img src="assets/C140000-R1-34-35.JPG" alt="Family memory" class="memory-image">
+                    <div class="memory-caption">
+                        <p>Passed down with love</p>
+                    </div>
+                </div>
+                <div class="memory-card">
+                    <img src="assets/C140000-R1-57-58.JPG" alt="Family memory" class="memory-image">
+                    <div class="memory-caption">
+                        <p>Timeless family traditions</p>
+                    </div>
+                </div>
+                <div class="memory-card">
+                    <img src="assets/C230000-R1-134-135.JPG" alt="Family memory" class="memory-image">
+                    <div class="memory-caption">
+                        <p>Home-cooked with heart</p>
+                    </div>
+                </div>
+                <div class="memory-card">
+                    <img src="assets/C300000-R1-71-72.JPG" alt="Family memory" class="memory-image">
+                    <div class="memory-caption">
+                        <p>Celebrating together</p>
+                    </div>
+                </div>
+                <div class="memory-card">
+                    <img src="assets/C300000-R1-72-73.JPG" alt="Family memory" class="memory-image">
+                    <div class="memory-caption">
+                        <p>Food brings us together</p>
+                    </div>
+                </div>
+                <div class="memory-card">
+                    <img src="assets/C300000-R1-74-75.JPG" alt="Family memory" class="memory-image">
+                    <div class="memory-caption">
+                        <p>Kitchen magic</p>
+                    </div>
+                </div>
+                <div class="memory-card">
+                    <img src="assets/C300000-R1-75-76.JPG" alt="Family memory" class="memory-image">
+                    <div class="memory-caption">
+                        <p>Recipes and memories</p>
+                    </div>
+                </div>
+                <div class="memory-card">
+                    <img src="assets/C500001-R1-37-38.JPG" alt="Family memory" class="memory-image">
+                    <div class="memory-caption">
+                        <p>The heart of our home</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <!-- Search and Filter Section -->
         <div class="controls">
+            <div class="view-toggle">
+                <button id="categoryViewBtn" class="view-btn active" onclick="toggleViewMode('category')">By Category</button>
+                <button id="indexViewBtn" class="view-btn" onclick="toggleViewMode('index')">A-Z Index</button>
+            </div>
             <div class="search-box">
                 <input type="text" id="searchInput" placeholder="Search recipes...">
             </div>
@@ -36,20 +147,24 @@
         <!-- Recipe Detail Modal -->
         <div id="recipeModal" class="modal">
             <div class="modal-content">
-                <span class="close">&times;</span>
+                <div class="modal-header">
+                    <span class="close">&times;</span>
+                    <div class="print-controls">
+                        <label class="print-option">
+                            <input type="checkbox" id="includeCookbookImage" checked>
+                            <span>Include cookbook page</span>
+                        </label>
+                        <button id="printRecipeBtn" class="print-btn" onclick="printRecipe()">
+                            🖨️ Print Recipe
+                        </button>
+                    </div>
+                </div>
                 <div id="recipeDetail">
                     <!-- Recipe details will be loaded here -->
                 </div>
             </div>
         </div>
     </main>
-
-    <footer>
-        <div class="container">
-            <p>Recipes compiled from Alma Finken Carle's collection • Some recipes from Clara Keller Finken, Caroline Nagel, Lizzie Walters, and family friends</p>
-            <p class="note">Note: Most recipes have been modified to use egg substitutes and vegetable oils</p>
-        </div>
-    </footer>
 
     <script src="script.js"></script>
 </body>
