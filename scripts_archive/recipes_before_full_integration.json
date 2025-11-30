@@ -1,0 +1,2898 @@
+{
+  "metadata": {
+    "title": "MeeMaw's Recipe Collection",
+    "compiler": "Wilfred Carle",
+    "date_compiled": "April 8, 1995",
+    "family": "Alma Finken Carle",
+    "note": "Recipes modified to use egg substitutes for eggs and vegetable oils for lard, shortening, and animal fats",
+    "version": "2.0 - Polished Edition with Metric Conversions"
+  },
+  "categories": [
+    {
+      "name": "Appetizers",
+      "recipes": [
+        {
+          "original_recipe": {
+            "name": "Marinated Peppers",
+            "subtitle": null,
+            "source": "Martha Hampton Carle",
+            "category": "Appetizers",
+            "servings": null,
+            "ingredients": [
+              {
+                "item": "Red bell peppers",
+                "quantity": "4",
+                "notes": "",
+                "metric": {
+                  "quantity": 4,
+                  "unit": "peppers"
+                }
+              },
+              {
+                "item": "Olive oil",
+                "quantity": "1 tablespoon",
+                "notes": "",
+                "metric": {
+                  "quantity": 15,
+                  "unit": "ml"
+                }
+              },
+              {
+                "item": "Red wine vinegar",
+                "quantity": "4 tablespoons",
+                "notes": "",
+                "metric": {
+                  "quantity": 60,
+                  "unit": "ml"
+                }
+              },
+              {
+                "item": "Sugar",
+                "quantity": "3/4 teaspoon",
+                "notes": "",
+                "metric": {
+                  "quantity": 3,
+                  "unit": "g"
+                }
+              },
+              {
+                "item": "Dried basil",
+                "quantity": "1/2 teaspoon",
+                "notes": "",
+                "metric": {
+                  "quantity": 0.5,
+                  "unit": "g"
+                }
+              },
+              {
+                "item": "Capers",
+                "quantity": "2 tablespoons (optional)",
+                "notes": "drained",
+                "metric": {
+                  "quantity": 16,
+                  "unit": "g"
+                }
+              },
+              {
+                "item": "Freshly ground black pepper",
+                "quantity": "to taste",
+                "notes": "",
+                "metric": null
+              }
+            ],
+            "instructions": [
+              "Bake whole peppers in oven at 350° F to 375° F for 30 minutes or more until wilted - turn from time to time while baking.",
+              "Mix all other ingredients and let stand while peppers are baking.",
+              "Skin the peppers, core, remove seeds, and cut into small slices.",
+              "Pour marinade over peppers (add 2 tablespoons of capers, if desired) and let stand until cool, or overnight if time permits."
+            ]
+          },
+          "improved_recipe": {
+            "name": "Marinated Roasted Peppers",
+            "category": "Appetizers",
+            "servings": "4–6 as appetizer",
+            "ingredients": [
+              {
+                "item": "Red bell peppers",
+                "quantity": "4",
+                "notes": "",
+                "metric": {
+                  "quantity": 4,
+                  "unit": "peppers"
+                }
+              },
+              {
+                "item": "Olive oil",
+                "quantity": "1 tablespoon",
+                "notes": "",
+                "metric": {
+                  "quantity": 15,
+                  "unit": "ml"
+                }
+              },
+              {
+                "item": "Red wine vinegar",
+                "quantity": "4 tablespoons",
+                "notes": "",
+                "metric": {
+                  "quantity": 60,
+                  "unit": "ml"
+                }
+              },
+              {
+                "item": "Sugar",
+                "quantity": "3/4 teaspoon",
+                "notes": "",
+                "metric": {
+                  "quantity": 3,
+                  "unit": "g"
+                }
+              },
+              {
+                "item": "Dried basil",
+                "quantity": "1/2 teaspoon",
+                "notes": "",
+                "metric": {
+                  "quantity": 0.5,
+                  "unit": "g"
+                }
+              },
+              {
+                "item": "Capers",
+                "quantity": "2 tablespoons (optional)",
+                "notes": "drained",
+                "metric": {
+                  "quantity": 16,
+                  "unit": "g"
+                }
+              },
+              {
+                "item": "Freshly ground black pepper",
+                "quantity": "to taste",
+                "notes": "",
+                "metric": null
+              }
+            ],
+            "instructions": [
+              "Preheat the oven to 350–375°F (175–190°C). Line a baking sheet with foil for easier cleanup.",
+              "Place the whole red peppers on the baking sheet. Roast for 30–40 minutes, turning occasionally, until the skins are blistered and the peppers are very soft.",
+              "While the peppers roast, whisk together the olive oil, red wine vinegar, sugar, dried basil, and a few grinds of black pepper in a small bowl. If using capers, you can stir them into the marinade now.",
+              "When the peppers are done, transfer them to a bowl and cover tightly (or place them in a paper bag) for 10–15 minutes to steam. This loosens the skins.",
+              "Peel off the skins, remove stems and seeds, and cut the pepper flesh into strips.",
+              "Combine the warm pepper strips with the marinade (and capers, if using). Toss gently until everything is well coated.",
+              "Let the peppers cool to room temperature, then cover and refrigerate for at least 2 hours or overnight for best flavor.",
+              "Serve at cool room temperature as an appetizer, side dish, or part of an antipasto platter."
+            ]
+          }
+        },
+        {
+          "original_recipe": {
+            "name": "Mushroom and Nut Pate",
+            "subtitle": null,
+            "source": null,
+            "category": "Appetizers",
+            "servings": "Makes 1 cup",
+            "ingredients": [
+              {
+                "item": "Margarine",
+                "quantity": "2 tablespoons",
+                "notes": "",
+                "metric": {
+                  "quantity": 28,
+                  "unit": "g"
+                }
+              },
+              {
+                "item": "Fresh mushrooms",
+                "quantity": "1 pound, sliced",
+                "notes": "",
+                "metric": {
+                  "quantity": 454,
+                  "unit": "g"
+                }
+              },
+              {
+                "item": "Onion",
+                "quantity": "1 small, chopped",
+                "notes": "",
+                "metric": {
+                  "quantity": 100,
+                  "unit": "g"
+                }
+              },
+              {
+                "item": "Garlic",
+                "quantity": "1 clove, minced",
+                "notes": "",
+                "metric": {
+                  "quantity": 3,
+                  "unit": "g"
+                }
+              },
+              {
+                "item": "Slivered almonds",
+                "quantity": "1 cup",
+                "notes": "",
+                "metric": {
+                  "quantity": 120,
+                  "unit": "g"
+                }
+              },
+              {
+                "item": "Vegetable oil",
+                "quantity": "2 tablespoons",
+                "notes": "",
+                "metric": {
+                  "quantity": 30,
+                  "unit": "ml"
+                }
+              },
+              {
+                "item": "Dried oregano",
+                "quantity": "1/4 teaspoon",
+                "notes": "",
+                "metric": {
+                  "quantity": 0.25,
+                  "unit": "g"
+                }
+              },
+              {
+                "item": "Dried thyme",
+                "quantity": "1/4 teaspoon",
+                "notes": "",
+                "metric": {
+                  "quantity": 0.25,
+                  "unit": "g"
+                }
+              },
+              {
+                "item": "Tabasco or hot sauce",
+                "quantity": "dash, or to taste",
+                "notes": "",
+                "metric": null
+              }
+            ],
+            "instructions": [
+              "Melt margarine in a large skillet over medium heat. Add mushrooms, onion, and garlic. Saute until the liquid has evaporated. Set aside.",
+              "Coarsely chop almonds in food processor or blender. Remove and set aside 2 tablespoons of chopped almonds. Continue processing remaining almonds while slowly adding oil until mixture is well blended.",
+              "Add mushrooms and seasonings. Blend thoroughly. Stir in reserved chopped almonds and parsley or sesame seeds. Chill for two hours before serving.",
+              "Yield: 1 cup. 55 calories per tablespoon."
+            ]
+          },
+          "improved_recipe": {
+            "name": "Mushroom and Almond Pâté",
+            "category": "Appetizers",
+            "servings": "Makes about 1 cup",
+            "ingredients": [
+              {
+                "item": "Margarine",
+                "quantity": "2 tablespoons",
+                "notes": "",
+                "metric": {
+                  "quantity": 28,
+                  "unit": "g"
+                }
+              },
+              {
+                "item": "Fresh mushrooms",
+                "quantity": "1 pound, sliced",
+                "notes": "",
+                "metric": {
+                  "quantity": 454,
+                  "unit": "g"
+                }
+              },
+              {
+                "item": "Onion",
+                "quantity": "1 small, chopped",
+                "notes": "",
+                "metric": {
+                  "quantity": 100,
+                  "unit": "g"
+                }
+              },
+              {
+                "item": "Garlic",
+                "quantity": "1 clove, minced",
+                "notes": "",
+                "metric": {
+                  "quantity": 3,
+                  "unit": "g"
+                }
+              },
+              {
+                "item": "Slivered almonds",
+                "quantity": "1 cup",
+                "notes": "",
+                "metric": {
+                  "quantity": 120,
+                  "unit": "g"
+                }
+              },
+              {
+                "item": "Vegetable oil",
+                "quantity": "2 tablespoons",
+                "notes": "",
+                "metric": {
+                  "quantity": 30,
+                  "unit": "ml"
+                }
+              },
+              {
+                "item": "Dried oregano",
+                "quantity": "1/4 teaspoon",
+                "notes": "",
+                "metric": {
+                  "quantity": 0.25,
+                  "unit": "g"
+                }
+              },
+              {
+                "item": "Dried thyme",
+                "quantity": "1/4 teaspoon",
+                "notes": "",
+                "metric": {
+                  "quantity": 0.25,
+                  "unit": "g"
+                }
+              },
+              {
+                "item": "Tabasco or hot sauce",
+                "quantity": "dash, or to taste",
+                "notes": "",
+                "metric": null
+              }
+            ],
+            "instructions": [
+              "Melt the margarine in a large skillet over medium heat.",
+              "Add the sliced mushrooms, chopped onion, and minced garlic. Cook, stirring occasionally, for 8–10 minutes, until the mushrooms release their liquid and it has evaporated, and the vegetables are soft and lightly browned. Let cool slightly.",
+              "In a food processor or blender, coarsely chop the slivered almonds. Remove 2–3 tablespoons and reserve for garnish, if desired.",
+              "With the processor running, slowly drizzle in the vegetable oil and process until the almonds form a thick, spreadable paste.",
+              "Add the cooked mushroom mixture, dried oregano, dried thyme, and a dash of hot sauce to the processor. Blend until the mixture is fairly smooth but still has a little texture, scraping down the sides as needed.",
+              "Taste and adjust seasoning with additional hot sauce and a pinch of salt, if desired.",
+              "Transfer the pâté to a small bowl or crock. Smooth the top and sprinkle with the reserved chopped almonds and a little chopped parsley or sesame seeds, if you like.",
+              "Cover and chill for at least 2 hours to allow the flavors to blend. Serve cold or cool with crackers, sliced baguette, or raw vegetables."
+            ]
+          }
+        },
+        {
+          "original_recipe": {
+            "name": "The Little English Muffin Pizza",
+            "subtitle": null,
+            "source": "Favorite Appetizer of Drew Carle - Created for Drew by his Grandmother Alma Finken Carle",
+            "category": "Appetizers",
+            "servings": "4 pieces",
+            "ingredients": [
+              {
+                "item": "English muffins",
+                "quantity": "4 halves",
+                "notes": "2 whole muffins, split",
+                "metric": {
+                  "quantity": 4,
+                  "unit": "halves"
+                }
+              },
+              {
+                "item": "Pizza sauce",
+                "quantity": "as needed",
+                "notes": "",
+                "metric": null
+              },
+              {
+                "item": "Mozzarella cheese, grated",
+                "quantity": "as needed",
+                "notes": "",
+                "metric": null
+              },
+              {
+                "item": "Bacon bits",
+                "quantity": "as needed",
+                "notes": "",
+                "metric": null
+              }
+            ],
+            "instructions": [
+              "Spread each muffin half with pizza sauce. Quantity of sauce used will vary depending on taste. Cover with mozzarella cheese in desired quantity and sprinkle with bacon bits.",
+              "Bake in toaster oven at 400° for ten minutes, or until cheese is bubbly. Serve hot."
+            ]
+          },
+          "improved_recipe": {
+            "name": "Little English Muffin Pizzas",
+            "category": "Appetizers",
+            "servings": "4 pieces",
+            "ingredients": [
+              {
+                "item": "English muffins",
+                "quantity": "4 halves",
+                "notes": "2 whole muffins, split",
+                "metric": {
+                  "quantity": 4,
+                  "unit": "halves"
+                }
+              },
+              {
+                "item": "Pizza sauce",
+                "quantity": "about 1–2 tablespoons per muffin half",
+                "notes": "",
+                "metric": {
+                  "min": 60,
+                  "max": 120,
+                  "unit": "ml"
+                }
+              },
+              {
+                "item": "Mozzarella cheese, grated",
+                "quantity": "about 2–3 tablespoons per muffin half",
+                "notes": "",
+                "metric": {
+                  "min": 60,
+                  "max": 90,
+                  "unit": "g"
+                }
+              },
+              {
+                "item": "Bacon bits",
+                "quantity": "about 1 tablespoon per muffin half",
+                "notes": "",
+                "metric": {
+                  "quantity": 32,
+                  "unit": "g"
+                }
+              }
+            ],
+            "instructions": [
+              "Preheat the oven or toaster oven to 400°F (200°C).",
+              "Arrange the English muffin halves, cut side up, on a baking sheet.",
+              "Spread each muffin half with 1–2 tablespoons of pizza sauce.",
+              "Top each with 2–3 tablespoons of grated mozzarella cheese and sprinkle with bacon bits.",
+              "Bake for about 8–10 minutes, or until the cheese is melted and bubbly and the muffin edges are lightly crisp.",
+              "Serve hot. Makes 4 small pizzas."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Desserts",
+      "recipes": [
+        {
+          "original_recipe": {
+            "name": "Frosted Pineapple Squares",
+            "category": "Desserts",
+            "servings": null,
+            "ingredients": [
+              {
+                "item": "Sugar",
+                "quantity": "1/2 cup",
+                "notes": "for pineapple filling",
+                "metric": { "quantity": 100, "unit": "g" }
+              },
+              {
+                "item": "Salt",
+                "quantity": "1/4 teaspoon",
+                "metric": { "quantity": 1.5, "unit": "g" }
+              },
+              {
+                "item": "Pineapple chunks",
+                "quantity": "1 can (1 lb 14 oz)",
+                "notes": "juice used for filling",
+                "metric": { "quantity": 850, "unit": "g" }
+              },
+              {
+                "item": "Sugar",
+                "quantity": "1 teaspoon",
+                "notes": "for dough sponge",
+                "metric": { "quantity": 4, "unit": "g" }
+              },
+              {
+                "item": "Milk",
+                "quantity": "1/2 cup",
+                "metric": { "quantity": 120, "unit": "ml" }
+              },
+              {
+                "item": "Margarine",
+                "quantity": "1 cup",
+                "metric": { "quantity": 227, "unit": "g" }
+              },
+              {
+                "item": "Confectioners' sugar frosting",
+                "quantity": "As needed",
+                "notes": "for topping",
+                "metric": null
+              },
+              {
+                "item": "Cornstarch",
+                "quantity": "3 tablespoons",
+                "metric": { "quantity": 24, "unit": "g" }
+              },
+              {
+                "item": "Egg yolk",
+                "quantity": "1",
+                "notes": "slightly beaten, or egg substitute",
+                "metric": { "quantity": 18, "unit": "g" }
+              },
+              {
+                "item": "Flour",
+                "quantity": "3 3/4 to 4 1/4 cups unsifted",
+                "metric": {
+                  "min": 450,
+                  "max": 510,
+                  "unit": "g"
+                }
+              },
+              {
+                "item": "Active dry yeast",
+                "quantity": "1 package",
+                "notes": "Fleischmann's",
+                "metric": { "quantity": 7, "unit": "g" }
+              },
+              {
+                "item": "Water",
+                "quantity": "1/2 cup",
+                "metric": { "quantity": 120, "unit": "ml" }
+              },
+              {
+                "item": "Egg yolks",
+                "quantity": "4",
+                "notes": "at room temperature, or egg substitute",
+                "metric": { "quantity": 72, "unit": "g" }
+              }
+            ],
+            "instructions": [
+              "Mix 1/2 cup sugar, cornstarch, and salt together in a saucepan. Add pineapple (with juice) and milk and cook over medium heat, stirring constantly, until the mixture comes to a boil and thickens. Set aside to cool.",
+              "In a large bowl, thoroughly mix 1 1/3 cups of flour, 1 teaspoon sugar, and the dry yeast.",
+              "Heat margarine and water (and milk if specified) until warm to the touch, then add to the flour-yeast mixture and beat at medium speed of an electric mixer, scraping the bowl occasionally.",
+              "Add 4 egg yolks and 1/2 cup flour, or just enough flour to make a thick batter. Beat well. Stir in enough additional flour to make a soft, moist dough.",
+              "Turn dough out onto a floured board and knead until smooth and elastic.",
+              "Divide dough in half. Roll out half of the dough on a floured board and fit into a greased jelly-roll pan or baking sheet. Spread cooled pineapple filling over the dough. Roll out remaining dough and place over the filling. Snip surface of the top dough with scissors to let steam escape.",
+              "Cover and let rise in a warm place, free from drafts, until doubled in bulk.",
+              "Bake at 350–375°F (175–190°C) until golden brown. Cool and frost with confectioners' sugar frosting. Cut into squares to serve."
+            ]
+          },
+          "improved_recipe": {
+            "name": "Frosted Pineapple Squares",
+            "category": "Desserts",
+            "servings": "About 24 squares",
+            "ingredients": [
+              {
+                "section": "Pineapple Filling",
+                "item": "Sugar",
+                "quantity": "1/2 cup",
+                "metric": { "quantity": 100, "unit": "g" }
+              },
+              {
+                "section": "Pineapple Filling",
+                "item": "Salt",
+                "quantity": "1/4 teaspoon",
+                "metric": { "quantity": 1.5, "unit": "g" }
+              },
+              {
+                "section": "Pineapple Filling",
+                "item": "Cornstarch",
+                "quantity": "3 tablespoons",
+                "metric": { "quantity": 24, "unit": "g" }
+              },
+              {
+                "section": "Pineapple Filling",
+                "item": "Pineapple chunks with juice",
+                "quantity": "1 can (1 lb 14 oz)",
+                "metric": { "quantity": 850, "unit": "g" }
+              },
+              {
+                "section": "Pineapple Filling",
+                "item": "Milk",
+                "quantity": "1/2 cup",
+                "metric": { "quantity": 120, "unit": "ml" }
+              },
+              {
+                "section": "Yeast Dough",
+                "item": "All-purpose flour",
+                "quantity": "3 3/4 to 4 1/4 cups",
+                "notes": "unsifted",
+                "metric": {
+                  "min": 450,
+                  "max": 510,
+                  "unit": "g"
+                }
+              },
+              {
+                "section": "Yeast Dough",
+                "item": "Sugar",
+                "quantity": "1 teaspoon",
+                "notes": "for activating yeast",
+                "metric": { "quantity": 4, "unit": "g" }
+              },
+              {
+                "section": "Yeast Dough",
+                "item": "Active dry yeast",
+                "quantity": "1 package (about 2 1/4 teaspoons)",
+                "metric": { "quantity": 7, "unit": "g" }
+              },
+              {
+                "section": "Yeast Dough",
+                "item": "Water",
+                "quantity": "1/2 cup",
+                "notes": "warm, 105–115°F / 40–46°C",
+                "metric": { "quantity": 120, "unit": "ml" }
+              },
+              {
+                "section": "Yeast Dough",
+                "item": "Margarine",
+                "quantity": "1 cup",
+                "notes": "softened",
+                "metric": { "quantity": 227, "unit": "g" }
+              },
+              {
+                "section": "Yeast Dough",
+                "item": "Egg yolks",
+                "quantity": "4",
+                "notes": "room temperature (plus 1 extra yolk used in filling)",
+                "metric": { "quantity": 72, "unit": "g" }
+              },
+              {
+                "section": "Topping",
+                "item": "Confectioners' sugar frosting",
+                "quantity": "As needed",
+                "notes": "for drizzling over cooled squares",
+                "metric": null
+              }
+            ],
+            "instructions": [
+              "Make the pineapple filling: In a medium saucepan, whisk together sugar, cornstarch, and salt. Stir in the pineapple (with its juice) and the milk.",
+              "Cook over medium heat, stirring constantly, until the mixture comes to a full boil and thickens to a spoon-coating consistency. Remove from heat and let cool to room temperature.",
+              "Make the dough sponge: In a large bowl, combine about 1 1/3 cups (160 g) of the flour, the 1 teaspoon sugar, and the dry yeast.",
+              "Warm the water and margarine together until just warm to the touch (105–115°F / 40–46°C). Add to the flour-yeast mixture and beat on medium speed for 2–3 minutes, scraping the bowl occasionally.",
+              "Beat in the egg yolks and another 1/2 cup (60 g) of flour. Continue adding just enough of the remaining flour to form a soft, slightly sticky dough.",
+              "Turn the dough out onto a lightly floured surface and knead 8–10 minutes, adding flour only as needed, until smooth and elastic.",
+              "Place the dough in a lightly greased bowl, turn to coat, cover, and let rise in a warm, draft-free place until doubled, about 1 hour.",
+              "Lightly grease a jelly-roll pan (about 10x15 in / 25x38 cm). Divide the dough in half. Roll one half to fit the bottom of the pan and transfer it to the pan.",
+              "Spread the cooled pineapple filling evenly over the dough in the pan.",
+              "Roll the remaining dough to the same size and place over the filling. Pinch edges to seal and snip the top in several places with scissors to allow steam to escape.",
+              "Cover and let rise again until puffy, 30–45 minutes.",
+              "Near the end of rising, preheat the oven to 350–375°F (175–190°C).",
+              "Bake 25–35 minutes, or until the top is deep golden brown and the bread sounds hollow when tapped.",
+              "Cool completely in the pan. Drizzle with confectioners' sugar frosting and cut into squares to serve."
+            ]
+          }
+        },
+
+        {
+          "original_recipe": {
+            "name": "Meringue",
+            "category": "Desserts",
+            "servings": "Variable (9-inch, 8-inch, or 6-inch pie)",
+            "hasTable": true,
+            "ingredientTable": {
+              "headers": ["Pie Size", "Egg Whites", "Cream of Tartar", "Sugar"],
+              "rows": [
+                ["9-inch", "3", "1/4 tsp", "6 tbsp"],
+                ["8-inch", "2", "1/4 tsp", "4 tbsp"],
+                ["6-inch", "1", "1/8 tsp", "2 tbsp"]
+              ]
+            },
+            "tableNote": "Metric conversions: 9-inch (90g whites, 1g tartar, 75g sugar); 8-inch (60g whites, 1g tartar, 50g sugar); 6-inch (30g whites, 0.5g tartar, 25g sugar)",
+            "instructions": [
+              "Beat egg whites until frothy, add cream of tartar, and continue beating until stiff enough to hold a point.",
+              "Gradually beat in sugar, continuing to beat until mixture is stiff and glossy.",
+              "Slow and complete blending of sugar prevents beads of sugar in meringue.",
+              "Pile meringue lightly on cooled pie filling, sealing it onto the edge of the crust to prevent shrinking.",
+              "Swirl or pull up points to make it look decorative.",
+              "Bake 15 to 20 minutes (until a delicate brown) in a slow oven (300°F) to set and bake the meringue so it will hold up.",
+              "Let cool at room temperature away from drafts, as cold air makes it fall and condenses moisture on top of the filling."
+            ]
+          },
+          "improved_recipe": {
+            "name": "Meringue for 9-inch Pie",
+            "category": "Desserts",
+            "servings": "1 9-inch pie",
+            "ingredients": [
+              {
+                "item": "Egg whites",
+                "quantity": "3 large",
+                "metric": { "quantity": 90, "unit": "g" }
+              },
+              {
+                "item": "Cream of tartar",
+                "quantity": "1/4 teaspoon",
+                "metric": { "quantity": 1, "unit": "g" }
+              },
+              {
+                "item": "Sugar",
+                "quantity": "6 tablespoons",
+                "metric": { "quantity": 75, "unit": "g" }
+              }
+            ],
+            "instructions": [
+              "Preheat oven to 300°F (150°C). Prepare a fully baked pie with cooled filling.",
+              "In a clean, grease-free bowl, beat egg whites on medium speed until frothy.",
+              "Add cream of tartar and continue beating until soft peaks form.",
+              "Gradually add sugar, 1 tablespoon at a time, beating constantly, until stiff, glossy peaks form and all sugar is dissolved.",
+              "Pile the meringue lightly over the cooled filling, spreading to seal completely to the crust edge to prevent shrinking.",
+              "Swirl the surface or pull up points with the back of a spoon for a decorative finish.",
+              "Bake 15–20 minutes, until the meringue is set and lightly golden.",
+              "Cool at room temperature, away from drafts, before serving."
+            ]
+          }
+        },
+
+        {
+          "original_recipe": {
+            "name": "Blueberry Pie Filling",
+            "category": "Desserts",
+            "servings": null,
+            "ingredients": [
+              {
+                "item": "Blueberries",
+                "quantity": "4 cups fresh or frozen",
+                "metric": { "quantity": 600, "unit": "g" }
+              },
+              {
+                "item": "Water",
+                "quantity": "1 cup",
+                "metric": { "quantity": 240, "unit": "ml" }
+              },
+              {
+                "item": "Sugar",
+                "quantity": "1 cup",
+                "metric": { "quantity": 200, "unit": "g" }
+              },
+              {
+                "item": "Cornstarch",
+                "quantity": "3 tbsp with fresh berries OR 5 tbsp with frozen berries",
+                "metric": {
+                  "fresh": { "quantity": 24, "unit": "g" },
+                  "frozen": { "quantity": 40, "unit": "g" }
+                }
+              },
+              {
+                "item": "Lemon juice",
+                "quantity": "Juice of 1/2 lemon",
+                "metric": { "quantity": 15, "unit": "ml" }
+              },
+              {
+                "item": "Light Cool Whip",
+                "quantity": "As needed",
+                "metric": null
+              },
+              {
+                "item": "Cream cheese",
+                "quantity": "Thin layer for bottom of crust",
+                "metric": { "quantity": 60, "unit": "g" }
+              }
+            ],
+            "instructions": [
+              "Boil one cup of blueberries with water and sugar; strain.",
+              "Add cornstarch (3 tbsp with fresh, 5 tbsp with frozen) to the hot liquid and cook over medium heat, stirring with a wire whisk, until thickened and bubbly. Remove from heat and add lemon juice.",
+              "Stir in the remaining blueberries.",
+              "Before putting blueberry mixture in baked crust, line the bottom of the crust with a thin layer of softened cream cheese. Cool.",
+              "Spread light Cool Whip on top before serving."
+            ]
+          },
+          "improved_recipe": {
+            "name": "Blueberry Pie Filling",
+            "category": "Desserts",
+            "servings": "Fills one 9-inch baked pie shell",
+            "ingredients": [
+              {
+                "item": "Blueberries",
+                "quantity": "4 cups",
+                "notes": "fresh or frozen",
+                "metric": { "quantity": 600, "unit": "g" }
+              },
+              {
+                "item": "Water",
+                "quantity": "1 cup",
+                "metric": { "quantity": 240, "unit": "ml" }
+              },
+              {
+                "item": "Sugar",
+                "quantity": "1 cup",
+                "metric": { "quantity": 200, "unit": "g" }
+              },
+              {
+                "item": "Cornstarch",
+                "quantity": "3 tbsp (fresh berries) or 5 tbsp (frozen berries)",
+                "metric": {
+                  "fresh": { "quantity": 24, "unit": "g" },
+                  "frozen": { "quantity": 40, "unit": "g" }
+                }
+              },
+              {
+                "item": "Lemon juice",
+                "quantity": "Juice of 1/2 lemon",
+                "metric": { "quantity": 15, "unit": "ml" }
+              },
+              {
+                "item": "Cream cheese",
+                "quantity": "2–3 tablespoons",
+                "notes": "softened, to line crust",
+                "metric": { "quantity": 30, "unit": "g" }
+              },
+              {
+                "item": "Light whipped topping",
+                "quantity": "As desired",
+                "notes": "for serving",
+                "metric": null
+              }
+            ],
+            "instructions": [
+              "In a medium saucepan, combine 1 cup (150 g) of the blueberries with the water and sugar. Bring to a boil over medium heat and cook a few minutes until the berries begin to soften.",
+              "Strain the mixture to remove the berry skins, returning the liquid to the saucepan.",
+              "Whisk the cornstarch into a small amount of cool water to make a smooth slurry, then whisk into the hot blueberry liquid.",
+              "Cook over medium heat, stirring constantly, until the mixture comes to a full boil and thickens and becomes glossy.",
+              "Remove from the heat and stir in the lemon juice, then gently fold in the remaining blueberries.",
+              "Let the filling cool until just warm.",
+              "Spread a thin layer of softened cream cheese over the bottom of a cooled, baked 9-inch pie shell.",
+              "Pour the blueberry filling into the shell and smooth the top. Chill until fully set.",
+              "Before serving, spread or dollop light whipped topping over the pie if desired."
+            ]
+          }
+        },
+
+        {
+          "original_recipe": {
+            "name": "Cherry Pie Filling (Quick)",
+            "category": "Desserts",
+            "servings": null,
+            "ingredients": [
+              {
+                "item": "Low-fat cream cheese",
+                "quantity": "1 ounce",
+                "metric": { "quantity": 28, "unit": "g" }
+              },
+              {
+                "item": "Sugar",
+                "quantity": "1/2 cup",
+                "metric": { "quantity": 100, "unit": "g" }
+              },
+              {
+                "item": "Cornstarch",
+                "quantity": "2 tablespoons",
+                "metric": { "quantity": 16, "unit": "g" }
+              },
+              {
+                "item": "Salt",
+                "quantity": "1/8 teaspoon",
+                "metric": { "quantity": 0.75, "unit": "g" }
+              },
+              {
+                "item": "Water-packed red sour cherries",
+                "quantity": "1 can (16 oz), pitted",
+                "metric": { "quantity": 454, "unit": "g" }
+              },
+              {
+                "item": "Almond extract",
+                "quantity": "2 drops",
+                "metric": null
+              },
+              {
+                "item": "Grated orange rind",
+                "quantity": "1 teaspoon",
+                "metric": { "quantity": 2, "unit": "g" }
+              },
+              {
+                "item": "Light Cool Whip",
+                "quantity": "1 1/4 tablespoons",
+                "metric": { "quantity": 19, "unit": "ml" }
+              }
+            ],
+            "instructions": [
+              "Mix sugar, cornstarch, and salt in a saucepan.",
+              "Drain the cherries and measure the juice; add water if needed to reach the required amount (implied). Add juice to the pan and cook, stirring with a wire whisk, until thickened and the syrup comes to a boil.",
+              "Remove from heat and stir in almond extract, grated orange rind, and cherries.",
+              "Line the bottom of the baked pie shell with a thin layer of low-fat cream cheese.",
+              "Pour in the cherry sauce and chill.",
+              "Spread light Cool Whip over pie before serving."
+            ]
+          },
+          "improved_recipe": {
+            "name": "Quick Cherry Pie Filling",
+            "category": "Desserts",
+            "servings": "Fills one 9-inch baked pie shell",
+            "ingredients": [
+              {
+                "item": "Sugar",
+                "quantity": "1/2 cup",
+                "metric": { "quantity": 100, "unit": "g" }
+              },
+              {
+                "item": "Cornstarch",
+                "quantity": "2 tablespoons",
+                "metric": { "quantity": 16, "unit": "g" }
+              },
+              {
+                "item": "Salt",
+                "quantity": "1/8 teaspoon",
+                "metric": { "quantity": 0.75, "unit": "g" }
+              },
+              {
+                "item": "Water-packed red sour cherries",
+                "quantity": "1 can (16 oz), drained (reserve juice)",
+                "metric": { "quantity": 454, "unit": "g" }
+              },
+              {
+                "item": "Water",
+                "quantity": "As needed",
+                "notes": "to bring reserved juice to 1 cup / 240 ml",
+                "metric": null
+              },
+              {
+                "item": "Almond extract",
+                "quantity": "A few drops",
+                "metric": null
+              },
+              {
+                "item": "Grated orange rind",
+                "quantity": "1 teaspoon",
+                "metric": { "quantity": 2, "unit": "g" }
+              },
+              {
+                "item": "Low-fat cream cheese",
+                "quantity": "1 ounce",
+                "notes": "softened, to line crust",
+                "metric": { "quantity": 28, "unit": "g" }
+              },
+              {
+                "item": "Light whipped topping",
+                "quantity": "2–4 tablespoons",
+                "notes": "for topping",
+                "metric": { "quantity": 30, "unit": "ml" }
+              }
+            ],
+            "instructions": [
+              "Drain the canned cherries and reserve the juice. Add enough water to the juice to make 1 cup (240 ml).",
+              "In a medium saucepan, whisk together sugar, cornstarch, and salt.",
+              "Gradually whisk in the cherry juice mixture until smooth.",
+              "Cook over medium heat, stirring constantly, until the sauce thickens and comes to a full boil.",
+              "Remove from the heat and stir in almond extract, grated orange rind, and the drained cherries.",
+              "Let the cherry mixture cool until just warm.",
+              "Spread the softened cream cheese in a thin layer over the bottom of a cooled, baked 9-inch pie shell.",
+              "Pour the cherry filling into the crust and smooth the top. Chill until fully set.",
+              "Before serving, spread or dollop light whipped topping over the pie."
+            ]
+          }
+        },
+
+        {
+          "original_recipe": {
+            "name": "Karo Nut Pie",
+            "category": "Desserts",
+            "servings": null,
+            "ingredients": [
+              {
+                "item": "Karo syrup",
+                "quantity": "1/2 cup",
+                "notes": "white preferred, or dark",
+                "metric": { "quantity": 170, "unit": "g" }
+              },
+              {
+                "item": "Sugar",
+                "quantity": "1/2 cup",
+                "metric": { "quantity": 100, "unit": "g" }
+              },
+              {
+                "item": "Margarine",
+                "quantity": "2 teaspoons",
+                "notes": "optional",
+                "metric": { "quantity": 10, "unit": "g" }
+              },
+              {
+                "item": "Eggs",
+                "quantity": "2",
+                "notes": "or egg substitute",
+                "metric": { "quantity": 100, "unit": "g" }
+              },
+              {
+                "item": "Vanilla",
+                "quantity": "1 teaspoon",
+                "metric": { "quantity": 5, "unit": "ml" }
+              },
+              {
+                "item": "Pecan pieces",
+                "quantity": "1 cup",
+                "notes": "each half broken into four pieces",
+                "metric": { "quantity": 120, "unit": "g" }
+              }
+            ],
+            "instructions": [
+              "Combine all of the ingredients EXCEPT THE NUTS and beat well with an electric mixer.",
+              "Add the nuts, blend, and pour mixture into an unbaked pie shell.",
+              "Bake at 325°F for 40 minutes, or longer if necessary.",
+              "Wilfred Carle's favorite pie to eat!"
+            ]
+          },
+          "improved_recipe": {
+            "name": "Karo Nut Pie (Pecan Pie Style)",
+            "category": "Desserts",
+            "servings": "One 9-inch pie",
+            "ingredients": [
+              {
+                "item": "Karo syrup",
+                "quantity": "1/2 cup",
+                "notes": "light (white) or dark",
+                "metric": { "quantity": 170, "unit": "g" }
+              },
+              {
+                "item": "Sugar",
+                "quantity": "1/2 cup",
+                "metric": { "quantity": 100, "unit": "g" }
+              },
+              {
+                "item": "Margarine or butter",
+                "quantity": "2 teaspoons",
+                "notes": "melted, optional",
+                "metric": { "quantity": 10, "unit": "g" }
+              },
+              {
+                "item": "Eggs",
+                "quantity": "2 large",
+                "metric": { "quantity": 100, "unit": "g" }
+              },
+              {
+                "item": "Vanilla extract",
+                "quantity": "1 teaspoon",
+                "metric": { "quantity": 5, "unit": "ml" }
+              },
+              {
+                "item": "Pecan pieces",
+                "quantity": "1 cup",
+                "notes": "coarsely chopped",
+                "metric": { "quantity": 120, "unit": "g" }
+              },
+              {
+                "item": "Unbaked pie shell",
+                "quantity": "1",
+                "notes": "9-inch, homemade or purchased",
+                "metric": null
+              }
+            ],
+            "instructions": [
+              "Preheat oven to 325°F (165°C). Place a baking sheet on the center rack to catch any drips.",
+              "In a mixing bowl, whisk together Karo syrup, sugar, melted margarine or butter, eggs, and vanilla until smooth.",
+              "Stir in the pecan pieces until evenly distributed.",
+              "Pour the filling into the unbaked 9-inch pie shell.",
+              "Bake 35–45 minutes, until the center is just set and only slightly jiggles when gently shaken. If the crust browns too quickly, cover the edge with foil.",
+              "Cool completely on a rack before slicing."
+            ],
+            "notes": [
+              "Wilfred Carle's favorite pie to eat!"
+            ]
+          }
+        },
+
+        {
+          "original_recipe": {
+            "name": "Peanut Butter Pie",
+            "category": "Desserts",
+            "servings": null,
+            "ingredients": [
+              {
+                "item": "Powdered sugar",
+                "quantity": "1 cup",
+                "metric": { "quantity": 120, "unit": "g" }
+              },
+              {
+                "item": "Crunchy peanut butter",
+                "quantity": "1/2 cup",
+                "metric": { "quantity": 130, "unit": "g" }
+              },
+              {
+                "item": "Cornstarch",
+                "quantity": "1/4 cup",
+                "metric": { "quantity": 32, "unit": "g" }
+              },
+              {
+                "item": "Sugar",
+                "quantity": "2/3 cup",
+                "metric": { "quantity": 135, "unit": "g" }
+              },
+              {
+                "item": "Salt",
+                "quantity": "1/4 teaspoon",
+                "metric": { "quantity": 1.5, "unit": "g" }
+              },
+              {
+                "item": "Milk",
+                "quantity": "2 cups, scalded",
+                "notes": "2%, 1/2%, or skim",
+                "metric": { "quantity": 480, "unit": "ml" }
+              },
+              {
+                "item": "Egg yolks",
+                "quantity": "3",
+                "notes": "or egg substitute",
+                "metric": { "quantity": 54, "unit": "g" }
+              },
+              {
+                "item": "Egg whites",
+                "quantity": "3",
+                "metric": { "quantity": 90, "unit": "g" }
+              },
+              {
+                "item": "Margarine",
+                "quantity": "2 tablespoons",
+                "notes": "beat with egg yolks",
+                "metric": { "quantity": 28, "unit": "g" }
+              },
+              {
+                "item": "Vanilla extract",
+                "quantity": "1/4 teaspoon",
+                "metric": { "quantity": 1.25, "unit": "ml" }
+              }
+            ],
+            "instructions": [
+              "Combine peanut butter and powdered sugar. Mix until crumbly. Spread 3/4 of this mixture in baked pie shell.",
+              "Combine 2/3 cup sugar, cornstarch, and salt in a saucepan. Add scalded milk and mix well.",
+              "Pour this mixture into the beaten egg yolks (with margarine) a small amount at a time, stirring constantly, then return to the top of a double boiler and cook until thickened. Add vanilla and blend well.",
+              "Pour filling into the baked pie shell and top with meringue made from the three egg whites. Sprinkle remaining peanut butter and powdered sugar mixture on top. Continue baking until meringue is browned."
+            ]
+          },
+          "improved_recipe": {
+            "name": "Peanut Butter Cream Pie",
+            "category": "Desserts",
+            "servings": "One 9-inch pie",
+            "ingredients": [
+              {
+                "section": "Crumb Layer",
+                "item": "Powdered sugar",
+                "quantity": "1 cup",
+                "metric": { "quantity": 120, "unit": "g" }
+              },
+              {
+                "section": "Crumb Layer",
+                "item": "Crunchy peanut butter",
+                "quantity": "1/2 cup",
+                "metric": { "quantity": 130, "unit": "g" }
+              },
+              {
+                "section": "Custard Filling",
+                "item": "Sugar",
+                "quantity": "2/3 cup",
+                "metric": { "quantity": 135, "unit": "g" }
+              },
+              {
+                "section": "Custard Filling",
+                "item": "Cornstarch",
+                "quantity": "1/4 cup",
+                "metric": { "quantity": 32, "unit": "g" }
+              },
+              {
+                "section": "Custard Filling",
+                "item": "Salt",
+                "quantity": "1/4 teaspoon",
+                "metric": { "quantity": 1.5, "unit": "g" }
+              },
+              {
+                "section": "Custard Filling",
+                "item": "Milk",
+                "quantity": "2 cups, scalded",
+                "notes": "2%, 1/2%, or skim",
+                "metric": { "quantity": 480, "unit": "ml" }
+              },
+              {
+                "section": "Custard Filling",
+                "item": "Egg yolks",
+                "quantity": "3",
+                "notes": "beaten with margarine",
+                "metric": { "quantity": 54, "unit": "g" }
+              },
+              {
+                "section": "Custard Filling",
+                "item": "Margarine",
+                "quantity": "2 tablespoons",
+                "metric": { "quantity": 28, "unit": "g" }
+              },
+              {
+                "section": "Custard Filling",
+                "item": "Vanilla extract",
+                "quantity": "1/4 teaspoon",
+                "metric": { "quantity": 1.25, "unit": "ml" }
+              },
+              {
+                "section": "Meringue",
+                "item": "Egg whites",
+                "quantity": "3",
+                "metric": { "quantity": 90, "unit": "g" }
+              },
+              {
+                "section": "Meringue",
+                "item": "Sugar",
+                "quantity": "6 tablespoons",
+                "notes": "or use Meringue recipe in this section",
+                "metric": { "quantity": 75, "unit": "g" }
+              },
+              {
+                "item": "Baked pie shell",
+                "quantity": "1",
+                "notes": "9-inch",
+                "metric": null
+              }
+            ],
+            "instructions": [
+              "Prepare the crumb layer by mixing powdered sugar and crunchy peanut butter with a fork until crumbly. Reserve about 1/4 of the mixture for topping and press the remaining 3/4 evenly into the bottom of a cooled, baked 9-inch pie shell.",
+              "In a heavy saucepan, whisk together sugar, cornstarch, and salt.",
+              "Gradually whisk in the hot scalded milk until smooth.",
+              "In a separate bowl, beat egg yolks with the softened margarine.",
+              "Slowly whisk a ladleful of the hot milk mixture into the egg yolk mixture to temper, then return the egg mixture to the saucepan.",
+              "Cook over medium-low heat, stirring constantly, until the custard thickens and just begins to bubble. Remove from heat and stir in vanilla.",
+              "Pour the hot custard into the prepared pie shell over the peanut butter crumbs.",
+              "Prepare a meringue with the 3 egg whites and sugar (or use the Meringue recipe in this section). Spread the meringue over the hot filling, sealing to the crust.",
+              "Sprinkle the reserved peanut butter crumb mixture over the meringue.",
+              "Bake at 325–350°F (165–175°C) until the meringue is golden brown. Cool completely before serving."
+            ]
+          }
+        },
+
+        {
+          "original_recipe": {
+            "name": "Pumpkin Pie",
+            "category": "Desserts",
+            "servings": null,
+            "ingredients": [
+              {
+                "item": "Eggs",
+                "quantity": "2, slightly beaten",
+                "notes": "or egg substitute",
+                "metric": { "quantity": 100, "unit": "g" }
+              },
+              {
+                "item": "Solid pack pumpkin",
+                "quantity": "1 can (16 oz)",
+                "metric": { "quantity": 454, "unit": "g" }
+              },
+              {
+                "item": "Sugar",
+                "quantity": "3/4 cup",
+                "metric": { "quantity": 150, "unit": "g" }
+              },
+              {
+                "item": "Salt",
+                "quantity": "1/2 teaspoon",
+                "metric": { "quantity": 3, "unit": "g" }
+              },
+              {
+                "item": "Ground cinnamon",
+                "quantity": "1 teaspoon",
+                "metric": { "quantity": 2, "unit": "g" }
+              },
+              {
+                "item": "Ground ginger",
+                "quantity": "1/2 teaspoon",
+                "metric": { "quantity": 1, "unit": "g" }
+              },
+              {
+                "item": "Ground cloves",
+                "quantity": "1/4 teaspoon",
+                "metric": { "quantity": 0.5, "unit": "g" }
+              },
+              {
+                "item": "Evaporated skim milk",
+                "quantity": "1 1/2 cups (12 oz can), undiluted",
+                "metric": { "quantity": 360, "unit": "ml" }
+              }
+            ],
+            "instructions": [
+              "Preheat oven to 425°F.",
+              "Combine filling ingredients in the order given and mix well.",
+              "Pour into 9\" unbaked homemade pie shell with high fluted edge.",
+              "Bake at 425°F initially, then reduce temperature (details implied) and bake until a knife inserted near the center comes out clean.",
+              "Cool. Spread light Cool Whip on top before serving, if desired."
+            ]
+          },
+          "improved_recipe": {
+            "name": "Pumpkin Pie",
+            "category": "Desserts",
+            "servings": "One 9-inch pie",
+            "ingredients": [
+              {
+                "item": "Eggs",
+                "quantity": "2 large",
+                "metric": { "quantity": 100, "unit": "g" }
+              },
+              {
+                "item": "Solid pack pumpkin",
+                "quantity": "1 can (16 oz)",
+                "metric": { "quantity": 454, "unit": "g" }
+              },
+              {
+                "item": "Sugar",
+                "quantity": "3/4 cup",
+                "metric": { "quantity": 150, "unit": "g" }
+              },
+              {
+                "item": "Salt",
+                "quantity": "1/2 teaspoon",
+                "metric": { "quantity": 3, "unit": "g" }
+              },
+              {
+                "item": "Ground cinnamon",
+                "quantity": "1 teaspoon",
+                "metric": { "quantity": 2, "unit": "g" }
+              },
+              {
+                "item": "Ground ginger",
+                "quantity": "1/2 teaspoon",
+                "metric": { "quantity": 1, "unit": "g" }
+              },
+              {
+                "item": "Ground cloves",
+                "quantity": "1/4 teaspoon",
+                "metric": { "quantity": 0.5, "unit": "g" }
+              },
+              {
+                "item": "Evaporated skim milk",
+                "quantity": "1 1/2 cups (12 oz can), undiluted",
+                "metric": { "quantity": 360, "unit": "ml" }
+              },
+              {
+                "item": "Unbaked pie shell",
+                "quantity": "1",
+                "notes": "9-inch, with high fluted edge",
+                "metric": null
+              }
+            ],
+            "instructions": [
+              "Preheat oven to 425°F (220°C). Place a baking sheet on the middle rack.",
+              "In a large bowl, whisk eggs until blended.",
+              "Add pumpkin, sugar, salt, cinnamon, ginger, and cloves. Whisk until smooth.",
+              "Gradually whisk in the evaporated milk until the filling is well combined.",
+              "Place the unbaked 9-inch pie shell on the hot baking sheet. Pour the filling into the shell.",
+              "Bake at 425°F (220°C) for 15 minutes.",
+              "Reduce oven temperature to 350°F (175°C) and continue baking 35–45 minutes, or until a knife inserted near the center comes out clean or the center registers about 190°F (88°C).",
+              "Cool on a wire rack. Chill if you like a firmer texture.",
+              "Top with whipped topping before serving, if desired."
+            ]
+          }
+        },
+
+        {
+          "original_recipe": {
+            "name": "Strawberry Glaze Pie (French)",
+            "category": "Desserts",
+            "servings": null,
+            "ingredients": [
+              {
+                "item": "Fresh strawberries",
+                "quantity": "1 quart",
+                "notes": "washed, drained, hulled",
+                "metric": { "quantity": 570, "unit": "g" }
+              },
+              {
+                "item": "Cream cheese",
+                "quantity": "3 oz package",
+                "notes": "no-fat or low fat",
+                "metric": { "quantity": 85, "unit": "g" }
+              },
+              {
+                "item": "Sugar",
+                "quantity": "1 cup",
+                "metric": { "quantity": 200, "unit": "g" }
+              },
+              {
+                "item": "Cornstarch",
+                "quantity": "3 tablespoons",
+                "metric": { "quantity": 24, "unit": "g" }
+              },
+              {
+                "item": "Light Cool Whip",
+                "quantity": "As needed",
+                "metric": null
+              }
+            ],
+            "instructions": [
+              "Line the bottom of a cooled baked 9\" pie shell with the cream cheese. Cover this with the choicest half of the strawberries.",
+              "Mash and strain the remaining strawberries until juice is extracted; if necessary, add a little water to make 1 1/2 cups of juice.",
+              "Put juice in a pot over heat and bring to the boiling point. Gradually stir in a mixture of the sugar and cornstarch.",
+              "Cook over moderate heat, stirring constantly, until mixture thickens. Remove from heat and cool slightly, then pour over the strawberries in the pie shell. Chill in refrigerator for about two hours.",
+              "Remove from refrigerator about 20 minutes before serving to take chill from the crust.",
+              "Spread light Cool Whip on top before serving."
+            ]
+          },
+          "improved_recipe": {
+            "name": "Strawberry Glaze Pie",
+            "category": "Desserts",
+            "servings": "One 9-inch pie",
+            "ingredients": [
+              {
+                "item": "Fresh strawberries",
+                "quantity": "1 quart",
+                "notes": "washed, hulled, well drained",
+                "metric": { "quantity": 570, "unit": "g" }
+              },
+              {
+                "item": "Cream cheese",
+                "quantity": "3 oz",
+                "notes": "softened, low-fat or regular",
+                "metric": { "quantity": 85, "unit": "g" }
+              },
+              {
+                "item": "Sugar",
+                "quantity": "1 cup",
+                "metric": { "quantity": 200, "unit": "g" }
+              },
+              {
+                "item": "Cornstarch",
+                "quantity": "3 tablespoons",
+                "metric": { "quantity": 24, "unit": "g" }
+              },
+              {
+                "item": "Water",
+                "quantity": "As needed",
+                "notes": "to bring berry juice to 1 1/2 cups / 360 ml",
+                "metric": null
+              },
+              {
+                "item": "Light whipped topping",
+                "quantity": "As desired",
+                "metric": null
+              },
+              {
+                "item": "Baked pie shell",
+                "quantity": "1",
+                "notes": "9-inch",
+                "metric": null
+              }
+            ],
+            "instructions": [
+              "Reserve the nicest half of the strawberries to remain whole. Slice them in half if large.",
+              "Mash the remaining berries and strain through a sieve to extract juice. Add enough water to make 1 1/2 cups (360 ml) of liquid.",
+              "In a saucepan, whisk together sugar and cornstarch.",
+              "Gradually whisk in the strawberry juice mixture until smooth.",
+              "Cook over medium heat, stirring constantly, until the mixture comes to a boil and thickens and turns glossy.",
+              "Remove from heat and let cool until just warm.",
+              "Spread softened cream cheese in a thin layer over the bottom of a cooled, baked 9-inch pie shell.",
+              "Arrange the reserved whole strawberries over the cream cheese, cut side down if halved.",
+              "Pour the warm glaze evenly over the berries, coating them well.",
+              "Chill for at least 2 hours, until set.",
+              "Remove from the refrigerator about 20 minutes before serving to take the chill off the crust. Top with whipped topping, if desired."
+            ]
+          }
+        },
+
+        {
+          "original_recipe": {
+            "name": "Brownies",
+            "category": "Desserts",
+            "servings": null,
+            "ingredients": [
+              {
+                "item": "Margarine",
+                "quantity": "1/2 cup",
+                "metric": { "quantity": 113, "unit": "g" }
+              },
+              {
+                "item": "Sugar",
+                "quantity": "1 cup",
+                "metric": { "quantity": 200, "unit": "g" }
+              },
+              {
+                "item": "Eggs",
+                "quantity": "2",
+                "notes": "or egg substitute",
+                "metric": { "quantity": 100, "unit": "g" }
+              },
+              {
+                "item": "Vanilla",
+                "quantity": "1 teaspoon",
+                "metric": { "quantity": 5, "unit": "ml" }
+              },
+              {
+                "item": "Cocoa",
+                "quantity": "1/3 cup",
+                "metric": { "quantity": 30, "unit": "g" }
+              },
+              {
+                "item": "Flour",
+                "quantity": "1/2 cup",
+                "metric": { "quantity": 60, "unit": "g" }
+              },
+              {
+                "item": "Salt",
+                "quantity": "1/4 teaspoon",
+                "metric": { "quantity": 1.5, "unit": "g" }
+              },
+              {
+                "item": "Baking powder",
+                "quantity": "1/4 teaspoon",
+                "metric": { "quantity": 1, "unit": "g" }
+              },
+              {
+                "item": "Chopped nuts",
+                "quantity": "1/2 cup",
+                "notes": "optional",
+                "metric": { "quantity": 60, "unit": "g" }
+              }
+            ],
+            "instructions": [
+              "Melt margarine and stir in sugar. Add eggs and vanilla.",
+              "Combine cocoa, flour, salt, and baking powder. Stir into sugar mixture.",
+              "Fold in nuts if using.",
+              "Spread in greased 9x9 inch pan.",
+              "Bake at 350°F for 25-30 minutes. Do not overbake.",
+              "Cool and cut into squares."
+            ]
+          },
+          "improved_recipe": {
+            "name": "Brownies",
+            "category": "Desserts",
+            "servings": "16 small squares (9x9 inch pan)",
+            "ingredients": [
+              {
+                "item": "Margarine or butter",
+                "quantity": "1/2 cup",
+                "notes": "melted",
+                "metric": { "quantity": 113, "unit": "g" }
+              },
+              {
+                "item": "Sugar",
+                "quantity": "1 cup",
+                "metric": { "quantity": 200, "unit": "g" }
+              },
+              {
+                "item": "Eggs",
+                "quantity": "2 large",
+                "metric": { "quantity": 100, "unit": "g" }
+              },
+              {
+                "item": "Vanilla extract",
+                "quantity": "1 teaspoon",
+                "metric": { "quantity": 5, "unit": "ml" }
+              },
+              {
+                "item": "Unsweetened cocoa powder",
+                "quantity": "1/3 cup",
+                "metric": { "quantity": 30, "unit": "g" }
+              },
+              {
+                "item": "All-purpose flour",
+                "quantity": "1/2 cup",
+                "metric": { "quantity": 60, "unit": "g" }
+              },
+              {
+                "item": "Salt",
+                "quantity": "1/4 teaspoon",
+                "metric": { "quantity": 1.5, "unit": "g" }
+              },
+              {
+                "item": "Baking powder",
+                "quantity": "1/4 teaspoon",
+                "metric": { "quantity": 1, "unit": "g" }
+              },
+              {
+                "item": "Chopped nuts",
+                "quantity": "1/2 cup",
+                "notes": "optional",
+                "metric": { "quantity": 60, "unit": "g" }
+              }
+            ],
+            "instructions": [
+              "Preheat oven to 350°F (175°C). Grease a 9x9 inch (23x23 cm) baking pan or line with parchment.",
+              "In a medium bowl, whisk together the melted margarine or butter and sugar until glossy.",
+              "Beat in the eggs one at a time, then stir in vanilla.",
+              "In a separate bowl, whisk together cocoa, flour, salt, and baking powder.",
+              "Add the dry ingredients to the wet ingredients and stir just until blended. Fold in nuts if using.",
+              "Spread the batter evenly in the prepared pan.",
+              "Bake 25–30 minutes, until the edges are set and a toothpick inserted in the center comes out with a few moist crumbs (not wet batter). Do not overbake.",
+              "Cool completely in the pan, then cut into squares."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Main Dishes",
+      "recipes": [
+        {
+          "original_recipe": {
+            "name": "Turkey Sausage",
+            "source": "Wilfred F. and Alma Finken Carle",
+            "category": "Main Dishes",
+            "servings": null,
+            "ingredients": [
+              {
+                "item": "Ground turkey breast",
+                "quantity": "4 pounds",
+                "metric": { "quantity": 1800, "unit": "g" }
+              },
+              {
+                "item": "Wheat germ",
+                "quantity": "1 1/2 cups",
+                "metric": { "quantity": 170, "unit": "g" }
+              },
+              {
+                "item": "Vegetable oil",
+                "quantity": "1/2 cup",
+                "metric": { "quantity": 120, "unit": "ml" }
+              },
+              {
+                "item": "Sage",
+                "quantity": "1 tablespoon",
+                "metric": { "quantity": 3, "unit": "g" }
+              },
+              {
+                "item": "Red pepper",
+                "quantity": "1/2 teaspoon",
+                "metric": { "quantity": 1, "unit": "g" }
+              },
+              {
+                "item": "Cumin powder",
+                "quantity": "1/2 teaspoon",
+                "metric": { "quantity": 1, "unit": "g" }
+              },
+              {
+                "item": "Coarse black pepper",
+                "quantity": "1 teaspoon",
+                "metric": { "quantity": 2, "unit": "g" }
+              },
+              {
+                "item": "Garlic cloves",
+                "quantity": "4 large, well mashed",
+                "metric": { "quantity": 12, "unit": "g" }
+              },
+              {
+                "item": "Thyme",
+                "quantity": "1 teaspoon",
+                "metric": { "quantity": 1, "unit": "g" }
+              },
+              {
+                "item": "White pepper",
+                "quantity": "1/2 teaspoon",
+                "metric": { "quantity": 1, "unit": "g" }
+              },
+              {
+                "item": "Salt",
+                "quantity": "1 tablespoon",
+                "metric": { "quantity": 18, "unit": "g" }
+              },
+              {
+                "item": "Crushed coriander seed",
+                "quantity": "1 tablespoon",
+                "metric": { "quantity": 6, "unit": "g" }
+              },
+              {
+                "item": "Old Bay seasoning",
+                "quantity": "2 teaspoons",
+                "metric": { "quantity": 4, "unit": "g" }
+              }
+            ],
+            "instructions": [
+              "Blend wheat germ with vegetable oil and let stand over night.",
+              "Add the wheat germ mixture to the ground turkey breast and mix well.",
+              "Add the remaining ingredients. Items may be added or omitted and quantities increased or decreased to suit taste.",
+              "Mix well; if too dry, add a little water."
+            ]
+          },
+          "improved_recipe": {
+            "name": "Turkey Breakfast Sausage",
+            "category": "Main Dishes",
+            "servings": "About 16–20 patties",
+            "ingredients": [
+              {
+                "item": "Ground turkey breast",
+                "quantity": "4 pounds",
+                "notes": "very lean",
+                "metric": { "quantity": 1800, "unit": "g" }
+              },
+              {
+                "item": "Wheat germ",
+                "quantity": "1 1/2 cups",
+                "notes": "adds body and a nutty flavor",
+                "metric": { "quantity": 170, "unit": "g" }
+              },
+              {
+                "item": "Vegetable oil",
+                "quantity": "1/2 cup",
+                "metric": { "quantity": 120, "unit": "ml" }
+              },
+              {
+                "item": "Dried sage",
+                "quantity": "1 tablespoon",
+                "metric": { "quantity": 3, "unit": "g" }
+              },
+              {
+                "item": "Crushed coriander seed",
+                "quantity": "1 tablespoon",
+                "metric": { "quantity": 6, "unit": "g" }
+              },
+              {
+                "item": "Coarse black pepper",
+                "quantity": "1 teaspoon",
+                "metric": { "quantity": 2, "unit": "g" }
+              },
+              {
+                "item": "White pepper",
+                "quantity": "1/2 teaspoon",
+                "metric": { "quantity": 1, "unit": "g" }
+              },
+              {
+                "item": "Red pepper flakes or ground red pepper",
+                "quantity": "1/2 teaspoon",
+                "notes": "or to taste",
+                "metric": { "quantity": 1, "unit": "g" }
+              },
+              {
+                "item": "Ground cumin",
+                "quantity": "1/2 teaspoon",
+                "metric": { "quantity": 1, "unit": "g" }
+              },
+              {
+                "item": "Dried thyme",
+                "quantity": "1 teaspoon",
+                "metric": { "quantity": 1, "unit": "g" }
+              },
+              {
+                "item": "Garlic cloves",
+                "quantity": "4 large, finely minced",
+                "metric": { "quantity": 12, "unit": "g" }
+              },
+              {
+                "item": "Old Bay seasoning",
+                "quantity": "2 teaspoons",
+                "metric": { "quantity": 4, "unit": "g" }
+              },
+              {
+                "item": "Salt",
+                "quantity": "1 tablespoon",
+                "metric": { "quantity": 18, "unit": "g" }
+              },
+              {
+                "item": "Cold water",
+                "quantity": "2–4 tablespoons, as needed",
+                "metric": { "min": 30, "max": 60, "unit": "ml" }
+              }
+            ],
+            "instructions": [
+              "In a small bowl, stir together the wheat germ and vegetable oil until evenly moistened. Cover and let stand at room temperature overnight, or at least 1 hour.",
+              "In a large mixing bowl, combine the ground turkey, sage, coriander, black and white pepper, red pepper, cumin, thyme, garlic, Old Bay, and salt.",
+              "Add the wheat germ mixture and mix thoroughly with clean hands until the seasonings are evenly distributed and the mixture feels cohesive but not dry. If it seems crumbly, sprinkle in 2–4 tablespoons (30–60 ml) cold water and mix again.",
+              "For best flavor, cover and refrigerate the sausage mixture for at least 4 hours or overnight.",
+              "Shape into patties or logs for links, using about 1/4 cup (60 g) of mixture per patty.",
+              "To cook, brown sausage over medium heat in a lightly oiled skillet, 4–5 minutes per side, until cooked through (internal temperature 165°F / 74°C). Alternatively, shape into logs and bake on a parchment-lined tray at 375°F (190°C) for 18–22 minutes, turning once.",
+              "Serve hot with eggs and potatoes, or cool and freeze cooked patties for quick breakfasts."
+            ]
+          }
+        },
+
+        {
+          "original_recipe": {
+            "name": "Pizza (Carle Version)",
+            "source": null,
+            "category": "Main Dishes",
+            "servings": null,
+            "ingredients": [
+              {
+                "item": "Gold Medal Pizza Crust mix",
+                "quantity": "1 package (6.5 oz.)",
+                "metric": { "quantity": 184, "unit": "g" }
+              },
+              {
+                "item": "Onions",
+                "quantity": "as desired, sliced",
+                "metric": null
+              },
+              {
+                "item": "Black olives",
+                "quantity": "as desired, quartered",
+                "metric": null
+              },
+              {
+                "item": "Mushrooms",
+                "quantity": "1 can (4 oz), stems and pieces, drained",
+                "metric": { "quantity": 113, "unit": "g" }
+              },
+              {
+                "item": "Bell peppers",
+                "quantity": "as desired, sliced (green, yellow, or red)",
+                "metric": null
+              },
+              {
+                "item": "Ham or turkey ham",
+                "quantity": "as desired, cut in small strips",
+                "metric": null
+              },
+              {
+                "item": "Ragu Pizza natural sauce",
+                "quantity": "1 jar (14 oz) or as needed",
+                "metric": { "quantity": 396, "unit": "g" }
+              },
+              {
+                "item": "Nonstick vegetable cooking spray",
+                "quantity": "as needed",
+                "metric": null
+              },
+              {
+                "item": "Cornmeal",
+                "quantity": "1–2 tablespoons for pan",
+                "metric": { "min": 10, "max": 20, "unit": "g" }
+              },
+              {
+                "item": "Mozzarella cheese",
+                "quantity": "as desired, grated or sliced",
+                "metric": null
+              }
+            ],
+            "instructions": [
+              "Prepare crust according to package instructions.",
+              "Spray pizza pan with a nonstick vegetable cooking spray and then sprinkle pan with a thin layer of cornmeal.",
+              "Place dough in center of pan and dampen finger tips with water, then spread dough by pressing it out well to the edge of the pan.",
+              "Bake at 450° F for 10 to 15 minutes, until light brown.",
+              "Remove from oven and put pizza sauce on crust. Use whatever quantity you prefer and spread it with a spoon.",
+              "Add cut up toppings in quantities desired.",
+              "Put back in oven and bake another 15 minutes. Remove and cover with grated or sliced Mozzarella cheese.",
+              "Bake another 5 minutes or until cheese is melted and bubbly."
+            ]
+          },
+          "improved_recipe": {
+            "name": "Family Pan Pizza (Carle Version)",
+            "category": "Main Dishes",
+            "servings": "4–6 servings",
+            "ingredients": [
+              {
+                "item": "Pizza crust mix",
+                "quantity": "1 package (about 6.5 oz / 185 g)",
+                "notes": "or equivalent homemade dough for one 12–14 inch pan",
+                "metric": { "quantity": 185, "unit": "g" }
+              },
+              {
+                "item": "Nonstick vegetable cooking spray",
+                "quantity": "as needed",
+                "metric": null
+              },
+              {
+                "item": "Cornmeal",
+                "quantity": "1–2 tablespoons for pan",
+                "metric": { "min": 10, "max": 20, "unit": "g" }
+              },
+              {
+                "item": "Pizza sauce",
+                "quantity": "1–1 1/2 cups",
+                "notes": "such as Ragu Pizza natural sauce",
+                "metric": { "min": 240, "max": 360, "unit": "ml" }
+              },
+              {
+                "item": "Onion",
+                "quantity": "1 small, thinly sliced",
+                "metric": { "quantity": 80, "unit": "g" }
+              },
+              {
+                "item": "Black olives",
+                "quantity": "1/4–1/3 cup, quartered",
+                "metric": { "min": 30, "max": 40, "unit": "g" }
+              },
+              {
+                "item": "Canned mushrooms",
+                "quantity": "1 can (4 oz), drained",
+                "metric": { "quantity": 113, "unit": "g" }
+              },
+              {
+                "item": "Bell pepper",
+                "quantity": "1 small, sliced",
+                "metric": { "quantity": 80, "unit": "g" }
+              },
+              {
+                "item": "Ham or turkey ham",
+                "quantity": "1/2–1 cup, cut in strips",
+                "metric": { "min": 75, "max": 150, "unit": "g" }
+              },
+              {
+                "item": "Mozzarella cheese",
+                "quantity": "2–3 cups, grated or sliced",
+                "metric": { "min": 200, "max": 300, "unit": "g" }
+              }
+            ],
+            "instructions": [
+              "Preheat oven to 450°F (230°C). Prepare the pizza crust dough according to package or recipe directions.",
+              "Spray a round or rectangular pizza pan with nonstick cooking spray and sprinkle with 1–2 tablespoons (10–20 g) cornmeal.",
+              "Place the dough in the center of the pan. With damp fingertips, gently press and stretch the dough out to the edges, keeping the thickness even.",
+              "Par-bake the crust for 8–10 minutes, until just set and lightly golden at the edges.",
+              "Remove from the oven and spread 1–1 1/2 cups (240–360 ml) pizza sauce over the crust, leaving a small border.",
+              "Distribute sliced onion, olives, mushrooms, bell pepper, and ham or turkey ham evenly over the sauce.",
+              "Return the pizza to the oven and bake for 10–15 minutes, until the toppings are hot and the crust is golden.",
+              "Remove from the oven, top generously with grated or sliced Mozzarella cheese, and bake 5–8 minutes more, until the cheese is melted and bubbly.",
+              "Cool a few minutes, then cut into wedges or squares and serve."
+            ]
+          }
+        },
+
+        {
+          "original_recipe": {
+            "name": "Fettuccine Primavera",
+            "source": null,
+            "category": "Main Dishes",
+            "servings": "6 servings",
+            "ingredients": [
+              {
+                "item": "Cooked smoked turkey breast",
+                "quantity": "1 cup, cubed",
+                "metric": { "quantity": 140, "unit": "g" }
+              },
+              {
+                "item": "Broccoli florets",
+                "quantity": "1 cup",
+                "metric": { "quantity": 90, "unit": "g" }
+              },
+              {
+                "item": "Carrot slices",
+                "quantity": "1 cup",
+                "metric": { "quantity": 120, "unit": "g" }
+              },
+              {
+                "item": "Light neufchatel cheese",
+                "quantity": "1 package (8 oz), cubed",
+                "metric": { "quantity": 226, "unit": "g" }
+              },
+              {
+                "item": "Grated Parmesan cheese",
+                "quantity": "1/2 cup (about 2 oz)",
+                "metric": { "quantity": 60, "unit": "g" }
+              },
+              {
+                "item": "Fettuccine",
+                "quantity": "8 oz, uncooked",
+                "metric": { "quantity": 225, "unit": "g" }
+              },
+              {
+                "item": "Skim milk",
+                "quantity": "1 3/4 cups",
+                "metric": { "quantity": 420, "unit": "ml" }
+              },
+              {
+                "item": "Green onion",
+                "quantity": "1/2 cup, chopped",
+                "metric": { "quantity": 50, "unit": "g" }
+              },
+              {
+                "item": "Italian seasoning",
+                "quantity": "1/2 teaspoon",
+                "metric": { "quantity": 1, "unit": "g" }
+              },
+              {
+                "item": "Garlic powder",
+                "quantity": "1/4 teaspoon",
+                "metric": { "quantity": 0.5, "unit": "g" }
+              }
+            ],
+            "instructions": [
+              "Cook pasta as directed on package, adding broccoli and carrots during last 5 minutes of cooking.",
+              "Stir together milk, neufchatel cheese, onions and seasoning in medium saucepan over low heat until smooth.",
+              "Stir in turkey and Parmesan cheese.",
+              "Toss pasta and vegetables with sauce. Serve immediately. Makes six servings. Preparation time is 25 minutes."
+            ]
+          },
+          "improved_recipe": {
+            "name": "Fettuccine Primavera with Smoked Turkey",
+            "category": "Main Dishes",
+            "servings": "6 servings",
+            "ingredients": [
+              {
+                "item": "Fettuccine",
+                "quantity": "8 oz, uncooked",
+                "metric": { "quantity": 225, "unit": "g" }
+              },
+              {
+                "item": "Broccoli florets",
+                "quantity": "1 cup",
+                "metric": { "quantity": 90, "unit": "g" }
+              },
+              {
+                "item": "Carrot slices",
+                "quantity": "1 cup",
+                "metric": { "quantity": 120, "unit": "g" }
+              },
+              {
+                "item": "Skim milk",
+                "quantity": "1 3/4 cups",
+                "metric": { "quantity": 420, "unit": "ml" }
+              },
+              {
+                "item": "Light neufchatel cheese",
+                "quantity": "1 package (8 oz), cubed",
+                "metric": { "quantity": 226, "unit": "g" }
+              },
+              {
+                "item": "Green onion",
+                "quantity": "1/2 cup, chopped",
+                "metric": { "quantity": 50, "unit": "g" }
+              },
+              {
+                "item": "Italian seasoning",
+                "quantity": "1/2 teaspoon",
+                "metric": { "quantity": 1, "unit": "g" }
+              },
+              {
+                "item": "Garlic powder",
+                "quantity": "1/4 teaspoon",
+                "metric": { "quantity": 0.5, "unit": "g" }
+              },
+              {
+                "item": "Cooked smoked turkey breast",
+                "quantity": "1 cup, cubed",
+                "metric": { "quantity": 140, "unit": "g" }
+              },
+              {
+                "item": "Grated Parmesan cheese",
+                "quantity": "1/2 cup",
+                "metric": { "quantity": 60, "unit": "g" }
+              }
+            ],
+            "instructions": [
+              "Bring a large pot of salted water to a boil. Add fettuccine and cook according to package directions.",
+              "During the last 5 minutes of pasta cooking time, add the broccoli florets and carrot slices to the boiling water with the pasta.",
+              "While the pasta cooks, combine the milk, neufchatel cheese, green onion, Italian seasoning, and garlic powder in a medium saucepan.",
+              "Cook over low heat, stirring frequently, until the cheese is fully melted and the sauce is smooth and slightly thickened.",
+              "Stir the smoked turkey and Parmesan cheese into the sauce and heat gently until warmed through. Do not boil.",
+              "Drain the pasta and vegetables well and return them to the pot or a large serving bowl.",
+              "Pour the hot sauce over the pasta and vegetables and toss gently to coat.",
+              "Serve immediately, with extra Parmesan at the table if desired."
+            ]
+          }
+        },
+
+        {
+          "original_recipe": {
+            "name": "Jumbo Shells No. 1 - Spinach-Ricotta Filling",
+            "source": null,
+            "category": "Main Dishes",
+            "servings": "20 shells",
+            "ingredients": [
+              {
+                "item": "Fresh spinach",
+                "quantity": "1 lb.",
+                "metric": { "quantity": 454, "unit": "g" }
+              },
+              {
+                "item": "Onion",
+                "quantity": "1 tablespoon, chopped",
+                "metric": { "quantity": 10, "unit": "g" }
+              },
+              {
+                "item": "Margarine",
+                "quantity": "1 tablespoon",
+                "metric": { "quantity": 14, "unit": "g" }
+              },
+              {
+                "item": "Egg",
+                "quantity": "1, beaten (or egg substitute)",
+                "metric": { "quantity": 50, "unit": "g" }
+              },
+              {
+                "item": "Ricotta cheese",
+                "quantity": "2/3 cup",
+                "metric": { "quantity": 160, "unit": "g" }
+              },
+              {
+                "item": "Grated Parmesan cheese",
+                "quantity": "1/2 cup",
+                "metric": { "quantity": 60, "unit": "g" }
+              },
+              {
+                "item": "Ground nutmeg",
+                "quantity": "1/8 teaspoon",
+                "metric": { "quantity": 0.25, "unit": "g" }
+              },
+              {
+                "item": "Tomato sauce",
+                "quantity": "1 recipe",
+                "metric": null
+              }
+            ],
+            "instructions": [
+              "In a large saucepan combine the fresh spinach with a small amount of water. Cook, covered, until wilted and tender. Squeeze the spinach to remove excess moisture. Chop spinach.",
+              "In a skillet cook onion in margarine till tender but not brown. Add spinach; heat through.",
+              "Combine egg, ricotta, Parmesan, nutmeg and spinach mixture.",
+              "Pour half of the sauce in a baking dish. Stuff (20) shells with filling, arrange in dish and top with remaining sauce.",
+              "Bake in 350° oven 30 minutes.",
+              "FOR TOMATO SAUCE SEE RECIPE THIS SECTION AND/OR ON BACK OF THIS RECIPE."
+            ]
+          },
+          "improved_recipe": {
+            "name": "Jumbo Shells with Spinach-Ricotta Filling",
+            "category": "Main Dishes",
+            "servings": "About 4–6 servings (20 shells)",
+            "ingredients": [
+              {
+                "item": "Jumbo pasta shells",
+                "quantity": "20 shells, cooked al dente",
+                "metric": null
+              },
+              {
+                "item": "Fresh spinach",
+                "quantity": "1 lb.",
+                "metric": { "quantity": 454, "unit": "g" }
+              },
+              {
+                "item": "Onion",
+                "quantity": "1 tablespoon, finely chopped",
+                "metric": { "quantity": 10, "unit": "g" }
+              },
+              {
+                "item": "Margarine or butter",
+                "quantity": "1 tablespoon",
+                "metric": { "quantity": 14, "unit": "g" }
+              },
+              {
+                "item": "Egg",
+                "quantity": "1, beaten (or egg substitute)",
+                "metric": { "quantity": 50, "unit": "g" }
+              },
+              {
+                "item": "Ricotta cheese",
+                "quantity": "2/3 cup",
+                "metric": { "quantity": 160, "unit": "g" }
+              },
+              {
+                "item": "Grated Parmesan cheese",
+                "quantity": "1/2 cup",
+                "metric": { "quantity": 60, "unit": "g" }
+              },
+              {
+                "item": "Ground nutmeg",
+                "quantity": "1/8 teaspoon",
+                "metric": { "quantity": 0.25, "unit": "g" }
+              },
+              {
+                "item": "Tomato sauce",
+                "quantity": "3–4 cups",
+                "notes": "use family tomato sauce recipe from this cookbook",
+                "metric": { "min": 720, "max": 960, "unit": "ml" }
+              }
+            ],
+            "instructions": [
+              "Cook the jumbo pasta shells in plenty of salted boiling water according to package directions until just al dente. Drain, rinse briefly with cool water, and set aside to dry on a towel-lined tray.",
+              "Meanwhile, place the fresh spinach in a large saucepan with just the water clinging to the leaves. Cover and cook over medium heat, stirring once or twice, until wilted and tender.",
+              "Drain the spinach in a colander and, when cool enough to handle, squeeze out as much moisture as possible. Chop finely.",
+              "In a small skillet, melt the margarine or butter over medium heat. Add the chopped onion and cook until tender but not browned. Stir in the chopped spinach and heat through. Let cool slightly.",
+              "In a mixing bowl, combine the beaten egg, ricotta, Parmesan, nutmeg, and the spinach-onion mixture. Stir until evenly blended and season lightly with salt and pepper if desired.",
+              "Lightly oil or spray a baking dish large enough to hold the stuffed shells in a single layer. Spread about half of the tomato sauce over the bottom of the dish.",
+              "Using a spoon, fill each shell with a generous amount of the spinach-ricotta mixture and arrange the shells in the baking dish in a single layer.",
+              "Spoon the remaining tomato sauce over the shells, covering them well so they do not dry out.",
+              "Cover the dish with foil and bake at 350°F (175°C) for about 30 minutes, until the filling is hot and the sauce is bubbling.",
+              "Let stand 5–10 minutes before serving. Serve with extra Parmesan at the table."
+            ]
+          }
+        },
+
+        {
+          "original_recipe": {
+            "name": "Jumbo Shells No. 2 - Meat Filling",
+            "source": null,
+            "category": "Main Dishes",
+            "servings": "20 shells",
+            "ingredients": [
+              {
+                "item": "Ground beef or chicken",
+                "quantity": "1 lb.",
+                "metric": { "quantity": 454, "unit": "g" }
+              },
+              {
+                "item": "Egg",
+                "quantity": "1, beaten (or egg substitute)",
+                "metric": { "quantity": 50, "unit": "g" }
+              },
+              {
+                "item": "Grated Parmesan cheese",
+                "quantity": "1/4 cup",
+                "metric": { "quantity": 30, "unit": "g" }
+              },
+              {
+                "item": "Chopped parsley",
+                "quantity": "1 tablespoon",
+                "metric": { "quantity": 4, "unit": "g" }
+              },
+              {
+                "item": "Salt and pepper",
+                "quantity": "to taste",
+                "metric": null
+              },
+              {
+                "item": "Tomato sauce",
+                "quantity": "1 recipe",
+                "metric": null
+              },
+              {
+                "item": "Seasoned bread crumbs",
+                "quantity": "1/4 cup (DaVinci seasoned bread crumbs)",
+                "metric": { "quantity": 30, "unit": "g" }
+              }
+            ],
+            "instructions": [
+              "Saute chopped meat in olive oil until brown. Mix with egg, or egg substitute, cheese, bread crumbs, parsley, salt and pepper.",
+              "Pour half of the sauce in a baking dish. Stuff (20) shells with filling, arrange in dish and top with remaining sauce.",
+              "Bake in 350° oven 30 minutes.",
+              "FOR TOMATO SAUCE SEE RECIPE THIS SECTION AND/OR ON BACK OF THIS RECIPE."
+            ]
+          },
+          "improved_recipe": {
+            "name": "Jumbo Shells with Meat Filling",
+            "category": "Main Dishes",
+            "servings": "About 4–6 servings (20 shells)",
+            "ingredients": [
+              {
+                "item": "Jumbo pasta shells",
+                "quantity": "20 shells, cooked al dente",
+                "metric": null
+              },
+              {
+                "item": "Olive oil",
+                "quantity": "1 tablespoon",
+                "metric": { "quantity": 15, "unit": "ml" }
+              },
+              {
+                "item": "Ground beef or chicken",
+                "quantity": "1 lb.",
+                "metric": { "quantity": 454, "unit": "g" }
+              },
+              {
+                "item": "Egg",
+                "quantity": "1, beaten (or egg substitute)",
+                "metric": { "quantity": 50, "unit": "g" }
+              },
+              {
+                "item": "Grated Parmesan cheese",
+                "quantity": "1/4 cup",
+                "metric": { "quantity": 30, "unit": "g" }
+              },
+              {
+                "item": "Chopped parsley",
+                "quantity": "1 tablespoon",
+                "metric": { "quantity": 4, "unit": "g" }
+              },
+              {
+                "item": "Seasoned bread crumbs",
+                "quantity": "1/4 cup",
+                "metric": { "quantity": 30, "unit": "g" }
+              },
+              {
+                "item": "Salt and pepper",
+                "quantity": "to taste",
+                "metric": null
+              },
+              {
+                "item": "Tomato sauce",
+                "quantity": "3–4 cups",
+                "notes": "use family tomato sauce recipe from this cookbook",
+                "metric": { "min": 720, "max": 960, "unit": "ml" }
+              }
+            ],
+            "instructions": [
+              "Cook the jumbo pasta shells in salted boiling water until just al dente. Drain, rinse briefly with cool water, and set aside on a towel-lined tray.",
+              "Heat the olive oil in a skillet over medium heat. Add the ground beef or chicken and cook, breaking it up with a spoon, until browned and cooked through. Drain off any excess fat.",
+              "Transfer the cooked meat to a mixing bowl. Stir in the beaten egg, Parmesan cheese, chopped parsley, seasoned bread crumbs, and a little salt and pepper. Mix until evenly combined.",
+              "Lightly oil or spray a baking dish large enough to hold the shells in a single layer. Spread about half of the tomato sauce over the bottom.",
+              "Fill each shell with a generous spoonful of the meat mixture and arrange the shells in the baking dish in a single layer.",
+              "Pour the remaining tomato sauce evenly over the stuffed shells.",
+              "Cover with foil and bake at 350°F (175°C) for about 30 minutes, until heated through and bubbling.",
+              "Let rest 5–10 minutes before serving. Serve with extra Parmesan and a green salad."
+            ]
+          }
+        },
+
+        {
+          "original_recipe": {
+            "name": "Spaghetti Portofino (Serves One)",
+            "source": "Ed & Mary Carle (from Cozumel, Mexico)",
+            "category": "Main Dishes",
+            "servings": "1 serving",
+            "ingredients": [
+              {
+                "item": "Fresh garlic in oil",
+                "quantity": "2 tablespoons, minced",
+                "metric": { "quantity": 18, "unit": "g" }
+              },
+              {
+                "item": "Butter",
+                "quantity": "2 pats",
+                "metric": { "quantity": 20, "unit": "g" }
+              },
+              {
+                "item": "Red snapper or halibut fillets",
+                "quantity": "small handful, cut in small strips",
+                "metric": null
+              },
+              {
+                "item": "Brandy",
+                "quantity": "1/2 oz",
+                "metric": { "quantity": 15, "unit": "ml" }
+              },
+              {
+                "item": "Fresh mussels",
+                "quantity": "1/2 cup",
+                "notes": "if not available, use same quantity of fish",
+                "metric": { "quantity": 60, "unit": "g" }
+              },
+              {
+                "item": "Worcestershire sauce",
+                "quantity": "1 tablespoon",
+                "metric": { "quantity": 15, "unit": "ml" }
+              },
+              {
+                "item": "Soy sauce",
+                "quantity": "1/4 teaspoon",
+                "metric": { "quantity": 1.25, "unit": "ml" }
+              },
+              {
+                "item": "Dried oregano",
+                "quantity": "2 dashes",
+                "metric": null
+              },
+              {
+                "item": "Tabasco",
+                "quantity": "2 dashes",
+                "metric": null
+              },
+              {
+                "item": "Chunky tomato sauce",
+                "quantity": "1/2 cup",
+                "metric": { "quantity": 120, "unit": "ml" }
+              },
+              {
+                "item": "Catsup",
+                "quantity": "4 tablespoons",
+                "metric": { "quantity": 60, "unit": "ml" }
+              },
+              {
+                "item": "Parsley",
+                "quantity": "2 teaspoons",
+                "metric": { "quantity": 2, "unit": "g" }
+              },
+              {
+                "item": "White wine",
+                "quantity": "2 jiggers",
+                "metric": { "quantity": 90, "unit": "ml" }
+              },
+              {
+                "item": "Spaghetti, cooked",
+                "quantity": "1 oz",
+                "metric": { "quantity": 28, "unit": "g" }
+              }
+            ],
+            "instructions": [
+              "Combine ingredients in order listed, prepared at the table:",
+              "Warm garlic in oil and margarine in skillet over medium flame (do not brown). Add fish and saute briefly, then add brandy and carefully ignite. When flame goes out add mussels and rest of the ingredients.",
+              "Add spaghetti, simmer one to two minutes. Serve with salad and French bread."
+            ]
+          },
+          "improved_recipe": {
+            "name": "Spaghetti Portofino (For One)",
+            "category": "Main Dishes",
+            "servings": "1 generous serving",
+            "ingredients": [
+              {
+                "item": "Spaghetti, cooked",
+                "quantity": "1 oz dry equivalent, cooked",
+                "metric": { "quantity": 28, "unit": "g" }
+              },
+              {
+                "item": "Olive oil with minced garlic",
+                "quantity": "2 tablespoons",
+                "metric": { "quantity": 30, "unit": "ml" }
+              },
+              {
+                "item": "Butter",
+                "quantity": "2 pats (about 2 tablespoons)",
+                "metric": { "quantity": 28, "unit": "g" }
+              },
+              {
+                "item": "Red snapper or halibut",
+                "quantity": "about 3–4 oz, cut in strips",
+                "metric": { "quantity": 90, "unit": "g" }
+              },
+              {
+                "item": "Brandy",
+                "quantity": "1/2 oz",
+                "metric": { "quantity": 15, "unit": "ml" }
+              },
+              {
+                "item": "Fresh mussels",
+                "quantity": "1/2 cup",
+                "notes": "or use additional fish if mussels are not available",
+                "metric": { "quantity": 60, "unit": "g" }
+              },
+              {
+                "item": "Worcestershire sauce",
+                "quantity": "1 tablespoon",
+                "metric": { "quantity": 15, "unit": "ml" }
+              },
+              {
+                "item": "Soy sauce",
+                "quantity": "1/4 teaspoon",
+                "metric": { "quantity": 1.25, "unit": "ml" }
+              },
+              {
+                "item": "Dried oregano",
+                "quantity": "2 dashes",
+                "metric": null
+              },
+              {
+                "item": "Tabasco",
+                "quantity": "2 dashes",
+                "metric": null
+              },
+              {
+                "item": "Chunky tomato sauce",
+                "quantity": "1/2 cup",
+                "metric": { "quantity": 120, "unit": "ml" }
+              },
+              {
+                "item": "Catsup",
+                "quantity": "4 tablespoons",
+                "metric": { "quantity": 60, "unit": "ml" }
+              },
+              {
+                "item": "Parsley",
+                "quantity": "2 teaspoons, chopped",
+                "metric": { "quantity": 2, "unit": "g" }
+              },
+              {
+                "item": "White wine",
+                "quantity": "2 jiggers",
+                "metric": { "quantity": 90, "unit": "ml" }
+              }
+            ],
+            "instructions": [
+              "Have the cooked spaghetti hot and ready to add to the sauce.",
+              "In a medium skillet over medium heat, warm the garlic in the olive oil and melt the butter. Do not let the garlic brown.",
+              "Add the strips of fish and saute for 1–2 minutes until just opaque on the outside.",
+              "Carefully add the brandy and, if desired, ignite with a long match, letting the alcohol flame off. When the flame goes out, add the mussels.",
+              "Stir in Worcestershire sauce, soy sauce, oregano, Tabasco, chunky tomato sauce, catsup, parsley, and white wine. Bring just to a simmer.",
+              "Add the cooked spaghetti to the skillet and toss in the sauce for 1–2 minutes until well coated and heated through.",
+              "Serve immediately with salad and French bread."
+            ]
+          }
+        },
+
+        {
+          "original_recipe": {
+            "name": "Spaghetti Portofino (Serves Six)",
+            "source": null,
+            "category": "Main Dishes",
+            "servings": "6 servings",
+            "ingredients": [
+              {
+                "item": "Fresh garlic in oil",
+                "quantity": "8 large cloves, minced",
+                "metric": { "quantity": 24, "unit": "g" }
+              },
+              {
+                "item": "Olive oil",
+                "quantity": "3 tablespoons",
+                "metric": { "quantity": 45, "unit": "ml" }
+              },
+              {
+                "item": "Margarine",
+                "quantity": "2 tablespoons, melted",
+                "metric": { "quantity": 28, "unit": "g" }
+              },
+              {
+                "item": "Red snapper or halibut",
+                "quantity": "1 1/2 pounds, cut in small strips",
+                "metric": { "quantity": 680, "unit": "g" }
+              },
+              {
+                "item": "Brandy",
+                "quantity": "1/2 cup",
+                "notes": "such as Napoleon French brandy",
+                "metric": { "quantity": 120, "unit": "ml" }
+              },
+              {
+                "item": "Worcestershire sauce",
+                "quantity": "3 tablespoons",
+                "metric": { "quantity": 45, "unit": "ml" }
+              },
+              {
+                "item": "Soy sauce",
+                "quantity": "2 tablespoons",
+                "metric": { "quantity": 30, "unit": "ml" }
+              },
+              {
+                "item": "Fresh basil",
+                "quantity": "2 tablespoons, chopped",
+                "metric": { "quantity": 8, "unit": "g" }
+              },
+              {
+                "item": "Tabasco",
+                "quantity": "1 teaspoon",
+                "metric": { "quantity": 5, "unit": "ml" }
+              },
+              {
+                "item": "Chunky tomato sauce",
+                "quantity": "2 cups",
+                "metric": { "quantity": 480, "unit": "ml" }
+              },
+              {
+                "item": "Catsup",
+                "quantity": "1/2 cup",
+                "metric": { "quantity": 120, "unit": "ml" }
+              },
+              {
+                "item": "Parsley",
+                "quantity": "2 tablespoons, chopped",
+                "metric": { "quantity": 8, "unit": "g" }
+              },
+              {
+                "item": "White wine",
+                "quantity": "1/2 cup",
+                "metric": { "quantity": 120, "unit": "ml" }
+              },
+              {
+                "item": "Spaghetti, cooked",
+                "quantity": "17 oz",
+                "metric": { "quantity": 480, "unit": "g" }
+              }
+            ],
+            "instructions": [
+              "Combine ingredients in order listed.",
+              "Warm garlic in olive oil and margarine in wok (medium heat).",
+              "Add fish and saute about three minutes. Add brandy and rest of ingredients. Add spaghetti and bring to a simmer.",
+              "Serve with salad and French bread."
+            ]
+          },
+          "improved_recipe": {
+            "name": "Spaghetti Portofino (Serves Six)",
+            "category": "Main Dishes",
+            "servings": "6 servings",
+            "ingredients": [
+              {
+                "item": "Spaghetti, cooked",
+                "quantity": "17 oz",
+                "metric": { "quantity": 480, "unit": "g" }
+              },
+              {
+                "item": "Olive oil",
+                "quantity": "3 tablespoons",
+                "metric": { "quantity": 45, "unit": "ml" }
+              },
+              {
+                "item": "Butter or margarine",
+                "quantity": "2 tablespoons",
+                "metric": { "quantity": 28, "unit": "g" }
+              },
+              {
+                "item": "Fresh garlic",
+                "quantity": "8 large cloves, minced",
+                "metric": { "quantity": 24, "unit": "g" }
+              },
+              {
+                "item": "Red snapper or halibut",
+                "quantity": "1 1/2 pounds, cut in strips",
+                "metric": { "quantity": 680, "unit": "g" }
+              },
+              {
+                "item": "Brandy",
+                "quantity": "1/2 cup",
+                "metric": { "quantity": 120, "unit": "ml" }
+              },
+              {
+                "item": "Worcestershire sauce",
+                "quantity": "3 tablespoons",
+                "metric": { "quantity": 45, "unit": "ml" }
+              },
+              {
+                "item": "Soy sauce",
+                "quantity": "2 tablespoons",
+                "metric": { "quantity": 30, "unit": "ml" }
+              },
+              {
+                "item": "Fresh basil",
+                "quantity": "2 tablespoons, chopped",
+                "metric": { "quantity": 8, "unit": "g" }
+              },
+              {
+                "item": "Tabasco",
+                "quantity": "1 teaspoon",
+                "metric": { "quantity": 5, "unit": "ml" }
+              },
+              {
+                "item": "Chunky tomato sauce",
+                "quantity": "2 cups",
+                "metric": { "quantity": 480, "unit": "ml" }
+              },
+              {
+                "item": "Catsup",
+                "quantity": "1/2 cup",
+                "metric": { "quantity": 120, "unit": "ml" }
+              },
+              {
+                "item": "Parsley",
+                "quantity": "2 tablespoons, chopped",
+                "metric": { "quantity": 8, "unit": "g" }
+              },
+              {
+                "item": "White wine",
+                "quantity": "1/2 cup",
+                "metric": { "quantity": 120, "unit": "ml" }
+              }
+            ],
+            "instructions": [
+              "Have the spaghetti cooked and kept warm.",
+              "In a large wok or deep skillet, heat the olive oil and melt the butter or margarine over medium heat.",
+              "Add the minced garlic and cook gently for 1–2 minutes, without browning.",
+              "Add the strips of fish and saute about 3 minutes, just until opaque on the outside.",
+              "Stir in the brandy and allow it to simmer for a minute; if desired, carefully ignite and let the flame burn off.",
+              "Add Worcestershire sauce, soy sauce, fresh basil, Tabasco, chunky tomato sauce, catsup, parsley, and white wine. Bring the sauce to a gentle simmer.",
+              "Add the cooked spaghetti to the pan and toss in the sauce until heated through and well coated.",
+              "Serve immediately in warm bowls with salad and French bread."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Side Dishes",
+      "recipes": [
+        {
+          "original_recipe": {
+            "name": "Royal Rice",
+            "source": null,
+            "category": "Side Dishes",
+            "servings": "6 servings",
+            "ingredients": [
+              {
+                "item": "Green onions (including tops)",
+                "quantity": "1/2 cup, finely chopped",
+                "metric": { "quantity": 50, "unit": "g" }
+              },
+              {
+                "item": "Margarine",
+                "quantity": "2 tablespoons",
+                "metric": { "quantity": 28, "unit": "g" }
+              },
+              {
+                "item": "Cooked rice",
+                "quantity": "3 cups CHEFWAY CONDITIONED rice cooked in chicken or beef broth",
+                "metric": { "quantity": 450, "unit": "g" }
+              },
+              {
+                "item": "Sliced mushrooms, canned",
+                "quantity": "1 can (4 ounces), drained",
+                "metric": { "quantity": 113, "unit": "g" }
+              },
+              {
+                "item": "Salt",
+                "quantity": "1 teaspoon",
+                "metric": { "quantity": 6, "unit": "g" }
+              }
+            ],
+            "instructions": [
+              "Saute onions in margarine until tender.",
+              "Add rice, mushrooms and salt.",
+              "Heat thoroughly.",
+              "Fluff lightly with a fork. Makes six servings."
+            ]
+          },
+          "improved_recipe": {
+            "name": "Royal Rice Pilaf",
+            "category": "Side Dishes",
+            "servings": "6 servings",
+            "ingredients": [
+              {
+                "item": "Cooked long-grain rice",
+                "quantity": "3 cups, lightly packed",
+                "notes": "cooked in chicken or beef broth",
+                "metric": { "quantity": 450, "unit": "g" }
+              },
+              {
+                "item": "Green onions (including tops)",
+                "quantity": "1/2 cup, finely chopped",
+                "metric": { "quantity": 50, "unit": "g" }
+              },
+              {
+                "item": "Margarine or butter",
+                "quantity": "2 tablespoons",
+                "metric": { "quantity": 28, "unit": "g" }
+              },
+              {
+                "item": "Sliced mushrooms, canned",
+                "quantity": "1 can (4 ounces), drained",
+                "metric": { "quantity": 113, "unit": "g" }
+              },
+              {
+                "item": "Salt",
+                "quantity": "1 teaspoon, or to taste",
+                "metric": { "quantity": 6, "unit": "g" }
+              },
+              {
+                "item": "Black pepper",
+                "quantity": "1/4 teaspoon, or to taste",
+                "metric": { "quantity": 0.5, "unit": "g" }
+              }
+            ],
+            "instructions": [
+              "Prepare the rice ahead of time in chicken or beef broth so it is cooked, fluffy, and still warm or at room temperature.",
+              "In a large skillet, melt the margarine or butter over medium heat.",
+              "Add the chopped green onions and saute 3–4 minutes until tender but not browned.",
+              "Stir in the drained mushrooms and cook 1–2 minutes more.",
+              "Add the cooked rice, breaking up any clumps with a fork or spatula. Sprinkle with salt and black pepper.",
+              "Toss gently over medium heat until the rice is hot throughout and evenly coated with the butter and vegetables.",
+              "Taste and adjust seasoning with additional salt or pepper, if needed.",
+              "Fluff with a fork and serve hot as a side dish with roasted or grilled meats or fish."
+            ]
+          }
+        },
+        {
+          "original_recipe": {
+            "name": "Hush Puppies",
+            "source": null,
+            "category": "Side Dishes",
+            "servings": null,
+            "ingredients": [
+              {
+                "item": "Water",
+                "quantity": "2 cups",
+                "metric": { "quantity": 480, "unit": "ml" }
+              },
+              {
+                "item": "Cornmeal",
+                "quantity": "1 cup",
+                "metric": { "quantity": 150, "unit": "g" }
+              },
+              {
+                "item": "Salt",
+                "quantity": "1 teaspoon",
+                "metric": { "quantity": 6, "unit": "g" }
+              },
+              {
+                "item": "Egg",
+                "quantity": "1 (or egg substitute)",
+                "metric": { "quantity": 50, "unit": "g" }
+              },
+              {
+                "item": "Garlic or onion (optional)",
+                "quantity": "As desired",
+                "metric": null
+              }
+            ],
+            "instructions": [
+              "Heat water until it boils. Add any garlic or onion at this time.",
+              "Add cornmeal slowly into the boiling water as you stir the mixture.",
+              "Keep stirring and cooking until the mixture thickens.",
+              "Remove from heat and add the egg (not necessary to beat the egg) or egg substitute. Stir until well mixed.",
+              "Let stand until cool enough to handle.",
+              "Take a spoonful at a time between your hands (moisten hands slightly with water and hush puppies will not stick to them) and shape into a finger-size roll.",
+              "Place on a cookie sheet and cover with wax paper.",
+              "Let set at least one hour until you fry them in the fat that the fish was fried in.",
+              "Fry until golden brown and crispy on the outside."
+            ]
+          },
+          "improved_recipe": {
+            "name": "Traditional Hush Puppies",
+            "category": "Side Dishes",
+            "servings": "About 20–24 hush puppies",
+            "ingredients": [
+              {
+                "item": "Water",
+                "quantity": "2 cups",
+                "metric": { "quantity": 480, "unit": "ml" }
+              },
+              {
+                "item": "Fine or medium-grain cornmeal",
+                "quantity": "1 cup, leveled",
+                "metric": { "quantity": 150, "unit": "g" }
+              },
+              {
+                "item": "Salt",
+                "quantity": "1 teaspoon",
+                "metric": { "quantity": 6, "unit": "g" }
+              },
+              {
+                "item": "Egg",
+                "quantity": "1 large",
+                "metric": { "quantity": 50, "unit": "g" }
+              },
+              {
+                "item": "Onion, very finely minced",
+                "quantity": "2–3 tablespoons (optional)",
+                "metric": { "min": 20, "max": 30, "unit": "g" }
+              },
+              {
+                "item": "Garlic, finely minced",
+                "quantity": "1 clove (optional)",
+                "metric": { "quantity": 3, "unit": "g" }
+              },
+              {
+                "item": "Oil or fat for frying",
+                "quantity": "As needed for deep or shallow frying",
+                "metric": null
+              }
+            ],
+            "instructions": [
+              "In a medium saucepan, bring the water to a full boil over medium-high heat.",
+              "If using onion and/or garlic, stir them into the boiling water and cook 1 minute to soften.",
+              "Reduce heat to low. While stirring constantly with a wooden spoon or whisk, slowly pour in the cornmeal in a thin stream to avoid lumps.",
+              "Cook, stirring continuously, until the mixture is thick and pulls away from the sides of the pan, 2–4 minutes.",
+              "Remove from heat. Stir in the salt, then add the egg and mix quickly until fully incorporated and the batter is smooth and thick.",
+              "Let the mixture stand until it is cool enough to handle and firm enough to shape, about 15–20 minutes.",
+              "With slightly damp hands, scoop about 1 tablespoon of dough at a time and roll into short logs or small balls, about finger size. Set formed hush puppies on a parchment-lined tray.",
+              "Heat frying oil or reserved fish-frying fat in a deep pot or skillet to 350–365°F (175–185°C).",
+              "Fry the hush puppies in batches without crowding, turning occasionally, until deep golden brown and crisp on the outside, 3–4 minutes.",
+              "Remove with a slotted spoon and drain on paper towels. Sprinkle lightly with extra salt while hot, if desired.",
+              "Serve warm alongside fried fish or other seafood."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Snacks",
+      "recipes": [
+        {
+          "original_recipe": {
+            "name": "Roasted Nuts",
+            "subtitle": null,
+            "source": "DeeDee Nofziger",
+            "category": "Snacks",
+            "servings": null,
+            "ingredients": [
+              {
+                "item": "Nuts",
+                "quantity": "4 cups",
+                "notes": "any nuts or mixed nuts",
+                "metric": {
+                  "quantity": 480,
+                  "unit": "g"
+                }
+              },
+              {
+                "item": "Margarine",
+                "quantity": "1/2 stick",
+                "notes": null,
+                "metric": {
+                  "quantity": 57,
+                  "unit": "g"
+                }
+              }
+            ],
+            "instructions": [
+              "Combine nuts and margarine.",
+              "Roast for 30 to 40 minutes at 250° F, checking every ten minutes."
+            ]
+          },
+          "improved_recipe": {
+            "name": "Oven-Roasted Nuts",
+            "category": "Snacks",
+            "servings": "About 8–10 snack servings",
+            "ingredients": [
+              {
+                "item": "Mixed nuts",
+                "quantity": "4 cups",
+                "notes": "unsalted, any combination of pecans, walnuts, almonds, cashews, etc.",
+                "metric": {
+                  "quantity": 480,
+                  "unit": "g"
+                }
+              },
+              {
+                "item": "Margarine or butter",
+                "quantity": "1/2 stick (1/4 cup)",
+                "notes": "melted",
+                "metric": {
+                  "quantity": 57,
+                  "unit": "g"
+                }
+              },
+              {
+                "item": "Salt",
+                "quantity": "1/2–3/4 teaspoon",
+                "notes": "optional, or to taste",
+                "metric": {
+                  "min": 3,
+                  "max": 4.5,
+                  "unit": "g"
+                }
+              }
+            ],
+            "instructions": [
+              "Preheat the oven to 250°F (120°C). Line a rimmed baking sheet with parchment paper for easier cleanup.",
+              "Place the nuts in a large bowl. Drizzle with the melted margarine or butter and sprinkle with salt if using.",
+              "Toss until all the nuts are evenly coated.",
+              "Spread the nuts in a single layer on the prepared baking sheet.",
+              "Bake for 30–40 minutes, stirring every 10 minutes, until the nuts are fragrant and lightly toasted. Watch carefully so they do not burn.",
+              "Remove from the oven and let cool completely on the pan; they will crisp as they cool.",
+              "Store in an airtight container at room temperature for up to 1–2 weeks."
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
