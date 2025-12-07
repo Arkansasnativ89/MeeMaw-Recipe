@@ -11,12 +11,15 @@ These recipes were compiled by Wilfred Carle on April 8, 1995. Many have been mo
 
 ## Features
 
-- 📖 **40 Family Recipes** organized by category
+- 📖 **112 Family Recipes** organized by category
 - 🔍 **Smart Search** - Search by name, ingredient, or category
 - 🏷️ **Category Filters** - Browse by Appetizers, Desserts, Main Dishes, Salads, Soups, and more
-- 📱 **Responsive Design** - Works on desktop, tablet, and mobile
-- 🖨️ **Print-Friendly** - Print individual recipes
-- ⚡ **Interactive** - Click any recipe card to view full details
+- 📱 **Responsive Design** - Works beautifully on desktop, tablet, and mobile
+- 🖨️ **Print-Friendly** - Print individual recipes with original cookbook pages
+- ⚡ **Interactive Modal** - Click any recipe card to view full details with batch size adjustment
+- 📏 **Batch Scaling** - Adjust recipe quantities (¼x, ½x, 1x, 2x, 3x)
+- 📷 **Family Memories** - Auto-scrolling carousel with 23 family photos
+- 📖 **Original Pages** - View scanned pages from the original cookbook
 
 ## Categories
 
@@ -42,10 +45,28 @@ These recipes were compiled by Wilfred Carle on April 8, 1995. Many have been mo
 ## Files
 
 - `index.html` - Main webpage
-- `styles.css` - Styling and layout
-- `script.js` - Interactive functionality
-- `recipes.json` - Structured recipe data (40 recipes)
+- `styles.css` - Styling and layout (Dark emerald theme)
+- `script.js` - Interactive functionality and batch scaling
+- `recipes.json` - Streamlined recipe data (112 recipes, 3,203 lines)
 - `README.md` - This file
+- `assets/` - 23 family photos for the memories carousel
+- `MeeMaw Recipe Book Image File/` - Scanned original cookbook pages
+- `archive/` - Development files, backups, and documentation
+- `scripts_archive/` - Historical recipe processing scripts
+
+## Project Organization
+
+### Active Files
+All production files are in the root directory for easy access and deployment.
+
+### Archive Folder
+The `archive/` folder contains:
+- **conversion_scripts/** - Python/PowerShell scripts used during development
+- **backups/** - Previous versions of recipes.json and script.js
+- **documentation/** - Development notes, templates, and the original cookbook text
+- **old_versions/** - Obsolete or experimental code files
+
+See `archive/README.md` for details about archived content.
 
 ## Recipe Highlights
 
