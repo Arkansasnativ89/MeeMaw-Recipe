@@ -2,7 +2,6 @@
 let recipes = [];
 let filteredRecipes = [];
 let recipeData = null; // Store full recipe data including both versions
-let viewMode = 'category'; // 'category' or 'index'
 
 // Load recipes from JSON file
 async function loadRecipes() {
@@ -16,20 +15,14 @@ async function loadRecipes() {
             // Flat array format (legacy)
             recipes = data;
         } else if (data.categories) {
-            // Category-based format with original/improved recipes
+            // Category-based format - simplified structure
             recipes = [];
             data.categories.forEach(category => {
-                category.recipes.forEach(recipeGroup => {
-                    // Store both versions if available
-                    const recipe = {
-                        ...(recipeGroup.improved_recipe || recipeGroup.original_recipe),
-                        id: recipes.length + 1,
-                        _original: recipeGroup.original_recipe,
-                        _improved: recipeGroup.improved_recipe,
-                        _hasOriginal: !!recipeGroup.original_recipe,
-                        _hasImproved: !!recipeGroup.improved_recipe
-                    };
-                    recipes.push(recipe);
+                category.recipes.forEach(recipe => {
+                    recipes.push({
+                        ...recipe,
+                        id: recipes.length + 1
+                    });
                 });
             });
         }
@@ -37,7 +30,7 @@ async function loadRecipes() {
         filteredRecipes = [...recipes];
         
         populateCategoryFilter();
-        displayCategoryView();
+        displayRecipes(filteredRecipes);
     } catch (error) {
         console.error('Error loading recipes:', error);
         document.getElementById('recipeGrid').innerHTML = 
@@ -92,135 +85,6 @@ function createRecipeCard(recipe) {
     `;
 
     return card;
-}
-
-// Display recipes in category view
-function displayCategoryView() {
-    const recipeGrid = document.getElementById('recipeGrid');
-    recipeGrid.innerHTML = '';
-    recipeGrid.className = 'category-view';
-    
-    // Group recipes by category
-    const categoryGroups = {};
-    filteredRecipes.forEach(recipe => {
-        if (!categoryGroups[recipe.category]) {
-            categoryGroups[recipe.category] = [];
-        }
-        categoryGroups[recipe.category].push(recipe);
-    });
-    
-    // Sort categories
-    const sortedCategories = Object.keys(categoryGroups).sort();
-    
-    sortedCategories.forEach(categoryName => {
-        const categorySection = document.createElement('div');
-        categorySection.className = 'category-section';
-        
-        const categoryHeader = document.createElement('div');
-        categoryHeader.className = 'category-header';
-        categoryHeader.innerHTML = `
-            <h2>${categoryName}</h2>
-            <span class="recipe-count">${categoryGroups[categoryName].length} recipes</span>
-        `;
-        
-        const recipeList = document.createElement('div');
-        recipeList.className = 'recipe-list';
-        
-        categoryGroups[categoryName].sort((a, b) => a.name.localeCompare(b.name)).forEach(recipe => {
-            const recipeLink = document.createElement('div');
-            recipeLink.className = 'recipe-link';
-            recipeLink.onclick = () => showRecipeDetail(recipe);
-            
-            const versionBadge = recipe._hasOriginal && recipe._hasImproved 
-                ? '<span class="version-badge">2 versions</span>' 
-                : '';
-            
-            recipeLink.innerHTML = `
-                <span class="recipe-name">${recipe.name}</span>
-                ${versionBadge}
-            `;
-            
-            recipeList.appendChild(recipeLink);
-        });
-        
-        categorySection.appendChild(categoryHeader);
-        categorySection.appendChild(recipeList);
-        recipeGrid.appendChild(categorySection);
-    });
-}
-
-// Display recipes in index (alphabetical) view
-function displayIndexView() {
-    const recipeGrid = document.getElementById('recipeGrid');
-    recipeGrid.innerHTML = '';
-    recipeGrid.className = 'index-view';
-    
-    // Group recipes by first letter
-    const letterGroups = {};
-    filteredRecipes.forEach(recipe => {
-        const firstLetter = recipe.name[0].toUpperCase();
-        if (!letterGroups[firstLetter]) {
-            letterGroups[firstLetter] = [];
-        }
-        letterGroups[firstLetter].push(recipe);
-    });
-    
-    // Sort letters
-    const sortedLetters = Object.keys(letterGroups).sort();
-    
-    sortedLetters.forEach(letter => {
-        const letterSection = document.createElement('div');
-        letterSection.className = 'letter-section';
-        
-        const letterHeader = document.createElement('div');
-        letterHeader.className = 'letter-header';
-        letterHeader.innerHTML = `<h2>${letter}</h2>`;
-        
-        const recipeList = document.createElement('div');
-        recipeList.className = 'recipe-list';
-        
-        letterGroups[letter].sort((a, b) => a.name.localeCompare(b.name)).forEach(recipe => {
-            const recipeLink = document.createElement('div');
-            recipeLink.className = 'recipe-link';
-            recipeLink.onclick = () => showRecipeDetail(recipe);
-            
-            const categoryTag = `<span class="category-tag">${recipe.category}</span>`;
-            const versionBadge = recipe._hasOriginal && recipe._hasImproved 
-                ? '<span class="version-badge">2 versions</span>' 
-                : '';
-            
-            recipeLink.innerHTML = `
-                <span class="recipe-name">${recipe.name}</span>
-                <div class="recipe-meta">
-                    ${categoryTag}
-                    ${versionBadge}
-                </div>
-            `;
-            
-            recipeList.appendChild(recipeLink);
-        });
-        
-        letterSection.appendChild(letterHeader);
-        letterSection.appendChild(recipeList);
-        recipeGrid.appendChild(letterSection);
-    });
-}
-
-// Toggle view mode
-function toggleViewMode(mode) {
-    viewMode = mode;
-    const categoryBtn = document.getElementById('categoryViewBtn');
-    const indexBtn = document.getElementById('indexViewBtn');
-    
-    if (mode === 'category') {
-        categoryBtn.classList.add('active');
-        indexBtn.classList.remove('active');
-        displayCategoryView();
-    } else {
-        indexBtn.classList.add('active');
-        categoryBtn.classList.remove('active');
-        displayIndexView();
-    }
 }
 
 // Fuzzy match recipe name to image filename
@@ -298,50 +162,26 @@ function showRecipeDetail(recipe) {
     const modal = document.getElementById('recipeModal');
     const detailDiv = document.getElementById('recipeDetail');
 
+    // Store current recipe globally for batch size adjustments
+    window.currentRecipe = recipe;
+    window.currentBatchMultiplier = 1;
+
     // Generate cookbook image filename using fuzzy matching
     const imageName = findBestImageMatch(recipe.name);
     const imagePath = `MeeMaw Recipe Book Image File/${imageName}`;
     
-    // Check if we have both versions
-    const hasOriginal = recipe._hasOriginal;
-    const hasImproved = recipe._hasImproved;
-    const hasBothVersions = hasOriginal && hasImproved;
-    
-    // Create tabs if both versions exist
-    let tabsHTML = '';
-    if (hasBothVersions) {
-        tabsHTML = `
-            <div class="recipe-tabs">
-                <button class="tab-button active" onclick="switchTab(event, 'original')">Original Recipe</button>
-                <button class="tab-button" onclick="switchTab(event, 'improved')">Alternate Recipe</button>
-            </div>
-        `;
-    }
-    
-    // Create image link and hidden print image
+    // Create image link
     const imageLink = `
         <div class="cookbook-image-link">
             <button onclick="showCookbookImage('${imagePath}')" class="view-original-btn">
                 📖 View Original Cookbook Page
             </button>
         </div>
-        <div class="cookbook-image-print" data-image-path="${imagePath}">
-            <h3>Original Cookbook Page</h3>
-            <img src="${imagePath}" alt="Original Cookbook Page">
-        </div>
     `;
     
     detailDiv.innerHTML = `
-        ${tabsHTML}
         ${imageLink}
-        <div id="original-tab" class="tab-content ${hasBothVersions ? 'active' : ''}">
-            ${formatRecipeContent(recipe._original || recipe, 'Original')}
-        </div>
-        ${hasBothVersions ? `
-        <div id="improved-tab" class="tab-content">
-            ${formatRecipeContent(recipe._improved, 'Alternate')}
-        </div>
-        ` : ''}
+        ${formatRecipeContent(recipe)}
     `;
 
     modal.style.display = 'block';
@@ -392,21 +232,7 @@ function closeImageModal(modal) {
     }, 300);
 }
 
-// Switch between tabs
-function switchTab(event, tabName) {
-    // Remove active class from all tabs and content
-    const tabs = document.querySelectorAll('.tab-button');
-    const contents = document.querySelectorAll('.tab-content');
-    
-    tabs.forEach(tab => tab.classList.remove('active'));
-    contents.forEach(content => content.classList.remove('active'));
-    
-    // Add active class to clicked tab and corresponding content
-    event.currentTarget.classList.add('active');
-    document.getElementById(`${tabName}-tab`).classList.add('active');
-}
-
-// Format recipe content (extracted from showRecipeDetail for reusability)
+// Format recipe content
 function formatRecipeContent(recipe, versionLabel) {
     if (!recipe) return '<p>Recipe version not available.</p>';
     
@@ -436,71 +262,30 @@ function formatRecipeContent(recipe, versionLabel) {
         metaInfo += `<p class="detail-servings">⏲️ Total: ${recipe.total_time}</p>`;
     }
 
-    // Format ingredients - handle both simple strings and structured objects
+    // Format ingredients with batch size selector
     let ingredientsList = '';
-    if (recipe.hasTable && recipe.ingredientTable) {
-        // Table format (for variable measurements)
-        const table = recipe.ingredientTable;
-        const tableHTML = `
-            <table class="ingredient-table">
-                <thead>
-                    <tr>${table.headers.map(header => `<th>${header}</th>`).join('')}</tr>
-                </thead>
-                <tbody>
-                    ${table.rows.map(row => `<tr>${row.map(cell => `<td>${cell}</td>`).join('')}</tr>`).join('')}
-                </tbody>
-            </table>
+    if (recipe.ingredients && recipe.ingredients.length > 0) {
+        const batchSelector = `
+            <div class="batch-size-selector">
+                <label for="batchSize">Batch Size:</label>
+                <select id="batchSize" onchange="adjustBatchSize(this.value)">
+                    <option value="0.25">¼x (Quarter)</option>
+                    <option value="0.5">½x (Half)</option>
+                    <option value="1" selected>1x (Original)</option>
+                    <option value="2">2x (Double)</option>
+                    <option value="3">3x (Triple)</option>
+                </select>
+            </div>
         `;
-        const tableNote = recipe.tableNote ? `<p class="table-note"><em>${recipe.tableNote}</em></p>` : '';
-        ingredientsList = `<h3>Ingredients</h3>${tableHTML}${tableNote}`;
-    } else if (recipe.ingredients && recipe.ingredients.length > 0) {
-        // Check if ingredients are structured objects or simple strings
-        const firstIng = recipe.ingredients[0];
-        const isStructured = typeof firstIng === 'object' && firstIng.item;
         
-        if (isStructured) {
-            // Structured format with metric conversions
-            let currentSection = null;
-            let ingredientsHTML = '';
-            
-            recipe.ingredients.forEach(ing => {
-                // Handle section headers
-                if (ing.section && ing.section !== currentSection) {
-                    if (currentSection !== null) ingredientsHTML += '</ul>';
-                    ingredientsHTML += `<h4 style="margin-top: 1.5rem; margin-bottom: 0.5rem; color: var(--warm-brown); font-size: 1.1rem;">${ing.section}</h4><ul>`;
-                    currentSection = ing.section;
-                } else if (currentSection === null) {
-                    ingredientsHTML += '<ul>';
-                    currentSection = '';
-                }
-                
-                // Build ingredient line
-                let ingLine = '';
-                if (ing.quantity) ingLine += `<strong>${ing.quantity}</strong> `;
-                ingLine += ing.item;
-                
-                // Add notes if available
-                if (ing.notes) {
-                    ingLine += ` <em class="ingredient-note">(${ing.notes})</em>`;
-                }
-                
-                // Add metric conversion if available
-                if (ing.metric) {
-                    const metricQty = ing.metric.min 
-                        ? `${ing.metric.min}–${ing.metric.max}` 
-                        : ing.metric.quantity;
-                    ingLine += ` <span class="metric-conversion">[${metricQty} ${ing.metric.unit}]</span>`;
-                }
-                
-                ingredientsHTML += `<li>${ingLine}</li>`;
-            });
-            
-            ingredientsHTML += '</ul>';
-            ingredientsList = `<h3>Ingredients</h3>${ingredientsHTML}`;
-        } else {
-            // Simple string format (backward compatible)
-            ingredientsList = `<h3>Ingredients</h3><ul>${recipe.ingredients.map(ing => `<li>${ing}</li>`).join('')}</ul>`;
-        }
+        const multiplier = window.currentBatchMultiplier || 1;
+        const scaledIngredients = recipe.ingredients.map(ing => scaleIngredient(ing, multiplier));
+        
+        ingredientsList = `
+            <h3>Ingredients</h3>
+            ${batchSelector}
+            <ul id="ingredientsList">${scaledIngredients.map(ing => `<li>${ing}</li>`).join('')}</ul>
+        `;
     }
 
     // Format instructions
@@ -552,6 +337,19 @@ function closeModal() {
     document.body.style.overflow = 'auto'; // Restore scrolling
 }
 
+// Alias for HTML onclick handlers
+function closeRecipeModal() {
+    closeModal();
+}
+
+// View original image from button click
+function viewOriginalImage() {
+    if (!window.currentRecipe) return;
+    const imageName = findBestImageMatch(window.currentRecipe.name);
+    const imagePath = `MeeMaw Recipe Book Image File/${imageName}`;
+    showCookbookImage(imagePath);
+}
+
 // Search functionality
 function searchRecipes(searchTerm) {
     const lowerSearchTerm = searchTerm.toLowerCase();
@@ -586,51 +384,110 @@ function searchRecipes(searchTerm) {
         return instructionMatch;
     });
 
-    if (viewMode === 'category') {
-        displayCategoryView();
-    } else {
-        displayIndexView();
-    }
+    applyFilters();
 }
 
 // Filter by category
 function filterByCategory(category) {
-    const searchTerm = document.getElementById('searchInput').value.toLowerCase();
-    
     if (category === 'all') {
-        if (searchTerm) {
-            searchRecipes(searchTerm);
-        } else {
-            filteredRecipes = [...recipes];
-            if (viewMode === 'category') {
-                displayCategoryView();
-            } else {
-                displayIndexView();
-            }
-        }
+        applyFilters();
     } else {
-        const searchFiltered = searchTerm ?  
+        const searchTerm = document.getElementById('searchInput').value.toLowerCase();
+        const searchFiltered = searchTerm ? 
             recipes.filter(recipe => {
                 return recipe.name.toLowerCase().includes(searchTerm) ||
                        recipe.category.toLowerCase().includes(searchTerm) ||
-                       (recipe.source && recipe.source.toLowerCase().includes(searchTerm));
+                       (recipe.source && recipe.source.toLowerCase().includes(searchTerm)) ||
+                       recipe.ingredients.some(ing => ing.toLowerCase().includes(searchTerm)) ||
+                       recipe.instructions.some(inst => inst.toLowerCase().includes(searchTerm));
             }) : recipes;
 
         filteredRecipes = searchFiltered.filter(recipe => recipe.category === category);
-        if (viewMode === 'category') {
-            displayCategoryView();
-        } else {
-            displayIndexView();
-        }
+        displayRecipes(filteredRecipes);
     }
 }
 
-// Apply all active filters (deprecated - kept for compatibility)
+// Apply all active filters
 function applyFilters() {
-    if (viewMode === 'category') {
-        displayCategoryView();
+    const category = document.getElementById('categoryFilter').value;
+    
+    if (category === 'all') {
+        displayRecipes(filteredRecipes);
     } else {
-        displayIndexView();
+        const categoryFiltered = filteredRecipes.filter(recipe => recipe.category === category);
+        displayRecipes(categoryFiltered);
+    }
+}
+
+// Scale ingredient quantities based on batch multiplier
+function scaleIngredient(ingredient, multiplier) {
+    if (multiplier === 1) return ingredient;
+    
+    // Match patterns like "1 cup", "2 tablespoons", "1/2 teaspoon", etc.
+    const fractionPattern = /^(\d+\/\d+|\d+\s+\d+\/\d+|\d+\.?\d*)\s+/;
+    const match = ingredient.match(fractionPattern);
+    
+    if (match) {
+        const quantityStr = match[1];
+        let quantity;
+        
+        // Handle fractions like "1/2" or "1 1/2"
+        if (quantityStr.includes('/')) {
+            const parts = quantityStr.split(/\s+/);
+            if (parts.length === 2) {
+                // Mixed number like "1 1/2"
+                const whole = parseInt(parts[0]);
+                const [num, den] = parts[1].split('/').map(Number);
+                quantity = whole + (num / den);
+            } else {
+                // Simple fraction like "1/2"
+                const [num, den] = quantityStr.split('/').map(Number);
+                quantity = num / den;
+            }
+        } else {
+            quantity = parseFloat(quantityStr);
+        }
+        
+        const scaled = quantity * multiplier;
+        const rest = ingredient.substring(match[0].length);
+        
+        // Format the scaled number nicely
+        let formattedQuantity;
+        if (scaled % 1 === 0) {
+            formattedQuantity = scaled.toString();
+        } else if (scaled % 0.5 === 0) {
+            const whole = Math.floor(scaled);
+            formattedQuantity = whole > 0 ? `${whole} 1/2` : '1/2';
+        } else if (scaled % 0.25 === 0) {
+            const whole = Math.floor(scaled);
+            const fraction = scaled - whole;
+            if (fraction === 0.25) formattedQuantity = whole > 0 ? `${whole} 1/4` : '1/4';
+            else if (fraction === 0.75) formattedQuantity = whole > 0 ? `${whole} 3/4` : '3/4';
+            else formattedQuantity = whole.toString();
+        } else {
+            formattedQuantity = scaled.toFixed(2).replace(/\.?0+$/, '');
+        }
+        
+        return formattedQuantity + ' ' + rest;
+    }
+    
+    // If no quantity found, return original
+    return ingredient;
+}
+
+// Adjust batch size and re-render ingredients
+function adjustBatchSize(multiplier) {
+    multiplier = parseFloat(multiplier);
+    window.currentBatchMultiplier = multiplier;
+    
+    if (!window.currentRecipe) return;
+    
+    const recipe = window.currentRecipe;
+    const scaledIngredients = recipe.ingredients.map(ing => scaleIngredient(ing, multiplier));
+    
+    const ingredientsList = document.getElementById('ingredientsList');
+    if (ingredientsList) {
+        ingredientsList.innerHTML = scaledIngredients.map(ing => `<li>${ing}</li>`).join('');
     }
 }
 
@@ -760,216 +617,4 @@ function printRecipe() {
     setTimeout(() => {
         printWindow.print();
     }, 250);
-}
-
-// Mobile Navigation Functions
-function toggleMobileNav() {
-    const mobileNav = document.getElementById('mobileNav');
-    mobileNav.classList.toggle('active');
-}
-
-function closeMobileNav() {
-    const mobileNav = document.getElementById('mobileNav');
-    mobileNav.classList.remove('active');
-}
-
-// Smooth scroll to section
-function scrollToSection(sectionId) {
-    const section = document.getElementById(sectionId);
-    if (section) {
-        const headerOffset = 100;
-        const elementPosition = section.getBoundingClientRect().top;
-        const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
-
-        window.scrollTo({
-            top: offsetPosition,
-            behavior: 'smooth'
-        });
-    }
-    closeMobileNav();
-}
-
-// Header search functionality with live results dropdown
-function setupHeaderSearch() {
-    const headerSearchInput = document.getElementById('headerSearchInput');
-    const headerSearchResults = document.getElementById('headerSearchResults');
-    
-    if (headerSearchInput && headerSearchResults) {
-        headerSearchInput.addEventListener('input', (e) => {
-            const searchTerm = e.target.value.toLowerCase().trim();
-            
-            if (!searchTerm) {
-                headerSearchResults.classList.remove('active');
-                headerSearchResults.innerHTML = '';
-                return;
-            }
-            
-            // Filter recipes based on search term
-            const matchingRecipes = recipes.filter(recipe => 
-                recipe.name.toLowerCase().includes(searchTerm) ||
-                (recipe.category && recipe.category.toLowerCase().includes(searchTerm))
-            );
-            
-            if (matchingRecipes.length > 0) {
-                headerSearchResults.innerHTML = matchingRecipes
-                    .slice(0, 8) // Limit to 8 results
-                    .map(recipe => `
-                        <div class="header-search-result-item" onclick="openRecipeFromHeaderSearch(${recipe.id})">
-                            <div class="header-search-result-name">${recipe.name}</div>
-                            <div class="header-search-result-category">${recipe.category || 'Recipe'}</div>
-                        </div>
-                    `).join('');
-                headerSearchResults.classList.add('active');
-            } else {
-                headerSearchResults.innerHTML = '<div class="header-search-no-results">No recipes found</div>';
-                headerSearchResults.classList.add('active');
-            }
-        });
-        
-        // Close dropdown when clicking outside
-        document.addEventListener('click', (e) => {
-            if (!headerSearchInput.contains(e.target) && !headerSearchResults.contains(e.target)) {
-                headerSearchResults.classList.remove('active');
-            }
-        });
-        
-        // Clear on escape key
-        headerSearchInput.addEventListener('keydown', (e) => {
-            if (e.key === 'Escape') {
-                headerSearchInput.value = '';
-                headerSearchResults.classList.remove('active');
-                headerSearchResults.innerHTML = '';
-            }
-        });
-    }
-}
-
-// Open recipe from header search dropdown
-function openRecipeFromHeaderSearch(recipeId) {
-    const recipe = recipes.find(r => r.id === recipeId);
-    if (recipe) {
-        showRecipeDetail(recipe);
-        
-        // Clear and hide search results
-        const headerSearchInput = document.getElementById('headerSearchInput');
-        const headerSearchResults = document.getElementById('headerSearchResults');
-        if (headerSearchInput) headerSearchInput.value = '';
-        if (headerSearchResults) {
-            headerSearchResults.classList.remove('active');
-            headerSearchResults.innerHTML = '';
-        }
-    }
-}
-
-// Initialize mobile navigation
-document.addEventListener('DOMContentLoaded', () => {
-    // Existing initialization
-    loadRecipes();
-    
-    // Mobile nav event listeners
-    const hamburgerBtn = document.getElementById('hamburgerBtn');
-    const mobileNavClose = document.getElementById('mobileNavClose');
-    const mobileNavLinks = document.querySelectorAll('.mobile-nav-links a');
-    
-    if (hamburgerBtn) {
-        hamburgerBtn.addEventListener('click', toggleMobileNav);
-    }
-    
-    if (mobileNavClose) {
-        mobileNavClose.addEventListener('click', closeMobileNav);
-    }
-    
-    // Close nav when clicking a link
-    mobileNavLinks.forEach(link => {
-        link.addEventListener('click', (e) => {
-            e.preventDefault();
-            const sectionId = link.getAttribute('data-section');
-            scrollToSection(sectionId);
-        });
-    });
-    
-    // Close nav when clicking outside
-    document.addEventListener('click', (e) => {
-        const mobileNav = document.getElementById('mobileNav');
-        const hamburgerBtn = document.getElementById('hamburgerBtn');
-        
-        if (mobileNav && hamburgerBtn && 
-            !mobileNav.contains(e.target) && 
-            !hamburgerBtn.contains(e.target) &&
-            mobileNav.classList.contains('active')) {
-            closeMobileNav();
-        }
-    });
-    
-    // Setup header search
-    setupHeaderSearch();
-    
-    // Setup quick jump navigation
-    setupQuickJump();
-    
-    // Handle cookbook image print checkbox
-    const checkbox = document.getElementById('includeCookbookImage');
-    const modal = document.getElementById('recipeModal');
-    if (checkbox && modal) {
-        // Set initial state
-        if (checkbox.checked) {
-            modal.classList.add('print-include-image');
-        }
-        // Listen for changes
-        checkbox.addEventListener('change', function() {
-            if (this.checked) {
-                modal.classList.add('print-include-image');
-            } else {
-                modal.classList.remove('print-include-image');
-            }
-        });
-    }
-});
-
-// Quick Jump Navigation
-function setupQuickJump() {
-    const quickJumpBtn = document.getElementById('quickJumpBtn');
-    const quickJumpMenu = document.getElementById('quickJumpMenu');
-    const quickJumpClose = document.getElementById('quickJumpClose');
-    const quickJumpLinks = document.querySelectorAll('.quick-jump-link');
-    
-    if (quickJumpBtn && quickJumpMenu) {
-        quickJumpBtn.addEventListener('click', (e) => {
-            e.stopPropagation();
-            quickJumpMenu.classList.toggle('active');
-        });
-        
-        if (quickJumpClose) {
-            quickJumpClose.addEventListener('click', () => {
-                quickJumpMenu.classList.remove('active');
-            });
-        }
-        
-        quickJumpLinks.forEach(link => {
-            link.addEventListener('click', (e) => {
-                e.preventDefault();
-                const targetId = link.getAttribute('data-target');
-                
-                if (targetId === 'top') {
-                    window.scrollTo({
-                        top: 0,
-                        behavior: 'smooth'
-                    });
-                } else {
-                    scrollToSection(targetId);
-                }
-                
-                quickJumpMenu.classList.remove('active');
-            });
-        });
-        
-        // Close when clicking outside
-        document.addEventListener('click', (e) => {
-            if (!quickJumpMenu.contains(e.target) && 
-                !quickJumpBtn.contains(e.target) &&
-                quickJumpMenu.classList.contains('active')) {
-                quickJumpMenu.classList.remove('active');
-            }
-        });
-    }
 }

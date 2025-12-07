@@ -632,19 +632,84 @@ header h1 {
     opacity: 0.95;
 }
 
+/* Carousel Container */
+.carousel-container {
+    position: relative;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 3rem;
+}
+
+.memories-carousel {
+    overflow: hidden;
+    position: relative;
+}
+
 .memories-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr));
-    gap: clamp(1.5rem, 3vw, 2rem);
+    display: flex;
+    gap: 2rem;
+    transition: transform 0.5s ease-in-out;
+    padding: 1rem 0;
 }
 
 .memory-card {
+    min-width: calc(33.333% - 1.35rem);
+    flex-shrink: 0;
     background: var(--heritage-green-dark);
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
     transition: var(--transition);
     border: 1px solid rgba(253, 197, 0, 0.2);
+}
+
+@media (max-width: 1024px) {
+    .memory-card {
+        min-width: calc(50% - 1rem);
+    }
+}
+
+@media (max-width: 640px) {
+    .memory-card {
+        min-width: 100%;
+    }
+    .carousel-container {
+        padding: 0 2.5rem;
+    }
+}
+
+.carousel-nav {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(6, 45, 31, 0.9);
+    color: var(--heraldic-gold);
+    border: 2px solid var(--heraldic-gold);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    font-size: 2rem;
+    cursor: pointer;
+    z-index: 10;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+}
+
+.carousel-nav:hover {
+    background: var(--heraldic-gold);
+    color: var(--heritage-green-darker);
+    transform: translateY(-50%) scale(1.1);
+}
+
+.carousel-nav.prev {
+    left: 0;
+}
+
+.carousel-nav.next {
+    right: 0;
 }
 
 .memory-card:hover {
@@ -1116,6 +1181,46 @@ header h1 {
 
 #recipeDetail ul li:last-child {
     border-bottom: none;
+}
+
+/* Batch Size Selector */
+.batch-size-selector {
+    margin: 1.5rem 0;
+    padding: 1rem;
+    background: rgba(253, 197, 0, 0.1);
+    border: 2px solid var(--heraldic-gold);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.batch-size-selector label {
+    font-weight: 600;
+    color: var(--heraldic-gold);
+    font-size: 1rem;
+}
+
+.batch-size-selector select {
+    padding: 0.5rem 1rem;
+    background: var(--heritage-green-darker);
+    color: var(--text-white);
+    border: 1px solid var(--heraldic-gold);
+    border-radius: 6px;
+    font-size: 1rem;
+    font-family: inherit;
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.batch-size-selector select:hover {
+    background: var(--heritage-green-dark);
+    border-color: var(--gold-muted);
+}
+
+.batch-size-selector select:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(253, 197, 0, 0.3);
 }
 
 #recipeDetail ol {
@@ -1736,7 +1841,9 @@ header h1 {
 
 /* Image Modal for Cookbook Pages */
 .image-modal {
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     position: fixed;
     z-index: 10000;
     left: 0;
@@ -1747,12 +1854,14 @@ header h1 {
     backdrop-filter: blur(0px);
     transition: all 0.3s ease;
     opacity: 0;
+    pointer-events: none;
 }
 
 .image-modal.active {
     background-color: rgba(10, 77, 52, 0.95);
     backdrop-filter: blur(8px);
     opacity: 1;
+    pointer-events: auto;
 }
 
 .image-modal-content {

@@ -70,15 +70,11 @@
         <!-- Welcome Section / Kitchen Memorandum -->
         <section class="kitchen-memo" id="kitchen-memo">
             <div class="memo-header">
-                <h2>📖 Memorandum from Wilfred Carle</h2>
-                <p class="memo-date">April 8, 1995</p>
                 <a href="MeeMaw Recipe Book Image File/Memorandum.png" target="_blank">
                     <img src="MeeMaw Recipe Book Image File/Memorandum.png" alt="Kitchen Memorandum" class="memo-image">
                 </a>
             </div>
             <div class="memo-text">
-                <p>These recipes are those that are in use by Alma Finken Carle. Some of them were handed down from her Mother, Clara Keller Finken, some from her Grandmother Keller; others were handed down from Wilfred's grandmothers, Caroline Nagel, and Lizzie Walters. Other recipes were from friends, recipe books and magazines.</p>
-                <p>Most of them were modified by substituting egg substitutes for eggs, vegetable oils for lard, shortening, or animal fats. Changes were also made to accommodate taste preferences.</p>
             </div>
         </section>
 
@@ -86,7 +82,10 @@
         <section class="family-memories" id="family-memories">
             <h2>Family Memories</h2>
             <p class="memories-intro">Cherished moments from the Carle family kitchen, where recipes became traditions and traditions became memories.</p>
-            <div class="memories-grid">
+            <div class="carousel-container">
+                <button class="carousel-nav prev" aria-label="Previous">&lsaquo;</button>
+                <div class="memories-carousel">
+                    <div class="memories-grid">
                 <div class="memory-card">
                     <img src="assets/0210000-R1-107-108.JPG" alt="Family memory" class="memory-image">
                     <div class="memory-caption">
@@ -219,7 +218,15 @@
                         <p>Where memories are made</p>
                     </div>
                 </div>
+                <div class="memory-card">
+                    <img src="assets/2020-07-08(43).jpg" alt="Family memory" class="memory-image">
+                    <div class="memory-caption">
+                        <p>Precious moments</p>
+                    </div>
+                </div>
             </div>
+            <button class="carousel-nav next" aria-label="Next">&rsaquo;</button>
+        </div>
         </section>
 
         <!-- Search and Filter Section -->
@@ -247,18 +254,29 @@
         <!-- Recipe Detail Modal -->
         <div id="recipeModal" class="modal">
             <div class="modal-content">
-                <div class="modal-header">
-                    <span class="close">&times;</span>
-                    <div class="print-controls">
-                        <label class="print-option">
-                            <input type="checkbox" id="includeCookbookImage">
-                            <span>Include cookbook page</span>
-                        </label>
-                        <button id="printRecipeBtn" class="print-btn" onclick="printRecipe()">
-                            🖨️ Print Recipe
-                        </button>
+                <button class="close-modal" onclick="closeRecipeModal()" aria-label="Close">&times;</button>
+                
+                <!-- Unified Control Bar -->
+                <div class="modal-control-bar">
+                    <div class="control-bar-container">
+                        <!-- Action Buttons -->
+                        <div class="action-zone">
+                            <button class="btn-secondary view-original-btn" onclick="viewOriginalImage()">
+                                <span class="btn-icon">📖</span> View Original Page
+                            </button>
+                            <div class="print-group">
+                                <label class="print-checkbox">
+                                    <input type="checkbox" id="includeCookbookImage">
+                                    <span>Include page</span>
+                                </label>
+                                <button class="btn-primary print-btn" onclick="printRecipe()">
+                                    <span class="btn-icon">🖨️</span> Print Recipe
+                                </button>
+                            </div>
+                        </div>
                     </div>
                 </div>
+                
                 <div id="recipeDetail">
                     <!-- Recipe details will be loaded here -->
                 </div>
