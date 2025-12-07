@@ -33,40 +33,13 @@
         </div>
     </nav>
 
-    <!-- Floating Quick Jump Button -->
-    <button class="quick-jump-btn" id="quickJumpBtn" aria-label="Quick navigation">
-        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-            <path d="M3 12h18M3 6h18M3 18h18"/>
-        </svg>
-    </button>
-
-    <!-- Quick Jump Menu -->
-    <div class="quick-jump-menu" id="quickJumpMenu">
-        <div class="quick-jump-header">
-            <h3>Jump to Section</h3>
-            <button class="quick-jump-close" id="quickJumpClose">&times;</button>
-        </div>
-        <div class="quick-jump-links">
-            <a href="#top" class="quick-jump-link" data-target="top">
-                <span class="jump-icon">🏠</span>
-                <span>Top of Page</span>
-            </a>
-            <a href="#kitchen-memo" class="quick-jump-link" data-target="kitchen-memo">
-                <span class="jump-icon">📖</span>
-                <span>Kitchen Memorandum</span>
-            </a>
-            <a href="#family-memories" class="quick-jump-link" data-target="family-memories">
-                <span class="jump-icon">📷</span>
-                <span>Family Memories</span>
-            </a>
-            <a href="#recipes" class="quick-jump-link" data-target="recipes">
-                <span class="jump-icon">🍳</span>
-                <span>Browse Recipes</span>
-            </a>
-        </div>
-    </div>
-
     <main class="container" id="top">
+        <!-- Page Navigation -->
+        <div class="page-navigation">
+            <a href="#kitchen-memo" class="nav-btn">Kitchen Memorandum</a>
+            <a href="#family-memories" class="nav-btn">Family Memories</a>
+            <a href="#recipes" class="nav-btn primary">Jump to Recipes</a>
+        </div>
         <!-- Welcome Section / Kitchen Memorandum -->
         <section class="kitchen-memo" id="kitchen-memo">
             <div class="memo-header">
@@ -82,10 +55,7 @@
         <section class="family-memories" id="family-memories">
             <h2>Family Memories</h2>
             <p class="memories-intro">Cherished moments from the Carle family kitchen, where recipes became traditions and traditions became memories.</p>
-            <div class="carousel-container">
-                <button class="carousel-nav prev" aria-label="Previous">&lsaquo;</button>
-                <div class="memories-carousel">
-                    <div class="memories-grid">
+            <div class="gallery-container">
                 <div class="memory-card">
                     <img src="assets/0210000-R1-107-108.JPG" alt="Family memory" class="memory-image">
                     <div class="memory-caption">
@@ -218,15 +188,8 @@
                         <p>Where memories are made</p>
                     </div>
                 </div>
-                <div class="memory-card">
-                    <img src="assets/2020-07-08(43).jpg" alt="Family memory" class="memory-image">
-                    <div class="memory-caption">
-                        <p>Precious moments</p>
-                    </div>
-                </div>
+
             </div>
-            <button class="carousel-nav next" aria-label="Next">&rsaquo;</button>
-        </div>
         </section>
 
         <!-- Search and Filter Section -->
@@ -255,27 +218,6 @@
         <div id="recipeModal" class="modal">
             <div class="modal-content">
                 <button class="close-modal" onclick="closeRecipeModal()" aria-label="Close">&times;</button>
-                
-                <!-- Unified Control Bar -->
-                <div class="modal-control-bar">
-                    <div class="control-bar-container">
-                        <!-- Action Buttons -->
-                        <div class="action-zone">
-                            <button class="btn-secondary view-original-btn" onclick="viewOriginalImage()">
-                                <span class="btn-icon">📖</span> View Original Page
-                            </button>
-                            <div class="print-group">
-                                <label class="print-checkbox">
-                                    <input type="checkbox" id="includeCookbookImage">
-                                    <span>Include page</span>
-                                </label>
-                                <button class="btn-primary print-btn" onclick="printRecipe()">
-                                    <span class="btn-icon">🖨️</span> Print Recipe
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
                 
                 <div id="recipeDetail">
                     <!-- Recipe details will be loaded here -->

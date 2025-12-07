@@ -4,17 +4,17 @@
     "compiler": "Wilfred Carle",
     "date_compiled": "April 8, 1995",
     "family": "Alma Finken Carle",
-    "note": "Recipes modified to use egg substitutes for eggs and vegetable oils for lard, shortening, and animal fats",
-    "version": "3.0 - Streamlined Edition"
+    "note": "Recipes restored to original ingredients (butter, eggs, whole milk) and categories consolidated.",
+    "version": "4.0 - Heirloom Edition"
   },
   "categories": [
     {
-      "name": "Appetizers",
+      "name": "Appetizers, Dips & Snacks",
       "recipes": [
         {
           "name": "Marinated Peppers",
           "category": "Appetizers, Dips & Snacks",
-          "servings": "4–6 as appetizer",
+          "servings": "4\u20136 as appetizer",
           "ingredients": [
             "4 Red bell peppers",
             "1 tablespoon Olive oil",
@@ -25,10 +25,10 @@
             "to taste Freshly ground black pepper"
           ],
           "instructions": [
-            "Preheat the oven to 350–375°F (175–190°C). Line a baking sheet with foil for easier cleanup.",
-            "Place the whole red peppers on the baking sheet. Roast for 30–40 minutes, turning occasionally, until the skins are blistered and the peppers are very soft.",
+            "Preheat the oven to 350\u2013375\u00b0F (175\u2013190\u00b0C). Line a baking sheet with foil for easier cleanup.",
+            "Place the whole red peppers on the baking sheet. Roast for 30\u201340 minutes, turning occasionally, until the skins are blistered and the peppers are very soft.",
             "While the peppers roast, whisk together the olive oil, red wine vinegar, sugar, dried basil, and a few grinds of black pepper in a small bowl. If using capers, you can stir them into the marinade now.",
-            "When the peppers are done, transfer them to a bowl and cover tightly (or place them in a paper bag) for 10–15 minutes to steam. This loosens the skins.",
+            "When the peppers are done, transfer them to a bowl and cover tightly (or place them in a paper bag) for 10\u201315 minutes to steam. This loosens the skins.",
             "Peel off the skins, remove stems and seeds, and cut the pepper flesh into strips.",
             "Combine the warm pepper strips with the marinade (and capers, if using). Toss gently until everything is well coated.",
             "Let the peppers cool to room temperature, then cover and refrigerate for at least 2 hours or overnight for best flavor.",
@@ -51,13 +51,13 @@
             "dash, or to taste Tabasco or hot sauce"
           ],
           "instructions": [
-            "Melt the margarine in a large skillet over medium heat.",
-            "Add the sliced mushrooms, chopped onion, and minced garlic. Cook, stirring occasionally, for 8–10 minutes, until the mushrooms release their liquid and it has evaporated, and the vegetables are soft and lightly browned. Let cool slightly.",
-            "In a food processor or blender, coarsely chop the slivered almonds. Remove 2–3 tablespoons and reserve for garnish, if desired.",
+            "Melt the unsalted butter in a large skillet over medium heat.",
+            "Add the sliced mushrooms, chopped onion, and minced garlic. Cook, stirring occasionally, for 8\u201310 minutes, until the mushrooms release their liquid and it has evaporated, and the vegetables are soft and lightly browned. Let cool slightly.",
+            "In a food processor or blender, coarsely chop the slivered almonds. Remove 2\u20133 tablespoons and reserve for garnish, if desired.",
             "With the processor running, slowly drizzle in the vegetable oil and process until the almonds form a thick, spreadable paste.",
             "Add the cooked mushroom mixture, dried oregano, dried thyme, and a dash of hot sauce to the processor. Blend until the mixture is fairly smooth but still has a little texture, scraping down the sides as needed.",
             "Taste and adjust seasoning with additional hot sauce and a pinch of salt, if desired.",
-            "Transfer the pâté to a small bowl or crock. Smooth the top and sprinkle with the reserved chopped almonds and a little chopped parsley or sesame seeds, if you like.",
+            "Transfer the p\u00e2t\u00e9 to a small bowl or crock. Smooth the top and sprinkle with the reserved chopped almonds and a little chopped parsley or sesame seeds, if you like.",
             "Cover and chill for at least 2 hours to allow the flavors to blend. Serve cold or cool with crackers, sliced baguette, or raw vegetables."
           ]
         },
@@ -67,17 +67,111 @@
           "servings": "4 pieces",
           "ingredients": [
             "4 halves English muffins (2 whole muffins, split)",
-            "about 1–2 tablespoons per muffin half Pizza sauce",
-            "about 2–3 tablespoons per muffin half Mozzarella cheese, grated",
+            "about 1\u20132 tablespoons per muffin half Pizza sauce",
+            "about 2\u20133 tablespoons per muffin half Mozzarella cheese, grated",
             "about 1 tablespoon per muffin half Bacon bits"
           ],
           "instructions": [
-            "Preheat the oven or toaster oven to 400°F (200°C).",
+            "Preheat the oven or toaster oven to 400\u00b0F (200\u00b0C).",
             "Arrange the English muffin halves, cut side up, on a baking sheet.",
-            "Spread each muffin half with 1–2 tablespoons of pizza sauce.",
-            "Top each with 2–3 tablespoons of grated mozzarella cheese and sprinkle with bacon bits.",
-            "Bake for about 8–10 minutes, or until the cheese is melted and bubbly and the muffin edges are lightly crisp.",
+            "Spread each muffin half with 1\u20132 tablespoons of pizza sauce.",
+            "Top each with 2\u20133 tablespoons of grated mozzarella cheese and sprinkle with bacon bits.",
+            "Bake for about 8\u201310 minutes, or until the cheese is melted and bubbly and the muffin edges are lightly crisp.",
             "Serve hot. Makes 4 small pizzas."
+          ]
+        },
+        {
+          "name": "Roasted Nuts",
+          "category": "Appetizers, Dips & Snacks",
+          "servings": "About 8\u201310 snack servings",
+          "ingredients": [
+            "4 cups Mixed nuts (unsalted, any combination of pecans, walnuts, almonds, cashews, etc.)",
+            "1/2 stick (1/4 cup) Butter (melted)",
+            "1/2\u20133/4 teaspoon Salt (optional, or to taste)"
+          ],
+          "instructions": [
+            "Preheat the oven to 250\u00b0F (120\u00b0C). Line a rimmed baking sheet with parchment paper for easier cleanup.",
+            "Place the nuts in a large bowl. Drizzle with the melted unsalted butter or butter and sprinkle with salt if using.",
+            "Toss until all the nuts are evenly coated.",
+            "Spread the nuts in a single layer on the prepared baking sheet.",
+            "Bake for 30\u201340 minutes, stirring every 10 minutes, until the nuts are fragrant and lightly toasted. Watch carefully so they do not burn.",
+            "Remove from the oven and let cool completely on the pan; they will crisp as they cool.",
+            "Store in an airtight container at room temperature for up to 1\u20132 weeks."
+          ]
+        },
+        {
+          "name": "Cheese Dip (Like Mexico Chiquito's)",
+          "category": "Appetizers, Dips & Snacks",
+          "servings": "About 2 1/2 cups",
+          "ingredients": [
+            "1/2 stick (4 tablespoons) Butter",
+            "1/4 cup All-purpose flour",
+            "1 teaspoon Paprika",
+            "1/4 teaspoon Dry mustard",
+            "1 teaspoon Ground cumin",
+            "1 teaspoon Ketchup",
+            "1 1/2 teaspoons Chili powder",
+            "1 teaspoon Pickled jalapeno juice",
+            "2 cups Milk (whole or 2%)",
+            "1/2 pepper Pickled jalapeno pepper (minced, or to taste)",
+            "1/4 teaspoon Garlic powder",
+            "6 ounces (about 1 1/2 cups shredded) American cheese"
+          ],
+          "instructions": [
+            "Melt the unsalted butter in a medium saucepan over medium-low heat.",
+            "Stir in the flour and cook, stirring constantly, for 1\u20132 minutes to make a roux (do not let it brown).",
+            "Add the paprika, dry mustard, cumin, ketchup, chili powder, and jalapeno juice. Stir well.",
+            "Gradually pour in the milk, whisking constantly to avoid lumps. Increase heat slightly and cook, stirring, until the mixture thickens and comes to a gentle simmer.",
+            "Reduce heat to low. Stir in the minced jalapeno, garlic powder, and grated cheese. Continue stirring until the cheese melts and the dip is smooth.",
+            "Taste and adjust seasoning, adding more jalapeno or chili powder for extra heat if desired.",
+            "Serve warm with tortilla chips, vegetables, or as a topping for nachos."
+          ]
+        },
+        {
+          "name": "Chocolate Fondue",
+          "category": "Appetizers, Dips & Snacks",
+          "servings": "About 1 1/2 cups (4-6 servings)",
+          "ingredients": [
+            "1/2 cup (1 stick) Butter",
+            "1/2 cup Cocoa powder (unsweetened, preferably Ghirardelli)",
+            "3/4 cup White sugar",
+            "5 ounces (about 2/3 cup) Evaporated milk",
+            "1 teaspoon Vanilla extract",
+            "as desired Assorted dippers (such as pound cake cubes, cookies, marshmallows, fresh strawberries, pineapple chunks, mandarin orange segments, cherries)"
+          ],
+          "instructions": [
+            "Melt the butter in a medium saucepan over low heat.",
+            "Remove the pan from the heat and whisk in the cocoa powder until smooth.",
+            "Stir in the sugar and evaporated milk, mixing until well combined.",
+            "Return the pan to low heat. Cook, stirring constantly, until the mixture is smooth, hot, and slightly thickened. Do not let it boil.",
+            "Remove from heat and stir in the vanilla extract.",
+            "Transfer the fondue to a fondue pot or small slow cooker to keep warm, or serve immediately in a bowl.",
+            "Arrange your choice of dippers on a platter and enjoy!"
+          ]
+        },
+        {
+          "name": "Crab Dip",
+          "category": "Appetizers, Dips & Snacks",
+          "servings": "About 3 cups",
+          "ingredients": [
+            "1/2 cup plain Greek yogurt or sour cream",
+            "2 tablespoons mayonnaise",
+            "8 ounces cream cheese (softened)",
+            "1-2 teaspoons Prepared horseradish (to taste)",
+            "1/2 teaspoon Dry mustard",
+            "1/2 teaspoon Worcestershire sauce",
+            "1/4 teaspoon Hot pepper sauce (or to taste)",
+            "1 cup shredded cheddar cheese",
+            "1/2 pound (about 2 cups) Imitation crab meat (flaked)",
+            "for garnish Paprika"
+          ],
+          "instructions": [
+            "In a medium bowl, combine the yogurt, mayonnaise, and softened cream cheese. Stir or beat until smooth.",
+            "Add the horseradish, dry mustard, Worcestershire sauce, and hot pepper sauce. Mix well.",
+            "Fold in the shredded cheddar cheese and flaked crab meat until evenly distributed.",
+            "Cover and refrigerate for at least 2 hours to let the flavors blend.",
+            "Before serving, sprinkle the top with paprika for color.",
+            "Serve chilled with crackers, toasted baguette slices, breadsticks, or fresh vegetables."
           ]
         }
       ]
@@ -111,7 +205,7 @@
             "4 cups Powdered sugar (sifted)",
             "1/3 cup Vegetable oil",
             "1 teaspoon Vanilla extract",
-            "1/2 cup Buttermilk or evaporated skim milk (more if needed)"
+            "1/2 cup Buttermilk or evaporated whole milk (more if needed)"
           ],
           "instructions": [
             "Sift together the cocoa powder and powdered sugar into a mixing bowl.",
@@ -148,7 +242,7 @@
           "category": "Icings, Glazes & Sauces",
           "servings": "About 1 1/2 cups (enough for a 9x13-inch cake)",
           "ingredients": [
-            "1/2 cup Low-fat cottage cheese (1% or 2% fat)",
+            "1/2 cup cottage cheese (1% or 2% fat)",
             "8 oz Light cream cheese (softened to room temperature)",
             "2 teaspoons Vanilla extract",
             "1 teaspoon, finely grated Fresh orange zest (from about 1/2 orange)",
@@ -223,7 +317,7 @@
             "pinch Ground nutmeg (optional, for classic French flavor)"
           ],
           "instructions": [
-            "In a medium saucepan, melt the margarine or butter over medium heat.",
+            "In a medium saucepan, melt the unsalted butter or butter over medium heat.",
             "Add the flour and whisk constantly for 2-3 minutes to cook the flour and form a smooth roux. The mixture should be bubbly but not browned.",
             "Gradually pour in the warm milk, whisking constantly to prevent lumps from forming.",
             "Bring the sauce to a gentle simmer, whisking frequently. Cook for 5-7 minutes, or until the sauce thickens to a creamy consistency that coats the back of a spoon.",
@@ -239,41 +333,6 @@
       "name": "Desserts",
       "recipes": [
         {
-          "name": "Frosted Pineapple Squares",
-          "category": "Desserts (Misc)",
-          "servings": "About 24 squares",
-          "ingredients": [
-            "1/2 cup Sugar",
-            "1/4 teaspoon Salt",
-            "3 tablespoons Cornstarch",
-            "1 can (1 lb 14 oz) Pineapple chunks with juice",
-            "1/2 cup Milk",
-            "3 3/4 to 4 1/4 cups All-purpose flour (unsifted)",
-            "1 teaspoon Sugar (for activating yeast)",
-            "1 package (about 2 1/4 teaspoons) Active dry yeast",
-            "1/2 cup Water (warm, 105–115°F / 40–46°C)",
-            "1 cup Butter (softened)",
-            "4 Egg yolks (room temperature (plus 1 extra yolk used in filling))",
-            "As needed Confectioners' sugar frosting (for drizzling over cooled squares)"
-          ],
-          "instructions": [
-            "Make the pineapple filling: In a medium saucepan, whisk together sugar, cornstarch, and salt. Stir in the pineapple (with its juice) and the milk.",
-            "Cook over medium heat, stirring constantly, until the mixture comes to a full boil and thickens to a spoon-coating consistency. Remove from heat and let cool to room temperature.",
-            "Make the dough sponge: In a large bowl, combine about 1 1/3 cups (160 g) of the flour, the 1 teaspoon sugar, and the dry yeast.",
-            "Warm the water and margarine together until just warm to the touch (105–115°F / 40–46°C). Add to the flour-yeast mixture and beat on medium speed for 2–3 minutes, scraping the bowl occasionally.",
-            "Beat in the egg yolks and another 1/2 cup (60 g) of flour. Continue adding just enough of the remaining flour to form a soft, slightly sticky dough.",
-            "Turn the dough out onto a lightly floured surface and knead 8–10 minutes, adding flour only as needed, until smooth and elastic.",
-            "Place the dough in a lightly greased bowl, turn to coat, cover, and let rise in a warm, draft-free place until doubled, about 1 hour.",
-            "Lightly grease a jelly-roll pan (about 10x15 in / 25x38 cm). Divide the dough in half. Roll one half to fit the bottom of the pan and transfer it to the pan.",
-            "Spread the cooled pineapple filling evenly over the dough in the pan.",
-            "Roll the remaining dough to the same size and place over the filling. Pinch edges to seal and snip the top in several places with scissors to allow steam to escape.",
-            "Cover and let rise again until puffy, 30–45 minutes.",
-            "Near the end of rising, preheat the oven to 350–375°F (175–190°C).",
-            "Bake 25–35 minutes, or until the top is deep golden brown and the bread sounds hollow when tapped.",
-            "Cool completely in the pan. Drizzle with confectioners' sugar frosting and cut into squares to serve."
-          ]
-        },
-        {
           "name": "Meringue",
           "category": "Desserts (Misc)",
           "servings": "1 9-inch pie",
@@ -283,13 +342,13 @@
             "6 tablespoons Sugar"
           ],
           "instructions": [
-            "Preheat oven to 300°F (150°C). Prepare a fully baked pie with cooled filling.",
+            "Preheat oven to 300\u00b0F (150\u00b0C). Prepare a fully baked pie with cooled filling.",
             "In a clean, grease-free bowl, beat egg whites on medium speed until frothy.",
             "Add cream of tartar and continue beating until soft peaks form.",
             "Gradually add sugar, 1 tablespoon at a time, beating constantly, until stiff, glossy peaks form and all sugar is dissolved.",
             "Pile the meringue lightly over the cooled filling, spreading to seal completely to the crust edge to prevent shrinking.",
             "Swirl the surface or pull up points with the back of a spoon for a decorative finish.",
-            "Bake 15–20 minutes, until the meringue is set and lightly golden.",
+            "Bake 15\u201320 minutes, until the meringue is set and lightly golden.",
             "Cool at room temperature, away from drafts, before serving."
           ]
         },
@@ -303,7 +362,7 @@
             "1 cup Sugar",
             "3 tbsp (fresh berries) or 5 tbsp (frozen berries) Cornstarch",
             "Juice of 1/2 lemon Lemon juice",
-            "2–3 tablespoons Cream cheese (softened, to line crust)",
+            "2\u20133 tablespoons Cream cheese (softened, to line crust)",
             "As desired Light whipped topping (for serving)"
           ],
           "instructions": [
@@ -330,8 +389,8 @@
             "As needed Water (to bring reserved juice to 1 cup / 240 ml)",
             "A few drops Almond extract",
             "1 teaspoon Grated orange rind",
-            "1 ounce Low-fat cream cheese (softened, to line crust)",
-            "2–4 tablespoons Light whipped topping (for topping)"
+            "1 ounce cream cheese (softened, to line crust)",
+            "2\u20134 tablespoons Light whipped topping (for topping)"
           ],
           "instructions": [
             "Drain the canned cherries and reserve the juice. Add enough water to the juice to make 1 cup (240 ml).",
@@ -359,11 +418,11 @@
             "1 Unbaked pie shell (9-inch, homemade or purchased)"
           ],
           "instructions": [
-            "Preheat oven to 325°F (165°C). Place a baking sheet on the center rack to catch any drips.",
-            "In a mixing bowl, whisk together Karo syrup, sugar, melted margarine or butter, eggs, and vanilla until smooth.",
+            "Preheat oven to 325\u00b0F (165\u00b0C). Place a baking sheet on the center rack to catch any drips.",
+            "In a mixing bowl, whisk together Karo syrup, sugar, melted unsalted butter or butter, eggs, and vanilla until smooth.",
             "Stir in the pecan pieces until evenly distributed.",
             "Pour the filling into the unbaked 9-inch pie shell.",
-            "Bake 35–45 minutes, until the center is just set and only slightly jiggles when gently shaken. If the crust browns too quickly, cover the edge with foil.",
+            "Bake 35\u201345 minutes, until the center is just set and only slightly jiggles when gently shaken. If the crust browns too quickly, cover the edge with foil.",
             "Cool completely on a rack before slicing."
           ],
           "notes": [
@@ -381,7 +440,7 @@
             "1/4 cup Cornstarch",
             "1/4 teaspoon Salt",
             "2 cups, scalded Milk (2%, 1/2%, or skim)",
-            "3 Egg yolks (beaten with margarine)",
+            "3 Egg yolks (beaten with unsalted butter)",
             "2 tablespoons Butter",
             "1/4 teaspoon Vanilla extract",
             "3 Egg whites",
@@ -392,13 +451,13 @@
             "Prepare the crumb layer by mixing powdered sugar and crunchy peanut butter with a fork until crumbly. Reserve about 1/4 of the mixture for topping and press the remaining 3/4 evenly into the bottom of a cooled, baked 9-inch pie shell.",
             "In a heavy saucepan, whisk together sugar, cornstarch, and salt.",
             "Gradually whisk in the hot scalded milk until smooth.",
-            "In a separate bowl, beat egg yolks with the softened margarine.",
+            "In a separate bowl, beat egg yolks with the softened unsalted butter.",
             "Slowly whisk a ladleful of the hot milk mixture into the egg yolk mixture to temper, then return the egg mixture to the saucepan.",
             "Cook over medium-low heat, stirring constantly, until the custard thickens and just begins to bubble. Remove from heat and stir in vanilla.",
             "Pour the hot custard into the prepared pie shell over the peanut butter crumbs.",
             "Prepare a meringue with the 3 egg whites and sugar (or use the Meringue recipe in this section). Spread the meringue over the hot filling, sealing to the crust.",
             "Sprinkle the reserved peanut butter crumb mixture over the meringue.",
-            "Bake at 325–350°F (165–175°C) until the meringue is golden brown. Cool completely before serving."
+            "Bake at 325\u2013350\u00b0F (165\u2013175\u00b0C) until the meringue is golden brown. Cool completely before serving."
           ]
         },
         {
@@ -413,17 +472,17 @@
             "1 teaspoon Ground cinnamon",
             "1/2 teaspoon Ground ginger",
             "1/4 teaspoon Ground cloves",
-            "1 1/2 cups (12 oz can), undiluted Evaporated skim milk",
+            "1 1/2 cups (12 oz can), undiluted Evaporated whole milk",
             "1 Unbaked pie shell (9-inch, with high fluted edge)"
           ],
           "instructions": [
-            "Preheat oven to 425°F (220°C). Place a baking sheet on the middle rack.",
+            "Preheat oven to 425\u00b0F (220\u00b0C). Place a baking sheet on the middle rack.",
             "In a large bowl, whisk eggs until blended.",
             "Add pumpkin, sugar, salt, cinnamon, ginger, and cloves. Whisk until smooth.",
             "Gradually whisk in the evaporated milk until the filling is well combined.",
             "Place the unbaked 9-inch pie shell on the hot baking sheet. Pour the filling into the shell.",
-            "Bake at 425°F (220°C) for 15 minutes.",
-            "Reduce oven temperature to 350°F (175°C) and continue baking 35–45 minutes, or until a knife inserted near the center comes out clean or the center registers about 190°F (88°C).",
+            "Bake at 425\u00b0F (220\u00b0C) for 15 minutes.",
+            "Reduce oven temperature to 350\u00b0F (175\u00b0C) and continue baking 35\u201345 minutes, or until a knife inserted near the center comes out clean or the center registers about 190\u00b0F (88\u00b0C).",
             "Cool on a wire rack. Chill if you like a firmer texture.",
             "Top with whipped topping before serving, if desired."
           ]
@@ -434,7 +493,7 @@
           "servings": "One 9-inch pie",
           "ingredients": [
             "1 quart Fresh strawberries (washed, hulled, well drained)",
-            "3 oz Cream cheese (softened, low-fat or regular)",
+            "3 oz Cream cheese (softened, or regular)",
             "1 cup Sugar",
             "3 tablespoons Cornstarch",
             "As needed Water (to bring berry juice to 1 1/2 cups / 360 ml)",
@@ -456,61 +515,6 @@
           ]
         },
         {
-          "name": "Fluffy Buttermilk Biscuits",
-          "category": "Desserts (Misc)",
-          "servings": "About 10-12 biscuits",
-          "ingredients": [
-            "1 3/4 cups, sifted All-purpose flour",
-            "2 teaspoons Baking powder",
-            "1/2 teaspoon Baking soda",
-            "1/2 teaspoon Salt",
-            "1/4 cup Vegetable oil",
-            "1 cup Low-fat buttermilk",
-            "1/2 teaspoon Butter flavoring (optional)"
-          ],
-          "instructions": [
-            "Preheat oven to 450°F (230°C). Lightly coat a baking sheet with nonstick spray.",
-            "In a large bowl, sift together the flour, baking powder, baking soda, and salt.",
-            "In a small bowl or measuring cup, combine the vegetable oil, buttermilk, and butter flavoring (if using). Do not stir—just combine them gently.",
-            "Pour the liquid mixture all at once into the dry ingredients.",
-            "Stir quickly with a fork just until the mixture clings together and forms a shaggy ball. Do not overmix.",
-            "Turn the dough out onto a lightly floured board or clean work surface.",
-            "Using just your fingertips (not your palms), gently knead the dough 10-12 times until it just comes together.",
-            "Pat or roll the dough out to 1/2 to 1 inch thickness.",
-            "Cut biscuits with a floured 2-inch biscuit cutter, pressing straight down without twisting.",
-            "Place the biscuits on the prepared baking sheet.",
-            "Bake for 10-12 minutes, or until the tops are golden brown.",
-            "Serve hot with butter, jam, or honey."
-          ]
-        },
-        {
-          "name": "Pizza Dough (Crusty)",
-          "category": "Desserts (Misc)",
-          "servings": "Dough for two 12-inch pizzas or one large sheet pizza",
-          "ingredients": [
-            "1 package (2 1/4 teaspoons) Active dry yeast",
-            "1 cup Warm water (105-115°F (40-46°C))",
-            "1/2 teaspoon Salt",
-            "2 teaspoons Olive oil",
-            "2 1/2 to 3 1/2 cups All-purpose flour (start with 2 1/2 cups)",
-            "for dusting Cornmeal"
-          ],
-          "instructions": [
-            "In a large warmed mixing bowl, sprinkle the yeast over the warm water. Let stand for 5 minutes until the yeast is foamy.",
-            "Stir in the salt, olive oil, and 2 1/2 cups of the flour. Mix with a wooden spoon or a stand mixer with a dough hook for about 2 minutes.",
-            "Gradually add more flour, 1/2 cup at a time, mixing or kneading until the dough clings together, pulls away from the sides of the bowl, and is no longer sticky.",
-            "Knead the dough for 5 minutes (by hand on a floured surface or with a dough hook) until smooth and elastic.",
-            "Place the dough in a bowl coated with nonstick spray or lightly oiled. Turn the dough to coat all sides.",
-            "Cover the bowl with a damp towel or plastic wrap and let rise in a warm place (about 80°F) until doubled in size, about 1 hour.",
-            "Punch down the dough to release air bubbles.",
-            "Divide the dough in half for two round pizzas, or leave whole for one large sheet pizza.",
-            "On a lightly floured surface, roll out each portion into the desired shape and thickness.",
-            "Transfer to a pizza pan or baking sheet sprinkled with cornmeal.",
-            "Top with your favorite pizza toppings.",
-            "Bake at 425°F (220°C) for 18-22 minutes, or until the crust is golden and crispy and the cheese is bubbly."
-          ]
-        },
-        {
           "name": "Baked Rice Custard",
           "category": "Desserts (Misc)",
           "servings": "4 servings",
@@ -525,7 +529,7 @@
             "1/2 teaspoon Ground cinnamon (plus extra for dusting)"
           ],
           "instructions": [
-            "Preheat oven to 325°F (165°C). Lightly coat four custard cups or a 1-quart baking dish with nonstick spray.",
+            "Preheat oven to 325\u00b0F (165\u00b0C). Lightly coat four custard cups or a 1-quart baking dish with nonstick spray.",
             "In a medium bowl, beat together the eggs, sugar, vanilla, and salt until well combined.",
             "Heat the milk in a saucepan or microwave until it is scalded (steaming hot with a film on top, but not boiling). This takes about 3-4 minutes in the microwave or 5 minutes on the stovetop.",
             "Slowly pour the hot milk into the egg mixture, whisking constantly to prevent the eggs from cooking.",
@@ -544,7 +548,7 @@
           "ingredients": [
             "7 slices Good quality white bread (French, Italian, or artisan-style)",
             "3-4 tablespoons Soft butter (for spreading)",
-            "1 quart (4 cups) Low-fat or whole milk",
+            "1 quart (4 cups) or whole milk",
             "3 large, lightly beaten Eggs",
             "1/2 cup Granulated sugar",
             "1/4 teaspoon Salt",
@@ -554,8 +558,8 @@
             "1/4 teaspoon Ground nutmeg (optional)"
           ],
           "instructions": [
-            "Preheat oven to 325°F (165°C). Coat a 2-quart baking dish with nonstick spray.",
-            "Spread a generous amount of margarine or butter on one side of each slice of bread.",
+            "Preheat oven to 325\u00b0F (165\u00b0C). Coat a 2-quart baking dish with nonstick spray.",
+            "Spread a generous amount of unsalted butter or butter on one side of each slice of bread.",
             "Arrange the bread slices, buttered side up, in the bottom and slightly up the sides of the prepared baking dish, overlapping as needed.",
             "In a large bowl, whisk together the milk, beaten eggs, sugar, salt, raisins, vanilla, cinnamon, and nutmeg (if using) until well combined.",
             "Pour the milk mixture evenly over the bread in the baking dish.",
@@ -584,10 +588,10 @@
           ],
           "instructions": [
             "First, make the berry sauce: In a medium saucepan, combine 1 cup sugar and 1 cup water. Stir to dissolve the sugar, then bring to a boil over medium-high heat. Boil for 5 minutes.",
-            "Add the fresh cranberries or blueberries and cook, stirring occasionally, until the berry skins pop and the mixture thickens, about 15 minutes. To test for doneness, drop a spoonful onto a cold plate—it should jell slightly.",
+            "Add the fresh cranberries or blueberries and cook, stirring occasionally, until the berry skins pop and the mixture thickens, about 15 minutes. To test for doneness, drop a spoonful onto a cold plate\u2014it should jell slightly.",
             "Remove from heat and let the sauce cool slightly. You can use it warm or refrigerate until ready to use.",
-            "Preheat oven to 350°F (175°C). Coat a 9-inch pie pan or similar baking dish with nonstick spray.",
-            "For the crumb mixture: In a medium bowl, combine the oats, 3/4 cup sugar, flour, and salt. Add the cold margarine or butter and work it in with your fingers or a pastry cutter until the mixture resembles coarse crumbs.",
+            "Preheat oven to 350\u00b0F (175\u00b0C). Coat a 9-inch pie pan or similar baking dish with nonstick spray.",
+            "For the crumb mixture: In a medium bowl, combine the oats, 3/4 cup sugar, flour, and salt. Add the cold unsalted butter or butter and work it in with your fingers or a pastry cutter until the mixture resembles coarse crumbs.",
             "Press half of the crumb mixture gently and evenly into the bottom of the prepared baking dish to form a crust.",
             "Spread 1 1/2 cups of the prepared berry sauce over the crust, leaving a small border around the edge so the filling doesn't spread to the very edge.",
             "Sprinkle the remaining crumb mixture evenly over the top of the berry filling, patting it down gently. Press the edges to seal.",
@@ -636,7 +640,7 @@
         {
           "name": "Turkey Sausage",
           "category": "Main Dishes (Poultry)",
-          "servings": "About 16–20 patties",
+          "servings": "About 16\u201320 patties",
           "ingredients": [
             "4 pounds Ground turkey breast (very lean)",
             "1 1/2 cups Wheat germ (adds body and a nutty flavor)",
@@ -651,43 +655,43 @@
             "4 large, finely minced Garlic cloves",
             "2 teaspoons Old Bay seasoning",
             "1 tablespoon Salt",
-            "2–4 tablespoons, as needed Cold water"
+            "2\u20134 tablespoons, as needed Cold water"
           ],
           "instructions": [
             "In a small bowl, stir together the wheat germ and vegetable oil until evenly moistened. Cover and let stand at room temperature overnight, or at least 1 hour.",
             "In a large mixing bowl, combine the ground turkey, sage, coriander, black and white pepper, red pepper, cumin, thyme, garlic, Old Bay, and salt.",
-            "Add the wheat germ mixture and mix thoroughly with clean hands until the seasonings are evenly distributed and the mixture feels cohesive but not dry. If it seems crumbly, sprinkle in 2–4 tablespoons (30–60 ml) cold water and mix again.",
+            "Add the wheat germ mixture and mix thoroughly with clean hands until the seasonings are evenly distributed and the mixture feels cohesive but not dry. If it seems crumbly, sprinkle in 2\u20134 tablespoons (30\u201360 ml) cold water and mix again.",
             "For best flavor, cover and refrigerate the sausage mixture for at least 4 hours or overnight.",
             "Shape into patties or logs for links, using about 1/4 cup (60 g) of mixture per patty.",
-            "To cook, brown sausage over medium heat in a lightly oiled skillet, 4–5 minutes per side, until cooked through (internal temperature 165°F / 74°C). Alternatively, shape into logs and bake on a parchment-lined tray at 375°F (190°C) for 18–22 minutes, turning once.",
+            "To cook, brown sausage over medium heat in a lightly oiled skillet, 4\u20135 minutes per side, until cooked through (internal temperature 165\u00b0F / 74\u00b0C). Alternatively, shape into logs and bake on a parchment-lined tray at 375\u00b0F (190\u00b0C) for 18\u201322 minutes, turning once.",
             "Serve hot with eggs and potatoes, or cool and freeze cooked patties for quick breakfasts."
           ]
         },
         {
           "name": "Pizza (Carle Version)",
           "category": "Main Dishes (Veg/Cheese)",
-          "servings": "4–6 servings",
+          "servings": "4\u20136 servings",
           "ingredients": [
-            "1 package (about 6.5 oz / 185 g) Pizza crust mix (or equivalent homemade dough for one 12–14 inch pan)",
+            "1 package (about 6.5 oz / 185 g) Pizza crust mix (or equivalent homemade dough for one 12\u201314 inch pan)",
             "as needed Nonstick vegetable cooking spray",
-            "1–2 tablespoons for pan Cornmeal",
-            "1–1 1/2 cups Pizza sauce (such as Ragu Pizza natural sauce)",
+            "1\u20132 tablespoons for pan Cornmeal",
+            "1\u20131 1/2 cups Pizza sauce (such as Ragu Pizza natural sauce)",
             "1 small, thinly sliced Onion",
-            "1/4–1/3 cup, quartered Black olives",
+            "1/4\u20131/3 cup, quartered Black olives",
             "1 can (4 oz), drained Canned mushrooms",
             "1 small, sliced Bell pepper",
-            "1/2–1 cup, cut in strips Ham or turkey ham",
-            "2–3 cups, grated or sliced Mozzarella cheese"
+            "1/2\u20131 cup, cut in strips Ham or turkey ham",
+            "2\u20133 cups, grated or sliced Mozzarella cheese"
           ],
           "instructions": [
-            "Preheat oven to 450°F (230°C). Prepare the pizza crust dough according to package or recipe directions.",
-            "Spray a round or rectangular pizza pan with nonstick cooking spray and sprinkle with 1–2 tablespoons (10–20 g) cornmeal.",
+            "Preheat oven to 450\u00b0F (230\u00b0C). Prepare the pizza crust dough according to package or recipe directions.",
+            "Spray a round or rectangular pizza pan with nonstick cooking spray and sprinkle with 1\u20132 tablespoons (10\u201320 g) cornmeal.",
             "Place the dough in the center of the pan. With damp fingertips, gently press and stretch the dough out to the edges, keeping the thickness even.",
-            "Par-bake the crust for 8–10 minutes, until just set and lightly golden at the edges.",
-            "Remove from the oven and spread 1–1 1/2 cups (240–360 ml) pizza sauce over the crust, leaving a small border.",
+            "Par-bake the crust for 8\u201310 minutes, until just set and lightly golden at the edges.",
+            "Remove from the oven and spread 1\u20131 1/2 cups (240\u2013360 ml) pizza sauce over the crust, leaving a small border.",
             "Distribute sliced onion, olives, mushrooms, bell pepper, and ham or turkey ham evenly over the sauce.",
-            "Return the pizza to the oven and bake for 10–15 minutes, until the toppings are hot and the crust is golden.",
-            "Remove from the oven, top generously with grated or sliced Mozzarella cheese, and bake 5–8 minutes more, until the cheese is melted and bubbly.",
+            "Return the pizza to the oven and bake for 10\u201315 minutes, until the toppings are hot and the crust is golden.",
+            "Remove from the oven, top generously with grated or sliced Mozzarella cheese, and bake 5\u20138 minutes more, until the cheese is melted and bubbly.",
             "Cool a few minutes, then cut into wedges or squares and serve."
           ]
         },
@@ -699,7 +703,7 @@
             "8 oz, uncooked Fettuccine",
             "1 cup Broccoli florets",
             "1 cup Carrot slices",
-            "1 3/4 cups Skim milk",
+            "1 3/4 cups Whole milk",
             "1 package (8 oz), cubed Light neufchatel cheese",
             "1/2 cup, chopped Green onion",
             "1/2 teaspoon Italian seasoning",
@@ -743,7 +747,7 @@
             "Meanwhile, heat the oil in a large heavy skillet or saucepan over medium heat. Add the ground beef, onion, garlic, and parsley. Cook, breaking up the meat with a spoon, until the beef is browned and the onion is tender.",
             "Stir in the tomato paste, water, salt, and pepper. Bring to a simmer, then reduce heat to low and simmer gently for 1 hour, stirring occasionally. The sauce should thicken.",
             "In a medium bowl, beat the eggs lightly, then stir in the ricotta or cottage cheese until well combined.",
-            "Preheat oven to 375°F (190°C). Lightly coat a 13x9x2-inch baking dish with nonstick spray.",
+            "Preheat oven to 375\u00b0F (190\u00b0C). Lightly coat a 13x9x2-inch baking dish with nonstick spray.",
             "Spread about 1/2 cup of the meat sauce over the bottom of the prepared dish.",
             "Layer 4 lasagna noodles over the sauce, overlapping slightly. Spread half of the ricotta mixture over the noodles, then add a third of the remaining sauce, and a third of the mozzarella.",
             "Repeat the layers: noodles, remaining ricotta mixture, half of the remaining sauce, and half of the remaining mozzarella.",
@@ -761,7 +765,7 @@
             "1/4 cup Shredded carrot",
             "2 tablespoons, sliced Green onion",
             "8 oz, drained Firm tofu",
-            "1/2 cup Low-fat ricotta cheese",
+            "1/2 cup ricotta cheese",
             "1/2 cup Shredded cheddar cheese",
             "1/2 cup, divided Shredded mozzarella cheese",
             "1 large, beaten Egg white",
@@ -781,7 +785,7 @@
             "Add the cooked carrot and green onion, ricotta, cheddar, 1/4 cup of the mozzarella, beaten egg white, salt, and pepper. Mix well.",
             "In a medium saucepan, combine the undrained diced tomatoes, tomato paste, basil, oregano, sugar, garlic powder, and fennel seeds (if using).",
             "Bring to a boil, then reduce heat and simmer uncovered for 10 minutes, stirring occasionally.",
-            "Preheat oven to 350°F (175°C).",
+            "Preheat oven to 350\u00b0F (175\u00b0C).",
             "Spoon about 1/3 of the tomato sauce into the bottom of an ungreased 8x8x2-inch baking dish.",
             "Stuff each cooked shell with a heaping tablespoon of the tofu-cheese filling.",
             "Arrange the stuffed shells in a single layer in the baking dish.",
@@ -810,10 +814,10 @@
             "In a small bowl, whisk together the soy sauce, Worcestershire sauce, liquid smoke, hot sauce, garlic powder (if using), basil, brown sugar, and black pepper until the sugar dissolves.",
             "Place the brisket in a large resealable plastic bag or a shallow glass or ceramic dish. Pour the marinade over the brisket, turning to coat all sides. Seal the bag or cover the dish tightly with plastic wrap.",
             "Refrigerate for 24 hours, turning the brisket several times to ensure even marination.",
-            "When ready to cook, preheat the oven to 250°F (120°C).",
+            "When ready to cook, preheat the oven to 250\u00b0F (120\u00b0C).",
             "Remove the brisket from the marinade and place it fat-side up in a roasting pan or Dutch oven. Pour any remaining marinade over the top. Cover the pan tightly with heavy-duty aluminum foil or a tight-fitting lid to seal in moisture.",
-            "Bake for 6 to 7 hours, until the brisket is fork-tender and the internal temperature reaches at least 190–200°F (88–93°C) for best tenderness.",
-            "Remove from the oven and let the brisket rest, covered, for 10–15 minutes before slicing.",
+            "Bake for 6 to 7 hours, until the brisket is fork-tender and the internal temperature reaches at least 190\u2013200\u00b0F (88\u201393\u00b0C) for best tenderness.",
+            "Remove from the oven and let the brisket rest, covered, for 10\u201315 minutes before slicing.",
             "Transfer the brisket to a cutting board. Slice thinly across the grain using a sharp knife or electric knife. Slicing against the grain ensures tender, easy-to-chew slices.",
             "Serve hot with the pan juices spooned over the slices. Excellent with mashed potatoes, roasted vegetables, or in sandwiches."
           ]
@@ -826,7 +830,7 @@
             "15 ounces (1 can) Canned salmon (drained, bones and skin removed)",
             "2 tablespoons Onion (finely minced)",
             "1 large Egg (lightly beaten)",
-            "1/2 to 3/4 cup Soda crackers or saltines (finely crushed (about 12–15 crackers))",
+            "1/2 to 3/4 cup Soda crackers or saltines (finely crushed (about 12\u201315 crackers))",
             "1/4 to 1/2 teaspoon Tabasco or hot sauce (or to taste)",
             "1/4 teaspoon Black pepper (freshly ground)",
             "1 teaspoon Lemon juice (optional, for brightness)",
@@ -838,7 +842,7 @@
             "Stir in the crushed crackers, a little at a time, until the mixture holds together when pressed into a patty. It should be moist but not wet. If too dry, add a teaspoon of water or milk; if too wet, add more cracker crumbs.",
             "Shape the mixture into 8 small patties, about 2 1/2 to 3 inches in diameter and about 1/2 inch thick. Place on a plate.",
             "Heat 2 tablespoons of vegetable oil or butter in a large skillet over medium heat until shimmering.",
-            "Carefully place the croquettes in the skillet, working in batches if necessary to avoid crowding. Cook for 3–4 minutes per side, until golden brown and crispy. Handle gently when flipping to keep them intact.",
+            "Carefully place the croquettes in the skillet, working in batches if necessary to avoid crowding. Cook for 3\u20134 minutes per side, until golden brown and crispy. Handle gently when flipping to keep them intact.",
             "Transfer the cooked croquettes to a plate lined with paper towels to drain excess oil.",
             "Serve hot with lemon wedges, tartar sauce, or a side of coleslaw and cornbread. Enjoy!"
           ]
@@ -852,14 +856,14 @@
             "1 pound Turkey ham (diced or cubed)",
             "15 ounces (about 3 3/4 cups) Sharp cheddar cheese (shredded, reduced-fat if preferred)",
             "1/2 slice Bread (torn into small pieces)",
-            "1 large Egg (or 1/4 cup egg substitute)",
+            "1 large Egg (or 1/4 cup large eggs)",
             "about 1/2 cup total Milk (2% or whole)"
           ],
           "instructions": [
-            "Preheat oven to 350°F (175°C). Coat a 9x13x2-inch baking dish with nonstick cooking spray.",
+            "Preheat oven to 350\u00b0F (175\u00b0C). Coat a 9x13x2-inch baking dish with nonstick cooking spray.",
             "Cook the macaroni according to package directions until al dente. Drain well and set aside.",
             "If you have a meat grinder with a large-hole plate, grind the turkey ham and shredded cheese together. Run the 1/2 slice of bread through the grinder to collect any remaining cheese and ham. Mix well. If you don't have a grinder, finely chop or dice the ham and mix it with the shredded cheese and torn bread pieces.",
-            "In a small bowl, beat the egg (or egg substitute) and add enough milk to make 1/2 cup total liquid. Mix well.",
+            "In a small bowl, beat the egg (or large eggs) and add enough milk to make 1/2 cup total liquid. Mix well.",
             "Begin layering in the prepared casserole: Start with a layer of the ham-cheese mixture, then a layer of cooked macaroni. Repeat, alternating layers, and end with a layer of ham and cheese on top.",
             "Pour the egg-milk mixture evenly over the entire casserole.",
             "Bake uncovered for 25-30 minutes, or until the top is golden and the casserole is bubbly and heated through.",
@@ -885,7 +889,7 @@
           "instructions": [
             "Heat the vegetable oil in a large Dutch oven or heavy pot over medium-high heat.",
             "Brown the meat on all sides, working in batches if necessary. This should take about 8-10 minutes total. Remove the meat and set aside.",
-            "In the same pot, add the minced garlic and sliced onions. Sauté for 2-3 minutes until fragrant and the onions begin to soften.",
+            "In the same pot, add the minced garlic and sliced onions. Saut\u00e9 for 2-3 minutes until fragrant and the onions begin to soften.",
             "Return the browned meat to the pot. Add the broth, bay leaves, vinegar or lemon juice, and brown sugar. Stir to combine.",
             "Bring to a simmer, then reduce heat to low. Cover and simmer gently for about 1 hour, or until the meat is tender. Check occasionally and add a little water if needed.",
             "Stir in the tomato sauce and raisins. Continue simmering, covered, for another 30 minutes.",
@@ -910,12 +914,12 @@
             "1 teaspoon Melted butter (for bread crumbs)"
           ],
           "instructions": [
-            "Preheat oven to 400°F (200°C). Lightly coat 2 individual baking shells or ramekins (about 1-cup capacity each) with butter-flavored nonstick cooking spray.",
-            "In a small skillet, melt 2 tablespoons of margarine or butter over medium heat. Add the chopped onion and green pepper. Sauté for 3-4 minutes, until tender but not browned.",
+            "Preheat oven to 400\u00b0F (200\u00b0C). Lightly coat 2 individual baking shells or ramekins (about 1-cup capacity each) with butter-flavored nonstick cooking spray.",
+            "In a small skillet, melt 2 tablespoons of unsalted butter or butter over medium heat. Add the chopped onion and green pepper. Saut\u00e9 for 3-4 minutes, until tender but not browned.",
             "In a medium bowl, combine the flaked salmon, evaporated milk, flour, salt, and black pepper (if using). Mix well.",
-            "Add the sautéed onion and pepper (along with any butter from the pan) to the salmon mixture. Stir to combine.",
+            "Add the saut\u00e9ed onion and pepper (along with any butter from the pan) to the salmon mixture. Stir to combine.",
             "Divide the salmon mixture evenly between the prepared baking shells or ramekins.",
-            "In a small bowl, toss the soft bread crumbs with 1 teaspoon melted margarine or butter. Sprinkle the buttered crumbs evenly over the tops of the salmon mixture.",
+            "In a small bowl, toss the soft bread crumbs with 1 teaspoon melted unsalted butter or butter. Sprinkle the buttered crumbs evenly over the tops of the salmon mixture.",
             "Bake for 15 minutes, or until the tops are golden brown and the filling is bubbly.",
             "Serve hot with a side of steamed vegetables, rice, or a green salad. Excellent with lemon wedges for squeezing over the top."
           ]
@@ -935,8 +939,8 @@
             "1 cup Additional chicken broth or water (recommended for better texture)"
           ],
           "instructions": [
-            "Preheat oven to 350°F (175°C). Coat a 12x8x2-inch baking dish with nonstick cooking spray.",
-            "In a large skillet or saucepan, heat the vegetable oil over medium heat. Add the chopped onion and sauté for 3-4 minutes, until crisp-tender.",
+            "Preheat oven to 350\u00b0F (175\u00b0C). Coat a 12x8x2-inch baking dish with nonstick cooking spray.",
+            "In a large skillet or saucepan, heat the vegetable oil over medium heat. Add the chopped onion and saut\u00e9 for 3-4 minutes, until crisp-tender.",
             "Stir in the curry powder and cook for 1 minute, stirring constantly. This blooms the curry spices and enhances their flavor.",
             "Add the 3 cups of chicken broth and bring to a boil. Cover, reduce heat to low, and simmer for 15 minutes.",
             "Stir in the uncooked brown rice. Cover and continue to cook over low heat for 50-60 minutes, or until the liquid is mostly absorbed and the rice is tender. Check occasionally and add a bit more liquid if needed.",
@@ -960,13 +964,13 @@
             "1/2 cup, chopped Celery",
             "1/2 cup Mayonnaise (can use light mayo)",
             "3/4 teaspoon Salt",
-            "2 large Eggs (or 1/2 cup egg substitute)",
+            "2 large Eggs (or 1/2 cup large eggs)",
             "1 1/2 cups Milk",
             "2 cans (10.5 oz each) Condensed cream of mushroom soup (can use reduced-fat)"
           ],
           "instructions": [
             "Coat a 9x13-inch baking dish with nonstick cooking spray.",
-            "In a large bowl, combine the bread stuffing mix, melted margarine, and 1/4 cup water. Toss until the stuffing is moistened.",
+            "In a large bowl, combine the bread stuffing mix, melted unsalted butter, and 1/4 cup water. Toss until the stuffing is moistened.",
             "Spread half of the stuffing mixture evenly in the bottom of the prepared baking dish.",
             "In another bowl, combine the diced chicken, chopped onion, green onions (or chives), celery, mayonnaise, and salt. Mix well.",
             "Spread the chicken mixture evenly over the stuffing layer in the casserole dish.",
@@ -975,7 +979,7 @@
             "Pour the egg-milk mixture evenly over the entire casserole, trying to moisten all areas.",
             "Cover the dish tightly with aluminum foil and refrigerate overnight (or for at least 4 hours).",
             "When ready to bake, remove the casserole from the refrigerator and let it sit at room temperature for 1 hour.",
-            "Preheat oven to 325°F (165°C).",
+            "Preheat oven to 325\u00b0F (165\u00b0C).",
             "Spread the 2 cans of cream of mushroom soup evenly over the top of the casserole.",
             "Bake uncovered for 1 hour, or until the casserole is hot and bubbly and the top is lightly browned.",
             "Let stand for 10 minutes before serving. This is a perfect make-ahead dish for entertaining!"
@@ -995,14 +999,14 @@
             "to taste Salt and pepper"
           ],
           "instructions": [
-            "Preheat oven to 300°F (150°C). Coat a large 9x13-inch casserole dish or baking pan with nonstick cooking spray.",
+            "Preheat oven to 300\u00b0F (150\u00b0C). Coat a large 9x13-inch casserole dish or baking pan with nonstick cooking spray.",
             "In a large bowl, whisk together the cream of mushroom soup, cream of chicken (or celery) soup, and 2 soup cans of water until smooth.",
             "Stir the uncooked rice into the soup mixture until well combined.",
             "Pour the rice and soup mixture into the prepared casserole dish and spread evenly.",
-            "Dip each piece of chicken in the melted margarine, coating both sides. Season the chicken with salt and pepper to taste.",
+            "Dip each piece of chicken in the melted unsalted butter, coating both sides. Season the chicken with salt and pepper to taste.",
             "Arrange the chicken pieces on top of the rice mixture in a single layer.",
             "Cover the dish tightly with aluminum foil.",
-            "Bake for about 2 hours, or until the chicken is cooked through (internal temperature of 165°F) and the rice is tender.",
+            "Bake for about 2 hours, or until the chicken is cooked through (internal temperature of 165\u00b0F) and the rice is tender.",
             "Remove the foil during the last 15-20 minutes of baking to allow the chicken to brown on top.",
             "Let stand for 5-10 minutes before serving. The rice will absorb the flavorful juices from the chicken and soup."
           ]
@@ -1015,7 +1019,7 @@
             "1 pound Fresh spinach (or 10 oz frozen chopped spinach, thawed)",
             "1 tablespoon, chopped Yellow onion",
             "1 tablespoon Butter",
-            "1 large, beaten Egg (or 1/4 cup egg substitute)",
+            "1 large, beaten Egg (or 1/4 cup large eggs)",
             "2/3 cup Ricotta cheese (part-skim or whole milk)",
             "1/2 cup Grated Parmesan cheese",
             "1/8 teaspoon Ground nutmeg",
@@ -1026,10 +1030,10 @@
             "Cook the jumbo pasta shells according to package directions until al dente. Drain and set aside.",
             "If using fresh spinach: In a large saucepan, combine the spinach with 2-3 tablespoons of water. Cover and simmer for 3-5 minutes until wilted. Drain well and squeeze out as much excess moisture as possible. Chop finely.",
             "If using frozen spinach: Thaw completely and squeeze out all excess moisture. Chop if pieces are large.",
-            "In a small skillet, melt the margarine over medium heat. Add the chopped onion and cook for 3-4 minutes, until tender but not browned.",
+            "In a small skillet, melt the unsalted butter over medium heat. Add the chopped onion and cook for 3-4 minutes, until tender but not browned.",
             "Add the chopped spinach to the skillet and stir to combine. Heat through for 1-2 minutes. Remove from heat.",
             "In a medium bowl, combine the beaten egg, ricotta cheese, Parmesan cheese, nutmeg, and the spinach-onion mixture. Mix well.",
-            "Preheat oven to 350°F (175°C).",
+            "Preheat oven to 350\u00b0F (175\u00b0C).",
             "Spread half of the tomato sauce in the bottom of a 9x13-inch baking dish.",
             "Carefully stuff each cooked shell with about 2 tablespoons of the spinach-ricotta filling. Arrange the stuffed shells in the baking dish in a single layer.",
             "Pour the remaining tomato sauce over the top of the shells, covering them evenly.",
@@ -1043,8 +1047,8 @@
           "servings": "20 stuffed shells (6-8 servings)",
           "ingredients": [
             "1 pound Ground beef or ground chicken (lean)",
-            "1 tablespoon Olive oil (for sautéing)",
-            "1 large, beaten Egg (or 1/4 cup egg substitute)",
+            "1 tablespoon Olive oil (for saut\u00e9ing)",
+            "1 large, beaten Egg (or 1/4 cup large eggs)",
             "1/4 cup Grated Parmesan cheese",
             "1/4 cup Italian seasoned bread crumbs",
             "1 tablespoon, chopped Fresh parsley",
@@ -1055,10 +1059,10 @@
           ],
           "instructions": [
             "Cook the jumbo pasta shells according to package directions until al dente. Drain and set aside.",
-            "In a large skillet, heat the olive oil over medium-high heat. Add the ground beef (or chicken) and sauté, breaking it up with a spoon, until fully browned and cooked through, about 8-10 minutes.",
+            "In a large skillet, heat the olive oil over medium-high heat. Add the ground beef (or chicken) and saut\u00e9, breaking it up with a spoon, until fully browned and cooked through, about 8-10 minutes.",
             "Drain any excess fat from the cooked meat and transfer it to a mixing bowl. Let cool slightly.",
             "To the cooled meat, add the beaten egg, Parmesan cheese, bread crumbs, chopped parsley, salt, and pepper. Mix well until all ingredients are thoroughly combined.",
-            "Preheat oven to 350°F (175°C).",
+            "Preheat oven to 350\u00b0F (175\u00b0C).",
             "Spread half of the tomato sauce in the bottom of a 9x13-inch baking dish.",
             "Carefully stuff each cooked shell with about 2 tablespoons of the meat filling. Arrange the stuffed shells in the baking dish in a single layer.",
             "Pour the remaining tomato sauce over the top of the shells, covering them evenly.",
@@ -1119,7 +1123,7 @@
           "instructions": [
             "Cook spaghetti according to package directions; drain and set aside.",
             "In a medium skillet, warm the minced garlic in oil and butter over medium heat.",
-            "Add the fish strips and sauté for about 1 minute until they start to turn opaque.",
+            "Add the fish strips and saut\u00e9 for about 1 minute until they start to turn opaque.",
             "Carefully add the brandy and ignite with a long match or lighter. Let the flames burn out naturally (about 30 seconds).",
             "Add the mussels, Worcestershire sauce, soy sauce, oregano, and Tabasco. Stir gently.",
             "Stir in the chunky tomato sauce, catsup, parsley, and white wine. Bring to a simmer.",
@@ -1151,8 +1155,8 @@
           ],
           "instructions": [
             "Cook spaghetti according to package directions; drain and set aside.",
-            "In a large wok or deep skillet, warm the minced garlic in olive oil and melted margarine over medium heat.",
-            "Add the fish strips and sauté for about 3 minutes until they start to turn opaque and are nearly cooked through.",
+            "In a large wok or deep skillet, warm the minced garlic in olive oil and melted unsalted butter over medium heat.",
+            "Add the fish strips and saut\u00e9 for about 3 minutes until they start to turn opaque and are nearly cooked through.",
             "Carefully add the brandy. If desired, you can ignite it with a long match for dramatic presentation. Let flames burn out naturally.",
             "Add the Worcestershire sauce, soy sauce, fresh basil, and Tabasco. Stir gently to combine.",
             "Stir in the chunky tomato sauce, catsup, parsley, and white wine.",
@@ -1182,9 +1186,9 @@
           ],
           "instructions": [
             "Prepare the rice ahead of time in chicken or beef broth so it is cooked, fluffy, and still warm or at room temperature.",
-            "In a large skillet, melt the margarine or butter over medium heat.",
-            "Add the chopped green onions and saute 3–4 minutes until tender but not browned.",
-            "Stir in the drained mushrooms and cook 1–2 minutes more.",
+            "In a large skillet, melt the unsalted butter or butter over medium heat.",
+            "Add the chopped green onions and saute 3\u20134 minutes until tender but not browned.",
+            "Stir in the drained mushrooms and cook 1\u20132 minutes more.",
             "Add the cooked rice, breaking up any clumps with a fork or spatula. Sprinkle with salt and black pepper.",
             "Toss gently over medium heat until the rice is hot throughout and evenly coated with the butter and vegetables.",
             "Taste and adjust seasoning with additional salt or pepper, if needed.",
@@ -1194,13 +1198,13 @@
         {
           "name": "Hush Puppies",
           "category": "Side Dishes",
-          "servings": "About 20–24 hush puppies",
+          "servings": "About 20\u201324 hush puppies",
           "ingredients": [
             "2 cups Water",
             "1 cup, leveled Fine or medium-grain cornmeal",
             "1 teaspoon Salt",
             "1 large Egg",
-            "2–3 tablespoons (optional) Onion, very finely minced",
+            "2\u20133 tablespoons (optional) Onion, very finely minced",
             "1 clove (optional) Garlic, finely minced",
             "As needed for deep or shallow frying Oil or fat for frying"
           ],
@@ -1208,12 +1212,12 @@
             "In a medium saucepan, bring the water to a full boil over medium-high heat.",
             "If using onion and/or garlic, stir them into the boiling water and cook 1 minute to soften.",
             "Reduce heat to low. While stirring constantly with a wooden spoon or whisk, slowly pour in the cornmeal in a thin stream to avoid lumps.",
-            "Cook, stirring continuously, until the mixture is thick and pulls away from the sides of the pan, 2–4 minutes.",
+            "Cook, stirring continuously, until the mixture is thick and pulls away from the sides of the pan, 2\u20134 minutes.",
             "Remove from heat. Stir in the salt, then add the egg and mix quickly until fully incorporated and the batter is smooth and thick.",
-            "Let the mixture stand until it is cool enough to handle and firm enough to shape, about 15–20 minutes.",
+            "Let the mixture stand until it is cool enough to handle and firm enough to shape, about 15\u201320 minutes.",
             "With slightly damp hands, scoop about 1 tablespoon of dough at a time and roll into short logs or small balls, about finger size. Set formed hush puppies on a parchment-lined tray.",
-            "Heat frying oil or reserved fish-frying fat in a deep pot or skillet to 350–365°F (175–185°C).",
-            "Fry the hush puppies in batches without crowding, turning occasionally, until deep golden brown and crisp on the outside, 3–4 minutes.",
+            "Heat frying oil or reserved fish-frying fat in a deep pot or skillet to 350\u2013365\u00b0F (175\u2013185\u00b0C).",
+            "Fry the hush puppies in batches without crowding, turning occasionally, until deep golden brown and crisp on the outside, 3\u20134 minutes.",
             "Remove with a slotted spoon and drain on paper towels. Sprinkle lightly with extra salt while hot, if desired.",
             "Serve warm alongside fried fish or other seafood."
           ]
@@ -1233,119 +1237,20 @@
             "to taste Black pepper"
           ],
           "instructions": [
-            "Preheat oven to 350°F (175°C). Coat a 2-quart baking dish with nonstick cooking spray.",
-            "In a large skillet, melt the margarine over medium heat. Add the chopped onion and sauté for 3–4 minutes until softened.",
-            "Add the frozen broccoli to the skillet. Cook, stirring occasionally, until the broccoli is tender and heated through, about 5–7 minutes.",
+            "Preheat oven to 350\u00b0F (175\u00b0C). Coat a 2-quart baking dish with nonstick cooking spray.",
+            "In a large skillet, melt the unsalted butter over medium heat. Add the chopped onion and saut\u00e9 for 3\u20134 minutes until softened.",
+            "Add the frozen broccoli to the skillet. Cook, stirring occasionally, until the broccoli is tender and heated through, about 5\u20137 minutes.",
             "Stir in the cheese sauce and cream of chicken soup, mixing until the cheese is fully melted and the mixture is smooth.",
             "Add the cooked rice and stir until everything is well combined. Season with salt and pepper to taste.",
             "Transfer the mixture to the prepared baking dish and spread evenly.",
-            "Bake for 20–30 minutes, or until the casserole is hot throughout and bubbling around the edges.",
+            "Bake for 20\u201330 minutes, or until the casserole is hot throughout and bubbling around the edges.",
             "Let stand for 5 minutes before serving. Serve as a side dish with chicken, pork, or beef."
           ]
         }
       ]
     },
     {
-      "name": "Snacks",
-      "recipes": [
-        {
-          "name": "Roasted Nuts",
-          "category": "Appetizers, Dips & Snacks",
-          "servings": "About 8–10 snack servings",
-          "ingredients": [
-            "4 cups Mixed nuts (unsalted, any combination of pecans, walnuts, almonds, cashews, etc.)",
-            "1/2 stick (1/4 cup) Butter (melted)",
-            "1/2–3/4 teaspoon Salt (optional, or to taste)"
-          ],
-          "instructions": [
-            "Preheat the oven to 250°F (120°C). Line a rimmed baking sheet with parchment paper for easier cleanup.",
-            "Place the nuts in a large bowl. Drizzle with the melted margarine or butter and sprinkle with salt if using.",
-            "Toss until all the nuts are evenly coated.",
-            "Spread the nuts in a single layer on the prepared baking sheet.",
-            "Bake for 30–40 minutes, stirring every 10 minutes, until the nuts are fragrant and lightly toasted. Watch carefully so they do not burn.",
-            "Remove from the oven and let cool completely on the pan; they will crisp as they cool.",
-            "Store in an airtight container at room temperature for up to 1–2 weeks."
-          ]
-        },
-        {
-          "name": "Cheese Dip (Like Mexico Chiquito's)",
-          "category": "Appetizers, Dips & Snacks",
-          "servings": "About 2 1/2 cups",
-          "ingredients": [
-            "1/2 stick (4 tablespoons) Butter",
-            "1/4 cup All-purpose flour",
-            "1 teaspoon Paprika",
-            "1/4 teaspoon Dry mustard",
-            "1 teaspoon Ground cumin",
-            "1 teaspoon Ketchup",
-            "1 1/2 teaspoons Chili powder",
-            "1 teaspoon Pickled jalapeno juice",
-            "2 cups Milk (whole or 2%)",
-            "1/2 pepper Pickled jalapeno pepper (minced, or to taste)",
-            "1/4 teaspoon Garlic powder",
-            "6 ounces (about 1 1/2 cups shredded) American cheese"
-          ],
-          "instructions": [
-            "Melt the margarine in a medium saucepan over medium-low heat.",
-            "Stir in the flour and cook, stirring constantly, for 1–2 minutes to make a roux (do not let it brown).",
-            "Add the paprika, dry mustard, cumin, ketchup, chili powder, and jalapeno juice. Stir well.",
-            "Gradually pour in the milk, whisking constantly to avoid lumps. Increase heat slightly and cook, stirring, until the mixture thickens and comes to a gentle simmer.",
-            "Reduce heat to low. Stir in the minced jalapeno, garlic powder, and grated cheese. Continue stirring until the cheese melts and the dip is smooth.",
-            "Taste and adjust seasoning, adding more jalapeno or chili powder for extra heat if desired.",
-            "Serve warm with tortilla chips, vegetables, or as a topping for nachos."
-          ]
-        },
-        {
-          "name": "Chocolate Fondue",
-          "category": "Appetizers, Dips & Snacks",
-          "servings": "About 1 1/2 cups (4-6 servings)",
-          "ingredients": [
-            "1/2 cup (1 stick) Butter",
-            "1/2 cup Cocoa powder (unsweetened, preferably Ghirardelli)",
-            "3/4 cup White sugar",
-            "5 ounces (about 2/3 cup) Evaporated milk",
-            "1 teaspoon Vanilla extract",
-            "as desired Assorted dippers (such as pound cake cubes, cookies, marshmallows, fresh strawberries, pineapple chunks, mandarin orange segments, cherries)"
-          ],
-          "instructions": [
-            "Melt the butter in a medium saucepan over low heat.",
-            "Remove the pan from the heat and whisk in the cocoa powder until smooth.",
-            "Stir in the sugar and evaporated milk, mixing until well combined.",
-            "Return the pan to low heat. Cook, stirring constantly, until the mixture is smooth, hot, and slightly thickened. Do not let it boil.",
-            "Remove from heat and stir in the vanilla extract.",
-            "Transfer the fondue to a fondue pot or small slow cooker to keep warm, or serve immediately in a bowl.",
-            "Arrange your choice of dippers on a platter and enjoy!"
-          ]
-        },
-        {
-          "name": "Crab Dip",
-          "category": "Appetizers, Dips & Snacks",
-          "servings": "About 3 cups",
-          "ingredients": [
-            "1/2 cup Non-fat plain Greek yogurt or sour cream",
-            "2 tablespoons Fat-free mayonnaise",
-            "8 ounces Fat-free cream cheese (softened)",
-            "1-2 teaspoons Prepared horseradish (to taste)",
-            "1/2 teaspoon Dry mustard",
-            "1/2 teaspoon Worcestershire sauce",
-            "1/4 teaspoon Hot pepper sauce (or to taste)",
-            "1 cup Fat-free shredded cheddar cheese",
-            "1/2 pound (about 2 cups) Imitation crab meat (flaked)",
-            "for garnish Paprika"
-          ],
-          "instructions": [
-            "In a medium bowl, combine the yogurt, mayonnaise, and softened cream cheese. Stir or beat until smooth.",
-            "Add the horseradish, dry mustard, Worcestershire sauce, and hot pepper sauce. Mix well.",
-            "Fold in the shredded cheddar cheese and flaked crab meat until evenly distributed.",
-            "Cover and refrigerate for at least 2 hours to let the flavors blend.",
-            "Before serving, sprinkle the top with paprika for color.",
-            "Serve chilled with crackers, toasted baguette slices, breadsticks, or fresh vegetables."
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Breads & Breakfast",
+      "name": "Breads, Rolls & Breakfast",
       "recipes": [
         {
           "name": "Banana Nut Bread",
@@ -1354,7 +1259,7 @@
           "ingredients": [
             "1 cup Granulated sugar",
             "1/2 cup (1 stick) Butter (softened)",
-            "2 large eggs (or 1/2 cup substitute) Eggs or egg substitute",
+            "2 large eggs (or 1/2 cup substitute) Eggs or large eggs",
             "2 cups All-purpose flour",
             "1 teaspoon Baking soda",
             "1/2 teaspoon Ground cinnamon",
@@ -1363,14 +1268,14 @@
             "1/2 cup Chopped walnuts or pecans"
           ],
           "instructions": [
-            "Preheat oven to 325°F (165°C). Coat a 9×5-inch loaf pan with nonstick spray or line with parchment paper.",
-            "In a large bowl, cream together the sugar and softened margarine until light and fluffy.",
-            "Beat in the eggs (or egg substitute) until well combined.",
+            "Preheat oven to 325\u00b0F (165\u00b0C). Coat a 9\u00d75-inch loaf pan with nonstick spray or line with parchment paper.",
+            "In a large bowl, cream together the sugar and softened unsalted butter until light and fluffy.",
+            "Beat in the eggs (or large eggs) until well combined.",
             "In a separate bowl, whisk together the flour, baking soda, cinnamon, and cloves.",
             "Add the dry ingredients to the creamed mixture and stir until just combined (do not overmix).",
             "Fold in the mashed bananas and chopped nuts until evenly distributed.",
             "Pour the batter into the prepared loaf pan and smooth the top.",
-            "Bake for 60–70 minutes, or until a toothpick inserted in the center comes out clean.",
+            "Bake for 60\u201370 minutes, or until a toothpick inserted in the center comes out clean.",
             "Let cool in the pan for 10 minutes, then turn out onto a wire rack to cool completely before slicing."
           ]
         },
@@ -1393,13 +1298,13 @@
             "1/2 cup Chopped walnuts or pecans"
           ],
           "instructions": [
-            "Preheat oven to 325°F (165°C). Grease a 9x5-inch loaf pan or coat with nonstick spray.",
+            "Preheat oven to 325\u00b0F (165\u00b0C). Grease a 9x5-inch loaf pan or coat with nonstick spray.",
             "In a large bowl, whisk together the flour, sugar, baking powder, baking soda, and salt.",
             "In a separate bowl or measuring cup, combine the fresh orange juice and grated rind, then add enough water to make 3/4 cup total liquid. Stir in the beaten egg and oil.",
             "Pour the wet ingredients into the dry ingredients and stir just until moistened and combined. The batter will be slightly lumpy.",
             "Gently fold in the halved cranberries and chopped nuts, distributing them evenly.",
             "Pour the batter into the prepared loaf pan and spread evenly.",
-            "Bake for 50–60 minutes, or until a toothpick inserted in the center comes out clean and the top is golden brown.",
+            "Bake for 50\u201360 minutes, or until a toothpick inserted in the center comes out clean and the top is golden brown.",
             "Cool in the pan for 10 minutes, then turn out onto a wire rack to cool completely.",
             "For best flavor and easier slicing, wrap and refrigerate overnight before serving."
           ]
@@ -1422,14 +1327,14 @@
             "1 cup Chopped pecans"
           ],
           "instructions": [
-            "Preheat oven to 350°F (175°C). Generously grease three 1-pound coffee cans or three 8x4-inch loaf pans, or spray with nonstick cooking spray.",
+            "Preheat oven to 350\u00b0F (175\u00b0C). Generously grease three 1-pound coffee cans or three 8x4-inch loaf pans, or spray with nonstick cooking spray.",
             "In a large mixing bowl, whisk together the sifted flour, baking soda, salt, cinnamon, nutmeg, and sugar.",
             "In a separate bowl, combine the beaten eggs, water, vegetable oil, and pumpkin puree. Whisk until smooth and well blended.",
             "Pour the wet ingredients into the dry ingredients and stir just until combined. Do not overmix.",
             "Fold in the chopped pecans, distributing them evenly throughout the batter.",
             "Divide the batter evenly among the three prepared cans or loaf pans, filling each about two-thirds full.",
-            "Bake for 60–70 minutes, or until a toothpick or skewer inserted in the center comes out clean.",
-            "Let the loaves cool in the cans or pans for 10–15 minutes, then carefully turn out onto a wire rack to cool completely.",
+            "Bake for 60\u201370 minutes, or until a toothpick or skewer inserted in the center comes out clean.",
+            "Let the loaves cool in the cans or pans for 10\u201315 minutes, then carefully turn out onto a wire rack to cool completely.",
             "Wrap the cooled loaves in plastic wrap or foil and let rest overnight for easier slicing and richer flavor."
           ]
         },
@@ -1480,21 +1385,21 @@
           ],
           "instructions": [
             "In a large bowl, combine 2 cups flour with the yeast and mix well.",
-            "In a small saucepan, heat the milk, water, 1/2 cup sugar, oil, and salt over low heat until warm (120-130°F), stirring to dissolve the sugar.",
+            "In a small saucepan, heat the milk, water, 1/2 cup sugar, oil, and salt over low heat until warm (120-130\u00b0F), stirring to dissolve the sugar.",
             "Pour the warm liquid into the flour-yeast mixture. Beat with an electric mixer for 2-3 minutes until smooth.",
             "Beat in the egg whites until incorporated.",
             "Add 1 more cup of flour and beat for 1 minute.",
             "Gradually stir in enough of the remaining flour to make a dough that is too stiff to stir.",
             "Turn the dough out onto a floured surface and knead for 8-10 minutes, adding flour as needed, until smooth and elastic.",
-            "Place the dough in a greased bowl, turning to coat. Cover and let rise in a warm place (80-85°F) until doubled, about 1 1/2-2 hours.",
+            "Place the dough in a greased bowl, turning to coat. Cover and let rise in a warm place (80-85\u00b0F) until doubled, about 1 1/2-2 hours.",
             "Punch down the dough and let rest for 10 minutes.",
             "Roll the dough into a large rectangle, about 1/2-inch thick.",
-            "Brush the dough generously with melted margarine or butter.",
+            "Brush the dough generously with melted unsalted butter or butter.",
             "Mix the brown sugar and cinnamon together and sprinkle evenly over the buttered dough.",
             "Starting from a long edge, roll the dough tightly into a log. Cut into 1-inch slices.",
             "Place the rolls in greased 9x13-inch pans, leaving space between them. Spray the tops lightly with cooking spray.",
             "Cover and let rise until doubled, 30-45 minutes.",
-            "Preheat oven to 375°F (190°C).",
+            "Preheat oven to 375\u00b0F (190\u00b0C).",
             "Bake for 20-25 minutes, or until golden brown.",
             "While the rolls bake, make the glaze by whisking together confectioners' sugar and enough milk to make a drizzling consistency.",
             "Drizzle the glaze over warm rolls and serve."
@@ -1506,29 +1411,29 @@
           "servings": "36 rolls",
           "ingredients": [
             "1 packet (2 1/4 tsp) Active dry yeast",
-            "1/4 cup (105-115°F) Warm water",
+            "1/4 cup (105-115\u00b0F) Warm water",
             "1 3/4 cups Milk",
             "1/3 cup Granulated sugar",
             "1/4 cup Vegetable oil",
             "1/4 cup Butter",
             "1 teaspoon Salt",
-            "1/2 cup Egg substitute or 2 eggs",
+            "1/2 cup Large Eggs or 2 eggs",
             "1 1/2 cups Yellow cornmeal",
             "5-5 1/2 cups, divided All-purpose flour"
           ],
           "instructions": [
             "In a large bowl, dissolve the yeast in warm water. Let stand for 5 minutes until foamy.",
-            "In a small saucepan, heat the milk, sugar, oil, margarine, and salt over low heat until the margarine melts. Stir well and cool to 105-115°F.",
+            "In a small saucepan, heat the milk, sugar, oil, unsalted butter, and salt over low heat until the unsalted butter melts. Stir well and cool to 105-115\u00b0F.",
             "Add the cooled milk mixture to the yeast mixture.",
-            "Stir in the egg substitute, cornmeal, and 2 cups of the flour.",
+            "Stir in the large eggs, cornmeal, and 2 cups of the flour.",
             "Beat with an electric mixer on medium speed for 2 minutes until smooth.",
             "Gradually stir in enough of the remaining flour to form a soft dough.",
             "Turn the dough out onto a lightly floured surface and knead for about 8 minutes, adding flour as needed, until smooth and elastic.",
-            "Place the dough in a greased bowl, turning to coat all sides. Cover and let rise in a warm place (about 85°F) until doubled in size, about 1 hour.",
+            "Place the dough in a greased bowl, turning to coat all sides. Cover and let rise in a warm place (about 85\u00b0F) until doubled in size, about 1 hour.",
             "Punch down the dough and divide into 36 equal pieces. Shape each piece into a smooth ball.",
             "Place the balls on greased or parchment-lined baking sheets, spacing them about 2 inches apart.",
             "Cover and let rise in a warm place for 45 minutes, or until doubled in size.",
-            "Preheat oven to 375°F (190°C).",
+            "Preheat oven to 375\u00b0F (190\u00b0C).",
             "Bake for 12-15 minutes, or until the rolls are golden brown.",
             "Brush the hot rolls lightly with melted butter or spray with butter-flavored cooking spray.",
             "Remove from the pans immediately and serve warm."
@@ -1550,19 +1455,19 @@
           ],
           "instructions": [
             "In a large mixing bowl, combine 2 cups of the flour with the yeast. Whisk together to distribute the yeast evenly.",
-            "In a small saucepan, combine the milk, water, sugar, 1/3 cup oil, and salt. Warm over low heat, stirring occasionally, until the mixture reaches 120–130°F and the sugar dissolves. It should feel warm but not hot to the touch.",
-            "Pour the warm liquid into the flour-yeast mixture. Beat with an electric mixer on low speed for 30 seconds, scraping the bowl frequently, then beat on high speed for 2–3 minutes until smooth. (Or beat vigorously by hand for about 300 strokes.)",
+            "In a small saucepan, combine the milk, water, sugar, 1/3 cup oil, and salt. Warm over low heat, stirring occasionally, until the mixture reaches 120\u2013130\u00b0F and the sugar dissolves. It should feel warm but not hot to the touch.",
+            "Pour the warm liquid into the flour-yeast mixture. Beat with an electric mixer on low speed for 30 seconds, scraping the bowl frequently, then beat on high speed for 2\u20133 minutes until smooth. (Or beat vigorously by hand for about 300 strokes.)",
             "Add the egg whites and beat until incorporated.",
             "Mix in 1 more cup of flour and beat for 1 minute.",
             "Gradually stir in enough of the remaining flour (about 1 1/2 to 2 cups) to make a dough that is too stiff to stir.",
-            "Turn the dough out onto a lightly floured surface. Knead for 8–10 minutes, adding small amounts of flour as needed, until the dough is smooth, elastic, and no longer sticky. Proper kneading develops the gluten and creates a light, airy texture.",
+            "Turn the dough out onto a lightly floured surface. Knead for 8\u201310 minutes, adding small amounts of flour as needed, until the dough is smooth, elastic, and no longer sticky. Proper kneading develops the gluten and creates a light, airy texture.",
             "Shape the dough into a ball. Place it in a large bowl lightly coated with nonstick spray or oil. Turn the dough once to coat the surface. Cover with a clean kitchen towel or plastic wrap.",
-            "Let the dough rise in a warm, draft-free place (80–85°F) until doubled in size, about 1 1/2 to 2 hours. To test, gently press two fingers into the dough; if the indentation remains, the dough is ready.",
+            "Let the dough rise in a warm, draft-free place (80\u201385\u00b0F) until doubled in size, about 1 1/2 to 2 hours. To test, gently press two fingers into the dough; if the indentation remains, the dough is ready.",
             "Punch down the dough to release the air. Let it rest for 10 minutes.",
             "Shape the dough as desired: rolls, buns, cinnamon rolls, coffee cakes, or loaves. Place shaped dough into pans coated with nonstick spray. Lightly brush the tops with oil to prevent drying.",
-            "Cover and let rise again in a warm place until nearly doubled in size, 30–45 minutes.",
-            "Preheat the oven to 350°F (175°C).",
-            "Bake for 20–25 minutes (rolls and buns) or 30–35 minutes (loaves), until golden brown. The bread should sound hollow when tapped on the bottom.",
+            "Cover and let rise again in a warm place until nearly doubled in size, 30\u201345 minutes.",
+            "Preheat the oven to 350\u00b0F (175\u00b0C).",
+            "Bake for 20\u201325 minutes (rolls and buns) or 30\u201335 minutes (loaves), until golden brown. The bread should sound hollow when tapped on the bottom.",
             "Remove from pans and let cool on a wire rack. Serve warm or at room temperature."
           ]
         },
@@ -1580,16 +1485,16 @@
           ],
           "instructions": [
             "In a large bowl, combine about 1 cup of the flour with the yeast. Whisk together to distribute the yeast evenly.",
-            "In a small saucepan, combine the milk, oil, sugar, and salt. Heat over low heat, stirring occasionally, until warm to the touch (110-115°F) and the sugar and salt dissolve. The mixture should feel warm but not hot.",
+            "In a small saucepan, combine the milk, oil, sugar, and salt. Heat over low heat, stirring occasionally, until warm to the touch (110-115\u00b0F) and the sugar and salt dissolve. The mixture should feel warm but not hot.",
             "Pour the warm liquid into the flour-yeast mixture. Beat with an electric mixer at medium speed for 2 minutes, or beat vigorously by hand for about 300 strokes, until smooth.",
             "Add 1/2 to 1 cup more flour and beat for an additional 1 minute.",
             "Gradually stir in enough of the remaining flour (about 1 1/2 to 2 cups) to form a soft dough that pulls away from the sides of the bowl.",
             "Turn the dough out onto a lightly floured surface. Knead for 8-10 minutes, adding small amounts of flour as needed, until the dough is smooth, elastic, and no longer sticky.",
             "Lightly coat a large bowl with nonstick spray. Place the dough in the bowl and turn once to coat. Cover with plastic wrap or a damp towel.",
-            "Let the dough rise in a warm, draft-free place (80-85°F) until doubled in size, about 1 hour. To test, gently press two fingers into the dough; if the indentation remains, it's ready.",
+            "Let the dough rise in a warm, draft-free place (80-85\u00b0F) until doubled in size, about 1 hour. To test, gently press two fingers into the dough; if the indentation remains, it's ready.",
             "Punch down the dough to release the air. Turn out onto a lightly floured surface and shape into desired forms: round rolls, cloverleaf, Parker House, crescents, etc.",
             "Place shaped rolls on lightly greased baking sheets or in muffin tins, spacing them about 2 inches apart. Cover and let rise again until nearly doubled, 1 to 1 1/2 hours.",
-            "Preheat the oven to 425°F (220°C).",
+            "Preheat the oven to 425\u00b0F (220\u00b0C).",
             "Bake for 10-12 minutes, or until the rolls are golden brown on top.",
             "Serve piping hot with butter. Store leftovers in an airtight container for up to 3 days, or freeze for up to 1 month."
           ]
@@ -1603,7 +1508,7 @@
             "2 1/2 cups All-purpose flour (for crumble topping)",
             "2 cups Granulated sugar (for crumble topping)",
             "1 teaspoon Vanilla extract",
-            "2 large Eggs (or 1/2 cup egg substitute)",
+            "2 large Eggs (or 1/2 cup large eggs)",
             "12 tablespoons (1 1/2 sticks) Butter (softened)",
             "2 teaspoons Baking powder"
           ],
@@ -1611,17 +1516,17 @@
             "Prepare one full batch of Basic Sweet Dough according to the recipe, but add a bit more liquid so the dough reaches a thick cake batter consistency rather than a standard bread dough texture.",
             "Coat 4 to 5 eight-inch square baking pans with nonstick cooking spray.",
             "Divide the dough evenly among the pans. Spread to about 3/8-inch thickness (it will rise during proofing). The dough should cover the bottom of each pan.",
-            "Prepare the crumble topping: In a medium bowl, combine the sugar, vanilla, eggs (or egg substitute), softened margarine, and baking powder. Mix until well blended.",
+            "Prepare the crumble topping: In a medium bowl, combine the sugar, vanilla, eggs (or large eggs), softened unsalted butter, and baking powder. Mix until well blended.",
             "Gradually work in the flour, mixing and rubbing the mixture between your fingers until crumbles form. The crumbles should vary in size, with the largest about the size of a blueberry.",
             "Sprinkle the crumble topping evenly over each unbaked coffee cake, distributing it as uniformly as possible.",
             "Cover the pans lightly and let the cakes rise in a warm place for about 1 hour, or until noticeably puffy.",
-            "Preheat the oven to 375°F (190°C).",
+            "Preheat the oven to 375\u00b0F (190\u00b0C).",
             "Bake for 20-25 minutes, or until the cakes are golden brown and the crumble topping is lightly crisped.",
             "Cool in the pans for 10 minutes, then cut into squares and serve warm or at room temperature. Excellent with coffee or tea!"
           ]
         },
         {
-          "name": "Stöllen",
+          "name": "St\u00f6llen",
           "category": "Breads, Rolls & Breakfast",
           "servings": "6 small loaves",
           "ingredients": [
@@ -1630,7 +1535,7 @@
             "8 cups All-purpose flour (sifted, divided)",
             "1 pound (4 sticks) Butter (softened, reserve 3 tbsp)",
             "1 cup Granulated sugar (plus extra for topping)",
-            "4 large Eggs (or 1 cup egg substitute)",
+            "4 large Eggs (or 1 cup large eggs)",
             "3/4 to 1 pound Candied fruit mix and/or Muscat raisins (seeded raisins)",
             "1/2 cup Rum (can substitute rum extract)",
             "from 1 lemon Fresh lemon zest (finely grated)",
@@ -1639,20 +1544,20 @@
             "3 tablespoons Rosewater (adjust to taste)"
           ],
           "instructions": [
-            "Scald the milk and let it cool to lukewarm (110°F). In a medium bowl, combine 1 cup of the flour, the lukewarm milk, and the yeast. Mix well, cover, and set in a warm place to rise until light and bubbly, about 30-45 minutes.",
+            "Scald the milk and let it cool to lukewarm (110\u00b0F). In a medium bowl, combine 1 cup of the flour, the lukewarm milk, and the yeast. Mix well, cover, and set in a warm place to rise until light and bubbly, about 30-45 minutes.",
             "Meanwhile, combine the candied fruit, raisins, and grated lemon zest in a bowl. Pour the rosewater and rum over the fruit mixture. Cover and set aside to macerate.",
-            "In a large mixing bowl, cream together the softened margarine (reserving 3 tablespoons) and 1 cup sugar until light and fluffy. Add the eggs one at a time, beating well after each addition.",
-            "In a very large bowl or on a clean work surface, place the remaining 7 cups of flour and the salt. Make a well in the center. Add the creamed margarine mixture, the yeast sponge, and the fruit mixture (including any liquid). Mix well by hand, working the ingredients together and adding a bit more flour if the dough is too sticky.",
+            "In a large mixing bowl, cream together the softened unsalted butter (reserving 3 tablespoons) and 1 cup sugar until light and fluffy. Add the eggs one at a time, beating well after each addition.",
+            "In a very large bowl or on a clean work surface, place the remaining 7 cups of flour and the salt. Make a well in the center. Add the creamed unsalted butter mixture, the yeast sponge, and the fruit mixture (including any liquid). Mix well by hand, working the ingredients together and adding a bit more flour if the dough is too sticky.",
             "Knead the dough on a lightly floured surface for about 8-10 minutes, until smooth and not too sticky. Place in a greased bowl, cover, and let rise in a warm place until doubled in size, about 1-2 hours.",
             "Punch down the dough and divide it into 6 equal portions. Shape each portion into a round lump, then flatten slightly into an oval.",
-            "Melt the reserved 3 tablespoons of margarine. Brush each oval with melted margarine, then sprinkle with sugar and chopped almonds. Fold each oval in half lengthwise and place in a greased baking pan.",
-            "Brush the tops with additional melted margarine. Cover and let rise in a warm place until puffy, about 45-60 minutes.",
-            "Preheat oven to 350°F (175°C). Bake for 40-60 minutes, or until golden brown and the bread sounds hollow when tapped. If the tops brown too quickly, tent with foil.",
-            "Cool on wire racks. Dust with powdered sugar before serving if desired. Stöllen keeps well and improves with age when wrapped tightly."
+            "Melt the reserved 3 tablespoons of unsalted butter. Brush each oval with melted unsalted butter, then sprinkle with sugar and chopped almonds. Fold each oval in half lengthwise and place in a greased baking pan.",
+            "Brush the tops with additional melted unsalted butter. Cover and let rise in a warm place until puffy, about 45-60 minutes.",
+            "Preheat oven to 350\u00b0F (175\u00b0C). Bake for 40-60 minutes, or until golden brown and the bread sounds hollow when tapped. If the tops brown too quickly, tent with foil.",
+            "Cool on wire racks. Dust with powdered sugar before serving if desired. St\u00f6llen keeps well and improves with age when wrapped tightly."
           ]
         },
         {
-          "name": "Stöllen (Kanis Recipe)",
+          "name": "St\u00f6llen (Kanis Recipe)",
           "category": "Breads, Rolls & Breakfast",
           "servings": "Multiple loaves (large holiday batch)",
           "ingredients": [
@@ -1663,7 +1568,7 @@
             "1/2 pound Chopped almonds",
             "1/2 pound Chopped pecans",
             "1 pound (4 sticks) Butter (plus extra for brushing)",
-            "6 large Eggs (or 1 1/2 cups egg substitute)",
+            "6 large Eggs (or 1 1/2 cups large eggs)",
             "1 tablespoon Salt",
             "1 quart Milk",
             "6 packets Active dry yeast",
@@ -1676,16 +1581,16 @@
             "The night before: In a large bowl, combine all the candied fruit, raisins (if using), and sugar. Pour 1/2 cup whiskey over the mixture, stir well, cover, and let macerate overnight.",
             "The next morning: Add the chopped almonds and pecans to the fruit mixture.",
             "In a very large mixing bowl, cream together the butter, eggs, salt, and remaining sugar until well combined.",
-            "Warm the milk to lukewarm (110°F) and dissolve the yeast in it. Let stand for 5 minutes until foamy.",
+            "Warm the milk to lukewarm (110\u00b0F) and dissolve the yeast in it. Let stand for 5 minutes until foamy.",
             "Add the yeast mixture, the fruit-nut mixture, lemon zest, rosewater, and almond extract to the creamed butter mixture. Mix well.",
             "Gradually add flour, starting with about 7 pounds, mixing and kneading until you have a stiff dough that is smooth but not sticky. Add more flour as needed, up to 12 pounds total.",
-            "Cover the dough and let it rise slowly in a cool place for a long time—overnight is ideal. The slow rise develops flavor.",
+            "Cover the dough and let it rise slowly in a cool place for a long time\u2014overnight is ideal. The slow rise develops flavor.",
             "The next day, turn the dough out onto a lightly floured surface. Handle gently. Roll or pat out lightly to about 1 inch thickness.",
             "Cut the dough into portions of about 1 1/2 pounds each. Shape each portion into a loaf by folding and tucking the edges under.",
             "Place the loaves on greased baking sheets. Cover and let rise again until puffy, about 1-2 hours.",
-            "Preheat oven to 325°F (165°C). Bake for about 1 hour, or until golden brown and the loaves sound hollow when tapped.",
-            "While still hot, brush the tops with melted butter or margarine. Mix some powdered sugar with almond extract and rub this almond-flavored sugar on top of each loaf.",
-            "Cool completely before slicing. Stöllen improves with age and can be stored for weeks when wrapped tightly."
+            "Preheat oven to 325\u00b0F (165\u00b0C). Bake for about 1 hour, or until golden brown and the loaves sound hollow when tapped.",
+            "While still hot, brush the tops with melted butter or unsalted butter. Mix some powdered sugar with almond extract and rub this almond-flavored sugar on top of each loaf.",
+            "Cool completely before slicing. St\u00f6llen improves with age and can be stored for weeks when wrapped tightly."
           ]
         },
         {
@@ -1700,37 +1605,39 @@
           "instructions": [
             "Prepare your favorite dinner roll dough recipe and let it rise until doubled.",
             "Punch down the dough and divide as needed for the shapes you wish to make.",
-            "FOR CLOVERLEAF ROLLS: Pinch off small pieces of dough and roll into balls about 1/2 inch in diameter. Lightly spray muffin cups with nonstick spray. Place 3 balls in each muffin cup to form a cloverleaf shape. Let rise until doubled, then bake at 375°F (190°C) for 12-15 minutes until golden.",
-            "FOR CRESCENT ROLLS: Roll dough to 1/4-inch thickness. Cut into 6-inch circles, then cut each circle into 6 wedges (or roll into a 3-inch-wide rectangle and cut into triangles). Brush with melted margarine. Starting at the wide end, roll up each triangle and curve into a crescent shape. Place on greased baking sheet, let rise until doubled, then bake at 375°F (190°C) for 12-15 minutes.",
-            "FOR PARKERHOUSE ROLLS: Roll dough to 1/4-inch thickness. Cut with a 3-inch biscuit cutter. Use a spoon handle to make a crease just below center of each circle. Brush with margarine. Fold the top half over the bottom half (bottom should be slightly larger). Place on greased baking sheet, let rise until doubled, then bake at 375°F (190°C) for 12-15 minutes.",
-            "FOR FANTAN ROLLS: Roll dough into a rectangle 1/8-inch thick. Cut into 1-inch-wide strips. Brush with melted margarine. Stack 6-7 strips on top of each other. Cut the stack into 1 1/4-inch pieces. Place each piece cut-side up in greased muffin cups. Let rise until doubled, then bake at 375°F (190°C) for 12-15 minutes.",
+            "FOR CLOVERLEAF ROLLS: Pinch off small pieces of dough and roll into balls about 1/2 inch in diameter. Lightly spray muffin cups with nonstick spray. Place 3 balls in each muffin cup to form a cloverleaf shape. Let rise until doubled, then bake at 375\u00b0F (190\u00b0C) for 12-15 minutes until golden.",
+            "FOR CRESCENT ROLLS: Roll dough to 1/4-inch thickness. Cut into 6-inch circles, then cut each circle into 6 wedges (or roll into a 3-inch-wide rectangle and cut into triangles). Brush with melted unsalted butter. Starting at the wide end, roll up each triangle and curve into a crescent shape. Place on greased baking sheet, let rise until doubled, then bake at 375\u00b0F (190\u00b0C) for 12-15 minutes.",
+            "FOR PARKERHOUSE ROLLS: Roll dough to 1/4-inch thickness. Cut with a 3-inch biscuit cutter. Use a spoon handle to make a crease just below center of each circle. Brush with unsalted butter. Fold the top half over the bottom half (bottom should be slightly larger). Place on greased baking sheet, let rise until doubled, then bake at 375\u00b0F (190\u00b0C) for 12-15 minutes.",
+            "FOR FANTAN ROLLS: Roll dough into a rectangle 1/8-inch thick. Cut into 1-inch-wide strips. Brush with melted unsalted butter. Stack 6-7 strips on top of each other. Cut the stack into 1 1/4-inch pieces. Place each piece cut-side up in greased muffin cups. Let rise until doubled, then bake at 375\u00b0F (190\u00b0C) for 12-15 minutes.",
             "All shapes should be golden brown when done. Brush with additional butter if desired while still warm."
           ]
         },
         {
-          "name": "Corn Bread - Southern Style With Buttermilk",
+          "name": "Corn Bread - Southern Style (Restored)",
           "category": "Breads, Rolls & Breakfast",
           "servings": "9 servings (9-inch square)",
           "ingredients": [
-            "1 1/2 cups Yellow cornmeal (stone-ground preferred)",
-            "1/2 cup All-purpose flour",
-            "2 tablespoons Granulated sugar",
-            "1 tablespoon Baking powder",
-            "1 teaspoon Salt",
-            "1 1/4 cups Low-fat buttermilk",
+            "1 1/2 cups (250g) Yellow cornmeal (stone-ground preferred)",
+            "1/2 cup (65g) All-purpose flour",
+            "2 tablespoons (25g) Granulated sugar",
+            "1 tablespoon (15g) Baking powder",
+            "1 teaspoon (5g) Salt",
+            "1 1/4 cups (300ml) Whole buttermilk",
             "2 Large eggs (lightly beaten)",
-            "1/3 cup Vegetable oil"
+            "1/3 cup (80ml) Melted butter or bacon drippings"
           ],
           "instructions": [
-            "Preheat oven to 425°F (220°C). Grease a 9-inch square baking pan or coat with nonstick spray.",
+            "Preheat oven to 425\u00b0F (220\u00b0C). Place 1 tablespoon of butter or bacon drippings in a 9-inch square cast iron skillet or baking pan and place in the oven to heat.",
             "In a large mixing bowl, whisk together the cornmeal, flour, sugar, baking powder, and salt.",
-            "In a separate bowl, whisk together the buttermilk, beaten eggs, and vegetable oil until well combined.",
-            "Pour the wet ingredients into the dry ingredients and stir with a wooden spoon just until moistened. Do not overmix; the batter should be slightly lumpy.",
-            "Pour the batter into the prepared pan and spread evenly.",
+            "In a separate bowl, whisk together the buttermilk, beaten eggs, and melted butter (or remaining bacon drippings).",
+            "Pour the wet ingredients into the dry ingredients and stir with a wooden spoon just until moistened. Do not overmix.",
+            "Carefully remove the hot skillet from the oven. Swirl to coat the bottom with the melted fat.",
+            "Pour the batter into the hot skillet (it should sizzle).",
             "Bake for 20-25 minutes, or until the top is golden brown and a toothpick inserted in the center comes out clean.",
-            "Let cool in the pan for 5 minutes, then cut into squares.",
-            "Serve warm with butter, honey, or alongside chili, beans, or Southern-style greens.",
-            "This cornbread is best eaten the day it's made but can be stored in an airtight container for up to 2 days."
+            "Serve warm with butter."
+          ],
+          "notes": [
+            "Restored to original family version using whole ingredients and metric measurements."
           ]
         },
         {
@@ -1744,12 +1651,12 @@
             "2 teaspoons Baking powder",
             "1/2 teaspoon Baking soda",
             "1/2 teaspoon Salt",
-            "1 cup Low-fat buttermilk",
+            "1 cup buttermilk",
             "1 Large egg (lightly beaten)",
             "1/4 cup Vegetable oil"
           ],
           "instructions": [
-            "Preheat oven to 400°F (200°C). Grease an 8-inch square baking pan or coat with nonstick spray.",
+            "Preheat oven to 400\u00b0F (200\u00b0C). Grease an 8-inch square baking pan or coat with nonstick spray.",
             "In a large bowl, whisk together the cornmeal, flour, sugar, baking powder, baking soda, and salt.",
             "In a separate bowl, whisk together the buttermilk, egg, and vegetable oil until well combined.",
             "Pour the wet ingredients into the dry ingredients and stir just until combined. Do not overmix; some small lumps are okay.",
@@ -1765,7 +1672,7 @@
           "category": "Breads, Rolls & Breakfast",
           "servings": "18-24 rolls (varies by shape)",
           "ingredients": [
-            "1 cup Warm water (105-115°F (40-46°C))",
+            "1 cup Warm water (105-115\u00b0F (40-46\u00b0C))",
             "1 packet (2 1/4 teaspoons) Active dry yeast",
             "1/4 cup Granulated sugar",
             "1 teaspoon Salt",
@@ -1776,7 +1683,7 @@
           ],
           "instructions": [
             "In a large bowl, dissolve the yeast in warm water. Let stand 5 minutes until foamy.",
-            "Add the sugar, salt, softened margarine, egg, and 2 cups of the flour to the yeast mixture. Beat with a mixer or wooden spoon until smooth.",
+            "Add the sugar, salt, softened unsalted butter, egg, and 2 cups of the flour to the yeast mixture. Beat with a mixer or wooden spoon until smooth.",
             "Gradually stir in enough of the remaining flour (1 to 1 1/2 cups) to make a soft dough that pulls away from the sides of the bowl.",
             "Turn the dough out onto a lightly floured surface and knead for about 5 minutes, until smooth and elastic.",
             "Place the dough in a greased bowl, turning once to coat all sides. Cover with a clean towel and let rise in a warm place until doubled in size, about 1 hour.",
@@ -1784,16 +1691,71 @@
             "",
             "FOR CLOVERLEAF ROLLS: Pinch off dough and form into small balls about 1/2 inch in diameter. Place 3 balls in each greased muffin cup.",
             "",
-            "FOR CRESCENT ROLLS: Roll dough to 1/4-inch thickness and cut into 6-inch circles. Cut each circle into 6-8 wedges. Brush with melted margarine. Starting at the wide end, roll up each wedge and curve into a crescent shape. Place on greased baking sheet.",
+            "FOR CRESCENT ROLLS: Roll dough to 1/4-inch thickness and cut into 6-inch circles. Cut each circle into 6-8 wedges. Brush with melted unsalted butter. Starting at the wide end, roll up each wedge and curve into a crescent shape. Place on greased baking sheet.",
             "",
-            "FOR PARKERHOUSE ROLLS: Roll dough to 1/4-inch thickness. Cut with a 3-inch biscuit cutter. Make a crease just below the center of each circle with a knife handle or spoon. Brush with melted margarine. Fold the top half over the bottom half (bottom should be slightly larger). Place on greased baking sheet.",
+            "FOR PARKERHOUSE ROLLS: Roll dough to 1/4-inch thickness. Cut with a 3-inch biscuit cutter. Make a crease just below the center of each circle with a knife handle or spoon. Brush with melted unsalted butter. Fold the top half over the bottom half (bottom should be slightly larger). Place on greased baking sheet.",
             "",
-            "FOR FANTAN ROLLS: Roll dough into a rectangle about 1/8-inch thick. Cut into 1-inch-wide strips. Brush with melted margarine. Stack 6-7 strips on top of each other. Cut the stack into 1 1/4-inch pieces. Place each piece cut-side up in a greased muffin cup.",
+            "FOR FANTAN ROLLS: Roll dough into a rectangle about 1/8-inch thick. Cut into 1-inch-wide strips. Brush with melted unsalted butter. Stack 6-7 strips on top of each other. Cut the stack into 1 1/4-inch pieces. Place each piece cut-side up in a greased muffin cup.",
             "",
             "Cover shaped rolls and let rise in a warm place until doubled, about 30 minutes.",
-            "Preheat oven to 375°F (190°C).",
+            "Preheat oven to 375\u00b0F (190\u00b0C).",
             "Bake for 12-15 minutes, or until golden brown.",
             "Brush with additional melted butter if desired. Serve warm."
+          ]
+        },
+        {
+          "name": "Fluffy Buttermilk Biscuits",
+          "category": "Breads, Rolls & Breakfast",
+          "servings": "About 10-12 biscuits",
+          "ingredients": [
+            "1 3/4 cups, sifted All-purpose flour",
+            "2 teaspoons Baking powder",
+            "1/2 teaspoon Baking soda",
+            "1/2 teaspoon Salt",
+            "1/4 cup Vegetable oil",
+            "1 cup buttermilk",
+            "1/2 teaspoon Butter flavoring (optional)"
+          ],
+          "instructions": [
+            "Preheat oven to 450\u00b0F (230\u00b0C). Lightly coat a baking sheet with nonstick spray.",
+            "In a large bowl, sift together the flour, baking powder, baking soda, and salt.",
+            "In a small bowl or measuring cup, combine the vegetable oil, buttermilk, and butter flavoring (if using). Do not stir\u2014just combine them gently.",
+            "Pour the liquid mixture all at once into the dry ingredients.",
+            "Stir quickly with a fork just until the mixture clings together and forms a shaggy ball. Do not overmix.",
+            "Turn the dough out onto a lightly floured board or clean work surface.",
+            "Using just your fingertips (not your palms), gently knead the dough 10-12 times until it just comes together.",
+            "Pat or roll the dough out to 1/2 to 1 inch thickness.",
+            "Cut biscuits with a floured 2-inch biscuit cutter, pressing straight down without twisting.",
+            "Place the biscuits on the prepared baking sheet.",
+            "Bake for 10-12 minutes, or until the tops are golden brown.",
+            "Serve hot with butter, jam, or honey."
+          ]
+        },
+        {
+          "name": "Pizza Dough (Crusty)",
+          "category": "Breads, Rolls & Breakfast",
+          "servings": "Dough for two 12-inch pizzas or one large sheet pizza",
+          "ingredients": [
+            "1 package (2 1/4 teaspoons) Active dry yeast",
+            "1 cup Warm water (105-115\u00b0F (40-46\u00b0C))",
+            "1/2 teaspoon Salt",
+            "2 teaspoons Olive oil",
+            "2 1/2 to 3 1/2 cups All-purpose flour (start with 2 1/2 cups)",
+            "for dusting Cornmeal"
+          ],
+          "instructions": [
+            "In a large warmed mixing bowl, sprinkle the yeast over the warm water. Let stand for 5 minutes until the yeast is foamy.",
+            "Stir in the salt, olive oil, and 2 1/2 cups of the flour. Mix with a wooden spoon or a stand mixer with a dough hook for about 2 minutes.",
+            "Gradually add more flour, 1/2 cup at a time, mixing or kneading until the dough clings together, pulls away from the sides of the bowl, and is no longer sticky.",
+            "Knead the dough for 5 minutes (by hand on a floured surface or with a dough hook) until smooth and elastic.",
+            "Place the dough in a bowl coated with nonstick spray or lightly oiled. Turn the dough to coat all sides.",
+            "Cover the bowl with a damp towel or plastic wrap and let rise in a warm place (about 80\u00b0F) until doubled in size, about 1 hour.",
+            "Punch down the dough to release air bubbles.",
+            "Divide the dough in half for two round pizzas, or leave whole for one large sheet pizza.",
+            "On a lightly floured surface, roll out each portion into the desired shape and thickness.",
+            "Transfer to a pizza pan or baking sheet sprinkled with cornmeal.",
+            "Top with your favorite pizza toppings.",
+            "Bake at 425\u00b0F (220\u00b0C) for 18-22 minutes, or until the crust is golden and crispy and the cheese is bubbly."
           ]
         }
       ]
@@ -1843,9 +1805,9 @@
             "15 oz can with juice Blueberries"
           ],
           "instructions": [
-            "FIRST LAYER: In a large bowl, dissolve the 6-oz family-size raspberry gelatin in 3 1/2 cups boiling water, stirring until completely dissolved. Pour into a 9x13-inch loaf pan or dish and refrigerate until very firm, about 2–3 hours.",
-            "SECOND LAYER: In a small bowl, sprinkle the unflavored gelatin over 1/2 cup cold water and let stand 5 minutes to soften. In a small saucepan, heat the milk and sugar over medium-low heat, stirring, until the sugar dissolves. Do not boil. Add the softened unflavored gelatin and stir until fully dissolved. Remove from heat and stir in the vanilla. Let cool slightly, then whisk in the softened cream cheese until smooth. Stir in the chopped pecans. Let the mixture cool to lukewarm, then gently pour over the firm first layer. Refrigerate until set, about 1–2 hours.",
-            "THIRD LAYER: Dissolve the 3-oz regular-size raspberry gelatin in 1 cup boiling water, stirring well. Gently stir in the blueberries and their juice. Let cool to room temperature, then carefully pour over the second layer. Refrigerate until very firm, at least 2–3 hours or overnight.",
+            "FIRST LAYER: In a large bowl, dissolve the 6-oz family-size raspberry gelatin in 3 1/2 cups boiling water, stirring until completely dissolved. Pour into a 9x13-inch loaf pan or dish and refrigerate until very firm, about 2\u20133 hours.",
+            "SECOND LAYER: In a small bowl, sprinkle the unflavored gelatin over 1/2 cup cold water and let stand 5 minutes to soften. In a small saucepan, heat the milk and sugar over medium-low heat, stirring, until the sugar dissolves. Do not boil. Add the softened unflavored gelatin and stir until fully dissolved. Remove from heat and stir in the vanilla. Let cool slightly, then whisk in the softened cream cheese until smooth. Stir in the chopped pecans. Let the mixture cool to lukewarm, then gently pour over the firm first layer. Refrigerate until set, about 1\u20132 hours.",
+            "THIRD LAYER: Dissolve the 3-oz regular-size raspberry gelatin in 1 cup boiling water, stirring well. Gently stir in the blueberries and their juice. Let cool to room temperature, then carefully pour over the second layer. Refrigerate until very firm, at least 2\u20133 hours or overnight.",
             "To serve, cut into squares and serve on lettuce leaves if desired. The three distinct layers create a beautiful presentation."
           ]
         },
@@ -1868,7 +1830,7 @@
             "2 (from the noodle packages) Ramen seasoning packets"
           ],
           "instructions": [
-            "In a small skillet, toast the sliced almonds and sesame seeds in the sesame oil over medium heat, stirring frequently, until golden and fragrant, about 3–5 minutes. Set aside to cool.",
+            "In a small skillet, toast the sliced almonds and sesame seeds in the sesame oil over medium heat, stirring frequently, until golden and fragrant, about 3\u20135 minutes. Set aside to cool.",
             "Break the uncooked Ramen noodles into small pieces (discard the seasoning packets for now, or save for the dressing).",
             "In a large salad bowl, combine the cole slaw mix, chopped green onions, broken Ramen noodles, toasted almonds, and toasted sesame seeds. Toss to mix.",
             "In a jar or small bowl, combine the safflower or canola oil, rice vinegar, sugar, salt, pepper, and the two Ramen seasoning packets. Shake or whisk vigorously until well blended and the sugar is dissolved.",
@@ -1892,7 +1854,7 @@
           "instructions": [
             "Drain the blueberries and pineapple, reserving the juices. Measure the combined juices and add enough boiling water to make 2 cups total liquid.",
             "In a large bowl, dissolve the raspberry gelatin in the 2 cups of hot juice-water mixture, stirring until completely dissolved.",
-            "Stir in the drained blueberries and pineapple tidbits. Pour into a 9x13-inch dish and refrigerate until firm, about 3–4 hours.",
+            "Stir in the drained blueberries and pineapple tidbits. Pour into a 9x13-inch dish and refrigerate until firm, about 3\u20134 hours.",
             "In a medium bowl, beat together the sour cream, softened cream cheese, and sugar until smooth and creamy.",
             "Spread the cream cheese mixture evenly over the top of the chilled gelatin layer.",
             "Sprinkle the chopped nuts over the creamy topping.",
@@ -1947,18 +1909,18 @@
             "4 cups Low-sodium chicken broth (de-fatted)",
             "2 tablespoons Tomato paste",
             "2 tablespoons Uncooked white rice",
-            "1/2 cup Evaporated skim milk",
+            "1/2 cup Evaporated whole milk",
             "1 tablespoon Butter (for finishing)",
             "to taste Salt and white pepper",
             "for garnish Carrot curls (optional)"
           ],
           "instructions": [
-            "In a large heavy saucepan or Dutch oven, melt 2 tablespoons of margarine over medium heat.",
+            "In a large heavy saucepan or Dutch oven, melt 2 tablespoons of unsalted butter over medium heat.",
             "Add the chopped onion and celery. Cook, stirring occasionally, for about 5 minutes, until softened but not browned.",
             "Stir in the chopped carrots, chicken broth, tomato paste, and raw rice. Bring to a simmer.",
             "Reduce heat and simmer gently for 30 minutes, or until the carrots and rice are very tender.",
             "Working in batches if necessary, puree the soup in a blender or food processor until completely smooth. Alternatively, use an immersion blender directly in the pot.",
-            "Return the pureed soup to the pot (if using a blender). Stir in the evaporated milk and remaining tablespoon of margarine.",
+            "Return the pureed soup to the pot (if using a blender). Stir in the evaporated milk and remaining tablespoon of unsalted butter.",
             "Season with salt and white pepper to taste. Reheat gently over low heat; do not boil.",
             "Ladle into bowls and garnish with carrot curls, if desired. Serve hot."
           ]
@@ -1981,11 +1943,11 @@
             "to taste Salt and freshly ground black pepper"
           ],
           "instructions": [
-            "Bring a pot of lightly salted water to a boil. Add the diced carrots and cook for about 5 minutes. Add the cubed potatoes and cook for another 5–7 minutes, until both are just tender. Drain and set aside.",
-            "In a large heavy pot or Dutch oven, melt the margarine over medium-low heat.",
+            "Bring a pot of lightly salted water to a boil. Add the diced carrots and cook for about 5 minutes. Add the cubed potatoes and cook for another 5\u20137 minutes, until both are just tender. Drain and set aside.",
+            "In a large heavy pot or Dutch oven, melt the unsalted butter over medium-low heat.",
             "Add the cubed turkey ham and minced garlic. Cook, stirring occasionally, for about 5 minutes.",
-            "Stir in the celery, broccoli (if using), and chopped onion. Continue cooking over low heat, stirring occasionally, until the vegetables are soft but not browned (about 5–7 minutes).",
-            "Sprinkle the flour over the vegetable and ham mixture. Stir well to coat everything evenly, and cook for 1–2 minutes to remove the raw flour taste.",
+            "Stir in the celery, broccoli (if using), and chopped onion. Continue cooking over low heat, stirring occasionally, until the vegetables are soft but not browned (about 5\u20137 minutes).",
+            "Sprinkle the flour over the vegetable and ham mixture. Stir well to coat everything evenly, and cook for 1\u20132 minutes to remove the raw flour taste.",
             "Gradually pour in the milk, whisking or stirring constantly to prevent lumps. Cook over medium heat, stirring frequently, until the mixture is smooth and begins to thicken.",
             "Add the cooked potatoes and carrots. Stir gently to combine.",
             "Season with salt and freshly ground black pepper to taste.",
@@ -2011,11 +1973,11 @@
             "1 cup Pecans or walnuts (broken into small pieces)"
           ],
           "instructions": [
-            "Line a baking sheet with wax paper or parchment, or coat an 8×8-inch pan with nonstick spray.",
+            "Line a baking sheet with wax paper or parchment, or coat an 8\u00d78-inch pan with nonstick spray.",
             "In a heavy 2-quart saucepan, combine the sugar, corn syrup, and water. Cook over medium heat, stirring constantly, until the sugar dissolves.",
-            "Once the sugar is dissolved, stop stirring. Continue cooking without stirring until the mixture reaches 265°F (hard-ball stage) on a candy thermometer. This will take 10-15 minutes.",
+            "Once the sugar is dissolved, stop stirring. Continue cooking without stirring until the mixture reaches 265\u00b0F (hard-ball stage) on a candy thermometer. This will take 10-15 minutes.",
             "While the syrup cooks, beat the egg whites in a large bowl with an electric mixer on high speed until stiff peaks form.",
-            "When the syrup reaches 265°F, remove it from heat. With the mixer running on medium speed, slowly pour the hot syrup in a thin stream into the beaten egg whites. Be careful—the mixture is very hot.",
+            "When the syrup reaches 265\u00b0F, remove it from heat. With the mixer running on medium speed, slowly pour the hot syrup in a thin stream into the beaten egg whites. Be careful\u2014the mixture is very hot.",
             "Continue beating at medium speed until the mixture becomes thick and starts to lose its gloss, about 5-8 minutes.",
             "Stir in the flavoring extract and chopped nuts by hand.",
             "Quickly drop spoonfuls of the mixture onto the prepared wax paper, or spread into the prepared pan and cut into squares when cool.",
@@ -2035,11 +1997,11 @@
             "1 cup Chopped walnuts or pecans"
           ],
           "instructions": [
-            "Line an 8×8-inch pan with foil or parchment, or coat it with nonstick spray.",
+            "Line an 8\u00d78-inch pan with foil or parchment, or coat it with nonstick spray.",
             "In a heavy 2-quart saucepan, combine the sugar, cocoa powder, and milk. Stir over medium heat until the sugar dissolves and the mixture is smooth.",
-            "Once the sugar is dissolved, clip a candy thermometer to the side of the pan. Stop stirring and cook without stirring over very low heat until the mixture reaches soft-ball stage (234-238°F). This will take 20-30 minutes.",
-            "Remove from heat and add the margarine. Do not stir—just let it melt on top.",
-            "Let the mixture cool undisturbed to lukewarm (about 110°F), about 30-45 minutes.",
+            "Once the sugar is dissolved, clip a candy thermometer to the side of the pan. Stop stirring and cook without stirring over very low heat until the mixture reaches soft-ball stage (234-238\u00b0F). This will take 20-30 minutes.",
+            "Remove from heat and add the unsalted butter. Do not stir\u2014just let it melt on top.",
+            "Let the mixture cool undisturbed to lukewarm (about 110\u00b0F), about 30-45 minutes.",
             "Add the vanilla and beat vigorously with a wooden spoon until the fudge thickens and loses its gloss, about 5-10 minutes.",
             "Stir in the chopped nuts.",
             "Quickly pour the fudge into the prepared pan and smooth the top.",
@@ -2064,9 +2026,9 @@
             "In a microwave-safe 1 1/2-quart or 2-quart glass bowl, stir together the sugar, corn syrup, salt, and peanuts until well combined.",
             "Microwave on HIGH for 4 minutes.",
             "Remove and stir well. Microwave on HIGH for an additional 3-5 minutes, until the mixture turns light golden brown and the peanuts are toasted. Watch carefully to avoid burning.",
-            "Carefully remove from microwave (mixture will be extremely hot). Stir in the margarine and vanilla until well blended.",
+            "Carefully remove from microwave (mixture will be extremely hot). Stir in the unsalted butter and vanilla until well blended.",
             "Microwave on HIGH for 1-2 minutes more, until the syrup is very hot and the peanuts are golden.",
-            "Immediately stir in the baking soda—the mixture will foam up dramatically. Stir quickly until well mixed and foamy.",
+            "Immediately stir in the baking soda\u2014the mixture will foam up dramatically. Stir quickly until well mixed and foamy.",
             "Quickly pour the hot mixture onto the prepared baking sheet and spread as thin as possible with a greased spatula.",
             "Let cool completely, about 30-60 minutes.",
             "Break into pieces and store in an airtight container. For Pecan Brittle, substitute 1 1/2 cups pecan halves for peanuts and coconut extract for vanilla."
@@ -2088,11 +2050,11 @@
           ],
           "instructions": [
             "Line 2 baking sheets with wax paper or parchment, and lightly coat with nonstick spray.",
-            "In a large, heavy saucepan (at least 3-quart), combine the granulated sugar, brown sugar, pecans, buttermilk, margarine, and salt.",
+            "In a large, heavy saucepan (at least 3-quart), combine the granulated sugar, brown sugar, pecans, buttermilk, unsalted butter, and salt.",
             "Cook over low heat, stirring gently, until both sugars dissolve completely.",
             "Cover the pan and cook over medium heat for 2-3 minutes. This creates steam that washes sugar crystals off the sides of the pan.",
-            "Uncover and clip a candy thermometer to the side. Cook, stirring constantly, until the mixture reaches soft-ball stage (234-238°F). This will take about 10-15 minutes.",
-            "Remove from heat. Stir in the baking soda and vanilla—the mixture will foam up.",
+            "Uncover and clip a candy thermometer to the side. Cook, stirring constantly, until the mixture reaches soft-ball stage (234-238\u00b0F). This will take about 10-15 minutes.",
+            "Remove from heat. Stir in the baking soda and vanilla\u2014the mixture will foam up.",
             "Beat vigorously with a wooden spoon until the mixture begins to thicken and lose its gloss, about 2-3 minutes.",
             "Working quickly, drop tablespoonfuls of the mixture onto the prepared wax paper, spacing them about 2 inches apart.",
             "Let the pralines cool completely until firm, about 30 minutes. Store in an airtight container with wax paper between layers."
@@ -2106,7 +2068,7 @@
             "2 cups Granulated sugar",
             "3 tablespoons Unsweetened cocoa powder",
             "1/8 teaspoon Salt",
-            "3/4 cup Milk (low-fat or whole)",
+            "3/4 cup Milk ( or whole)",
             "1 tablespoon Butter",
             "1 tablespoon Vegetable oil",
             "1 teaspoon Vanilla extract"
@@ -2115,9 +2077,9 @@
             "Lightly coat an 8x8-inch baking pan with nonstick cooking spray or line with parchment paper.",
             "In a heavy-bottomed saucepan, combine the sugar, cocoa powder, salt, and milk. Stir well to mix.",
             "Place the saucepan over medium-low heat. Stir constantly until the sugar is completely dissolved and the mixture is smooth.",
-            "Once the sugar dissolves, stop stirring. Attach a candy thermometer to the side of the pan. Continue cooking without stirring until the mixture reaches the soft-ball stage (234-238°F). This may take 15-20 minutes. Be patient and do not stir during this time, or the fudge may crystallize.",
-            "When the mixture reaches the soft-ball stage, remove from heat immediately. Stir in the margarine and oil.",
-            "Let the mixture cool, undisturbed, to lukewarm (about 110°F). This may take 30-45 minutes. Do not stir during cooling, or the fudge may become grainy.",
+            "Once the sugar dissolves, stop stirring. Attach a candy thermometer to the side of the pan. Continue cooking without stirring until the mixture reaches the soft-ball stage (234-238\u00b0F). This may take 15-20 minutes. Be patient and do not stir during this time, or the fudge may crystallize.",
+            "When the mixture reaches the soft-ball stage, remove from heat immediately. Stir in the unsalted butter and oil.",
+            "Let the mixture cool, undisturbed, to lukewarm (about 110\u00b0F). This may take 30-45 minutes. Do not stir during cooling, or the fudge may become grainy.",
             "Once lukewarm, add the vanilla extract. Beat vigorously with a wooden spoon until the mixture thickens and loses its glossy appearance. This can take 5-10 minutes of beating.",
             "Quickly pour the fudge into the prepared pan and spread evenly with a spatula.",
             "Let the fudge cool completely at room temperature until firm, about 2 hours.",
@@ -2147,13 +2109,13 @@
             "1 cup Chopped pecans"
           ],
           "instructions": [
-            "Preheat oven to 350°F (175°C). Grease and flour a 9x13-inch baking pan.",
+            "Preheat oven to 350\u00b0F (175\u00b0C). Grease and flour a 9x13-inch baking pan.",
             "In a medium bowl, whisk together the flour, baking soda, cinnamon, and salt.",
             "In a large bowl, beat the eggs. Add both sugars, the oil, and vanilla, and mix until well combined.",
             "Stir the dry ingredients into the wet ingredients until just combined. The batter will be very thick and stiff.",
             "Fold in the diced apples and chopped pecans, distributing them evenly.",
             "Spread the thick batter into the prepared pan, smoothing the top as well as you can.",
-            "Bake for 30–40 minutes, or until the top is golden brown and a toothpick inserted in the center comes out clean.",
+            "Bake for 30\u201340 minutes, or until the top is golden brown and a toothpick inserted in the center comes out clean.",
             "Cool in the pan on a wire rack. Serve warm or at room temperature, plain or with a dusting of powdered sugar or a scoop of vanilla ice cream."
           ]
         },
@@ -2174,7 +2136,7 @@
             "1 1/2 teaspoons Vanilla extract"
           ],
           "instructions": [
-            "Preheat oven to 350°F (175°C). Grease and flour three 9-inch round cake pans, or line the bottoms with parchment.",
+            "Preheat oven to 350\u00b0F (175\u00b0C). Grease and flour three 9-inch round cake pans, or line the bottoms with parchment.",
             "In a large bowl, sift together the cake flour, 1 cup of the sugar, the baking powder, baking soda, and salt. Set aside.",
             "In a separate bowl, beat the egg whites until foamy. Add the cream of tartar and continue beating until soft peaks form.",
             "Gradually add the remaining 1/2 cup of sugar to the egg whites, beating until the meringue is stiff and glossy. Set aside.",
@@ -2182,7 +2144,7 @@
             "Pour the wet ingredients into the dry ingredients all at once and beat with a mixer on medium speed until you have a smooth batter.",
             "Using a rubber spatula, gently fold the meringue into the batter in three additions, making sure to scrape the bottom and sides of the bowl for even mixing.",
             "Divide the batter evenly among the three prepared pans.",
-            "Bake for 30–35 minutes, or until the cakes are just firm to the touch and starting to pull away from the sides of the pans. A toothpick inserted in the center should come out clean.",
+            "Bake for 30\u201335 minutes, or until the cakes are just firm to the touch and starting to pull away from the sides of the pans. A toothpick inserted in the center should come out clean.",
             "Let the cakes cool in the pans for 5 minutes, then turn out onto a wire rack to cool completely before frosting."
           ]
         },
@@ -2197,8 +2159,8 @@
             "2 teaspoons Ground cinnamon",
             "1/4 teaspoon Salt",
             "1 cup, packed Light brown sugar",
-            "3/4 cup Eggs or egg substitute (about 3 large eggs)",
-            "3/4 cup Buttermilk (low-fat or non-fat)",
+            "3/4 cup Eggs or large eggs (about 3 large eggs)",
+            "3/4 cup Buttermilk ( or )",
             "3 tablespoons Vegetable oil",
             "2 teaspoons Vanilla extract",
             "8 oz can in juice, well drained Crushed pineapple",
@@ -2206,13 +2168,13 @@
             "1/3 cup Raisins"
           ],
           "instructions": [
-            "Preheat oven to 350°F (175°C). Coat a 13x9x2-inch baking pan with nonstick spray.",
+            "Preheat oven to 350\u00b0F (175\u00b0C). Coat a 13x9x2-inch baking pan with nonstick spray.",
             "In a medium bowl, whisk together the all-purpose flour, whole wheat flour, baking soda, cinnamon, and salt.",
-            "In a large mixing bowl, combine the brown sugar, eggs or egg substitute, buttermilk, oil, and vanilla. Beat at medium speed until smooth.",
+            "In a large mixing bowl, combine the brown sugar, eggs or large eggs, buttermilk, oil, and vanilla. Beat at medium speed until smooth.",
             "Add the drained pineapple, grated carrots, and raisins to the wet mixture and stir to combine.",
             "Add the dry ingredients to the wet ingredients and beat just until well blended and no dry pockets remain.",
             "Pour the batter into the prepared pan and spread evenly.",
-            "Bake for 30–35 minutes, or until a toothpick inserted in the center comes out clean and the top springs back when lightly touched.",
+            "Bake for 30\u201335 minutes, or until a toothpick inserted in the center comes out clean and the top springs back when lightly touched.",
             "Cool the cake completely in the pan on a wire rack.",
             "Once cooled, spread Orange-Cream Cheese Frosting evenly over the top of the cake.",
             "Cover and refrigerate for at least 1 hour before serving. Cut into squares to serve."
@@ -2263,12 +2225,12 @@
             "1 cup Boiling water"
           ],
           "instructions": [
-            "Preheat oven to 350°F (175°C). Grease a 9x13-inch baking pan or coat with nonstick spray.",
+            "Preheat oven to 350\u00b0F (175\u00b0C). Grease a 9x13-inch baking pan or coat with nonstick spray.",
             "In a large bowl, whisk together the flour, baking soda, ginger, cinnamon, and salt.",
-            "In a separate large bowl, combine the molasses, sugar, and melted margarine or butter. Mix well.",
+            "In a separate large bowl, combine the molasses, sugar, and melted unsalted butter or butter. Mix well.",
             "Add the egg to the molasses mixture and beat until smooth.",
             "Add the dry ingredients to the wet mixture and stir until just combined.",
-            "Carefully stir in the boiling water. The batter will be thin—this is correct.",
+            "Carefully stir in the boiling water. The batter will be thin\u2014this is correct.",
             "Pour the batter into the prepared pan.",
             "Bake for 45-50 minutes, or until a toothpick inserted in the center comes out clean and the top springs back when lightly touched.",
             "Cool in the pan on a wire rack for at least 15 minutes.",
@@ -2293,7 +2255,7 @@
             "1 cup Raisins"
           ],
           "instructions": [
-            "Preheat oven to 350°F (175°C). Grease a 9-inch square or round cake pan or an 8-inch cast iron skillet.",
+            "Preheat oven to 350\u00b0F (175\u00b0C). Grease a 9-inch square or round cake pan or an 8-inch cast iron skillet.",
             "In a large bowl, whisk together the flour, sugar, cocoa powder, baking soda, cinnamon, nutmeg, ginger, and salt.",
             "In a separate bowl or measuring cup, combine the vegetable oil and water.",
             "Pour the liquid mixture into the dry ingredients and stir just until combined.",
@@ -2303,6 +2265,9 @@
             "Cool in the pan on a wire rack.",
             "Serve plain, as Grandmother did, or dust lightly with powdered sugar if desired.",
             "Note: For a Christmas fruitcake variation, add 1/2 cup chopped nuts and 1/2 cup chopped candied fruit or peel to the batter."
+          ],
+          "notes": [
+            "Grandmother Walters used 1/2 cup of shortening, probably lard. Grandmother baked this cake in a heavy cake pan or an iron skillet. Eggs WERE NOT USED. Cake was not iced."
           ]
         },
         {
@@ -2321,14 +2286,14 @@
             "2 tablespoons (optional) Melted butter (for richer version)"
           ],
           "instructions": [
-            "Preheat oven to 400°F (200°C). Grease a 15x10-inch jelly roll pan, line with parchment paper, and grease the paper.",
+            "Preheat oven to 400\u00b0F (200\u00b0C). Grease a 15x10-inch jelly roll pan, line with parchment paper, and grease the paper.",
             "In a small bowl, sift together the flour, baking powder, and salt. Set aside.",
             "Place the eggs in a large heatproof bowl. Set the bowl over a pot of simmering water (double boiler method).",
             "Beat the eggs with an electric mixer while gradually adding the sugar. Continue beating over the hot water until the mixture is very thick, pale, and tripled in volume (about 5-7 minutes).",
             "Remove the bowl from the heat.",
             "Gently fold in the vanilla extract.",
             "Sift the flour mixture over the egg mixture in three additions, folding gently after each addition until just combined. Do not overmix.",
-            "If making a richer version, fold in 2 tablespoons melted margarine or butter at this point.",
+            "If making a richer version, fold in 2 tablespoons melted unsalted butter or butter at this point.",
             "Pour the batter into the prepared pan and spread evenly to the edges.",
             "Bake for 12-13 minutes, until the cake is golden and springs back when lightly touched.",
             "While the cake bakes, lay out a clean kitchen towel and dust it generously with confectioners' sugar.",
@@ -2347,23 +2312,23 @@
           "ingredients": [
             "2 sticks (1 cup), softened Butter",
             "2 cups Granulated sugar",
-            "3 large, separated Eggs (or egg substitute)",
+            "3 large, separated Eggs (or large eggs)",
             "3 cups, sifted All-purpose flour",
             "1 teaspoon Baking soda",
             "1 teaspoon Ground cinnamon",
             "1/2 teaspoon Ground nutmeg",
             "1/2 teaspoon Ground cloves",
             "1/2 teaspoon Ground allspice",
-            "1/2 cup Low-fat buttermilk",
+            "1/2 cup buttermilk",
             "1 cup Seedless blackberry jam",
             "1 cup Chopped pecans",
             "1 cup Seedless raisins",
             "1 cup, quartered lengthwise Pitted dates"
           ],
           "instructions": [
-            "Preheat oven to 300°F (150°C). Line the bottom of a 10-inch tube pan with parchment or heavy brown paper, then grease and flour the pan and paper well.",
-            "In a large bowl, cream together the margarine or butter and sugar until light and fluffy.",
-            "If using whole eggs, separate them. Beat the egg yolks (or use egg substitute) until thick and pale, then add to the creamed mixture and beat well.",
+            "Preheat oven to 300\u00b0F (150\u00b0C). Line the bottom of a 10-inch tube pan with parchment or heavy brown paper, then grease and flour the pan and paper well.",
+            "In a large bowl, cream together the unsalted butter or butter and sugar until light and fluffy.",
+            "If using whole eggs, separate them. Beat the egg yolks (or use large eggs) until thick and pale, then add to the creamed mixture and beat well.",
             "In a small bowl, dissolve the baking soda in the buttermilk. Add this to the creamed mixture and beat until combined.",
             "In a separate bowl, whisk together the flour, cinnamon, nutmeg, cloves, and allspice.",
             "Alternately add the dry ingredients and the blackberry jam to the batter, beginning and ending with the dry ingredients. Mix just until combined after each addition.",
@@ -2390,9 +2355,9 @@
           ],
           "instructions": [
             "Bake the Deluxe White Cake (or your favorite white cake recipe) in two greased and floured 9-inch round cake pans according to the recipe directions. Let cool in the pans for 10 minutes, then turn out onto wire racks to cool completely.",
-            "While the cakes cool, prepare the buttercream icing: In a large bowl, beat the softened butter or margarine with an electric mixer until creamy.",
+            "While the cakes cool, prepare the buttercream icing: In a large bowl, beat the softened butter or unsalted butter with an electric mixer until creamy.",
             "Gradually add the sifted confectioners' sugar, about 1 cup at a time, beating on low speed after each addition.",
-            "Add the milk and vanilla extract. Beat on medium-high speed for 2–3 minutes until the icing is light, fluffy, and spreadable. If the icing is too thick, add a little more milk, 1 teaspoon at a time.",
+            "Add the milk and vanilla extract. Beat on medium-high speed for 2\u20133 minutes until the icing is light, fluffy, and spreadable. If the icing is too thick, add a little more milk, 1 teaspoon at a time.",
             "Place one cake layer on a serving plate or cake stand. Spread about 1/2 cup of the icing evenly over the top.",
             "Sprinkle about 1/2 to 3/4 cup of the shredded coconut over the icing on the first layer.",
             "Carefully place the second cake layer on top, pressing gently to adhere.",
@@ -2403,7 +2368,7 @@
           ]
         },
         {
-          "name": "Crumble Cake (Krümelkuchen)",
+          "name": "Crumble Cake (Kr\u00fcmelkuchen)",
           "category": "Cakes",
           "servings": "6 cakes (8-inch)",
           "ingredients": [
@@ -2412,24 +2377,24 @@
             "1/4 teaspoon Salt",
             "1/2 cup (1 stick) Butter (for crust, melted)",
             "2/3 cup Granulated sugar (for crust)",
-            "2 large Eggs (for crust, or 1/2 cup egg substitute)",
+            "2 large Eggs (for crust, or 1/2 cup large eggs)",
             "1/4 cup Milk (for crust)",
             "2 1/2 cups All-purpose flour (for crumble topping)",
             "2 cups Granulated sugar (for crumble topping)",
             "1 teaspoon Vanilla extract (for crumble topping)",
-            "2 large Eggs (for crumble topping, or 1/2 cup egg substitute)",
+            "2 large Eggs (for crumble topping, or 1/2 cup large eggs)",
             "12 tablespoons (1 1/2 sticks) Butter (for crumble topping, softened)",
             "2 teaspoons Baking powder (for crumble topping)",
-            "2 large Eggs (for binder, or 1/2 cup egg substitute)",
+            "2 large Eggs (for binder, or 1/2 cup large eggs)",
             "1/4 cup Milk (for binder)",
             "1 teaspoon Vanilla extract (for binder)",
             "1 teaspoon Granulated sugar (for binder)"
           ],
           "instructions": [
-            "Preheat oven to 350°F (175°C). Lightly grease six 8-inch pie plates or cake pans.",
-            "Prepare the crust: In a large bowl, whisk together 2 cups flour, 2 tsp baking powder, and 1/4 tsp salt. Add the melted margarine, 2/3 cup sugar, 2 eggs (or substitute), and 1/4 cup milk. Mix well until a soft dough forms.",
+            "Preheat oven to 350\u00b0F (175\u00b0C). Lightly grease six 8-inch pie plates or cake pans.",
+            "Prepare the crust: In a large bowl, whisk together 2 cups flour, 2 tsp baking powder, and 1/4 tsp salt. Add the melted unsalted butter, 2/3 cup sugar, 2 eggs (or substitute), and 1/4 cup milk. Mix well until a soft dough forms.",
             "Divide the dough into 6 equal portions. Roll out each portion on a lightly floured surface to fit an 8-inch pie plate, bringing the dough about 3/4 inch up the sides. Press into the prepared pans.",
-            "Prepare the crumble topping: In a medium bowl, combine 2 cups sugar, 1 tsp vanilla, 2 eggs (or substitute), 12 tbsp softened margarine, and 2 tsp baking powder. Mix well.",
+            "Prepare the crumble topping: In a medium bowl, combine 2 cups sugar, 1 tsp vanilla, 2 eggs (or substitute), 12 tbsp softened unsalted butter, and 2 tsp baking powder. Mix well.",
             "Gradually work in 2 1/2 cups flour, mixing and rubbing with your fingers until crumbles form. The crumbles should be random in size, with the largest about the size of a blueberry.",
             "Prepare the binder: In a small bowl, whisk together 2 eggs (or substitute), 1/4 cup milk, 1 tsp vanilla, and 1 tsp sugar until well combined.",
             "Brush or spoon about 4 teaspoons of the binder mixture evenly over each crust.",
@@ -2456,13 +2421,13 @@
             "2 (9-inch), unbaked Pie crusts (homemade or store-bought)"
           ],
           "instructions": [
-            "Preheat oven to 400°F (200°C).",
+            "Preheat oven to 400\u00b0F (200\u00b0C).",
             "Peel, core, and dice the apples into bite-sized pieces. You should have about 6 cups of diced apples, generously filling the pie crust.",
             "In a large bowl, combine the diced apples with the sugar, cornstarch, and cinnamon. Toss until the apples are evenly coated.",
-            "Place one pie crust into a 9-inch pie pan. Pour the apple mixture into the crust, spreading it evenly. If desired, drizzle the melted margarine over the top of the apples.",
+            "Place one pie crust into a 9-inch pie pan. Pour the apple mixture into the crust, spreading it evenly. If desired, drizzle the melted unsalted butter over the top of the apples.",
             "Cover with the second pie crust. Trim and crimp the edges to seal. Use a knife to cut several small slits or poke holes in the top crust to allow steam to escape.",
-            "Place the pie on a baking sheet to catch any drips. Bake at 400°F for 15 minutes.",
-            "Reduce the oven temperature to 350°F (175°C) and continue baking for 45-50 minutes, or until the crust is golden brown and the filling is bubbling.",
+            "Place the pie on a baking sheet to catch any drips. Bake at 400\u00b0F for 15 minutes.",
+            "Reduce the oven temperature to 350\u00b0F (175\u00b0C) and continue baking for 45-50 minutes, or until the crust is golden brown and the filling is bubbling.",
             "To test doneness, insert a fork through one of the slits to check if the apples are tender.",
             "Cool on a wire rack for at least 2 hours before slicing. Serve warm or at room temperature, optionally with vanilla ice cream or whipped cream."
           ]
@@ -2489,7 +2454,7 @@
             "Place one portion of dough between two sheets of waxed paper or parchment paper. Roll out to about 1/8-inch thickness and to fit your pie pan (9-10 inches in diameter).",
             "Carefully peel off the top sheet of paper, then invert the crust into a lightly greased pie pan. Peel off the remaining paper.",
             "Gently press the crust into the pan and trim the edges. Crimp or flute the edge as desired.",
-            "For a pre-baked crust: Prick the bottom and sides with a fork. Bake at 400°F (200°C) for 10-12 minutes, or until lightly golden.",
+            "For a pre-baked crust: Prick the bottom and sides with a fork. Bake at 400\u00b0F (200\u00b0C) for 10-12 minutes, or until lightly golden.",
             "For an unbaked crust: Fill and bake according to your pie recipe directions.",
             "Repeat with the second portion of dough if making a two-crust pie."
           ]
@@ -2505,7 +2470,7 @@
             "6 tablespoons (for 9-inch) Unsweetened cocoa powder (reduce to 4 tbsp for 8-inch, 2 tbsp for 6-inch)",
             "1 1/3 tablespoons (for 9-inch) All purpose flour (reduce to 1 tbsp for 8-inch, 1/2 tbsp for 6-inch)",
             "2 2/3 cups (for 9-inch) Milk (reduce to 2 cups for 8-inch, 1 1/3 cups for 6-inch; 2% or whole)",
-            "3/4 cup (for 9-inch) Egg substitute (reduce to 1/2 cup for 8-inch, 1/4 cup for 6-inch; or use 3 egg yolks for 9-inch)",
+            "3/4 cup (for 9-inch) Large Eggs (reduce to 1/2 cup for 8-inch, 1/4 cup for 6-inch; or use 3 egg yolks for 9-inch)",
             "2 teaspoons (for 9-inch) Butter (reduce to 1 1/2 tsp for 8-inch, 1 tsp for 6-inch)",
             "1 1/3 teaspoons (for 9-inch) Vanilla extract (reduce to 1 tsp for 8-inch, 1/2 tsp for 6-inch)",
             "1 (9-inch, 8-inch, or 6-inch) Baked pie shell (fully baked and cooled)",
@@ -2515,13 +2480,13 @@
             "Fill the bottom of a double boiler with water and bring to a simmer.",
             "In the top of the double boiler (off the heat), whisk together the sugar, salt, cornstarch, cocoa powder, and flour until well combined and lump-free.",
             "Gradually whisk in the milk until the mixture is smooth.",
-            "Place the top of the double boiler over the simmering water. Cook, stirring constantly, until the mixture comes to a boil and thickens, about 8–10 minutes. Let it boil gently for 3 minutes, continuing to stir.",
-            "In a small bowl, lightly beat the egg substitute (or egg yolks). Slowly whisk about 1/2 cup of the hot chocolate mixture into the egg to temper it, then pour the tempered egg back into the double boiler, whisking constantly.",
+            "Place the top of the double boiler over the simmering water. Cook, stirring constantly, until the mixture comes to a boil and thickens, about 8\u201310 minutes. Let it boil gently for 3 minutes, continuing to stir.",
+            "In a small bowl, lightly beat the large eggs (or egg yolks). Slowly whisk about 1/2 cup of the hot chocolate mixture into the egg to temper it, then pour the tempered egg back into the double boiler, whisking constantly.",
             "Cook over the simmering water for an additional 10 minutes, stirring occasionally, until the filling is thick and glossy.",
-            "Remove from heat and stir in the margarine or butter until melted and fully incorporated.",
-            "Let the filling cool for about 10–15 minutes, stirring occasionally to prevent a skin from forming. When slightly cooled, stir in the vanilla extract.",
+            "Remove from heat and stir in the unsalted butter or butter until melted and fully incorporated.",
+            "Let the filling cool for about 10\u201315 minutes, stirring occasionally to prevent a skin from forming. When slightly cooled, stir in the vanilla extract.",
             "Pour the chocolate filling into the cooled, baked pie shell. Smooth the top with a spatula.",
-            "If topping with meringue: Spread the meringue over the filling while the filling is still warm, sealing the edges to the crust. Bake at 300°F (150°C) for 15–20 minutes until the meringue is lightly golden. Let cool completely before slicing.",
+            "If topping with meringue: Spread the meringue over the filling while the filling is still warm, sealing the edges to the crust. Bake at 300\u00b0F (150\u00b0C) for 15\u201320 minutes until the meringue is lightly golden. Let cool completely before slicing.",
             "If topping with whipped cream: Refrigerate the pie until fully set (at least 3 hours or overnight), then top with whipped cream just before serving.",
             "Store leftovers covered in the refrigerator for up to 3 days."
           ]
@@ -2536,7 +2501,7 @@
             "2 2/3 tablespoons (for 9-inch) Cornstarch (reduce to 2 tbsp for 8-inch, 1 1/3 tbsp for 6-inch)",
             "1 1/3 tablespoons (for 9-inch) All purpose flour (reduce to 1 tbsp for 8-inch, 1/2 tbsp for 6-inch)",
             "2 2/3 cups (for 9-inch) Milk (reduce to 2 cups for 8-inch, 1 1/3 cups for 6-inch; 2% or whole)",
-            "3/4 cup (for 9-inch) Egg substitute (reduce to 1/2 cup for 8-inch, 1/4 cup for 6-inch; or use 3 egg yolks for 9-inch)",
+            "3/4 cup (for 9-inch) Large Eggs (reduce to 1/2 cup for 8-inch, 1/4 cup for 6-inch; or use 3 egg yolks for 9-inch)",
             "2 teaspoons (for 9-inch) Butter (reduce to 1 1/2 tsp for 8-inch, 1 tsp for 6-inch)",
             "1 1/3 teaspoons (for 9-inch) Vanilla extract (reduce to 1 tsp for 8-inch, 1/2 tsp for 6-inch)",
             "1 (9-inch, 8-inch, or 6-inch) Baked pie shell (fully baked and cooled)",
@@ -2546,13 +2511,13 @@
             "Fill the bottom of a double boiler with water and bring to a simmer.",
             "In the top of the double boiler (off the heat), whisk together the sugar, salt, cornstarch, and flour until well combined and lump-free.",
             "Gradually whisk in the milk until the mixture is smooth.",
-            "Place the top of the double boiler over the simmering water. Cook, stirring constantly, until the mixture comes to a boil and thickens, about 8–10 minutes. Let it boil gently for 3 minutes, continuing to stir.",
-            "In a small bowl, lightly beat the egg substitute (or egg yolks). Slowly whisk about 1/2 cup of the hot mixture into the egg to temper it, then pour the tempered egg back into the double boiler, whisking constantly.",
+            "Place the top of the double boiler over the simmering water. Cook, stirring constantly, until the mixture comes to a boil and thickens, about 8\u201310 minutes. Let it boil gently for 3 minutes, continuing to stir.",
+            "In a small bowl, lightly beat the large eggs (or egg yolks). Slowly whisk about 1/2 cup of the hot mixture into the egg to temper it, then pour the tempered egg back into the double boiler, whisking constantly.",
             "Cook over the simmering water for an additional 10 minutes, stirring occasionally, until the filling is thick and smooth.",
-            "Remove from heat and stir in the margarine or butter until melted and fully incorporated.",
-            "Let the filling cool for about 10–15 minutes, stirring occasionally to prevent a skin from forming. When slightly cooled, stir in the vanilla extract.",
+            "Remove from heat and stir in the unsalted butter or butter until melted and fully incorporated.",
+            "Let the filling cool for about 10\u201315 minutes, stirring occasionally to prevent a skin from forming. When slightly cooled, stir in the vanilla extract.",
             "Pour the vanilla filling into the cooled, baked pie shell. Smooth the top with a spatula.",
-            "If topping with meringue: Spread the meringue over the filling while the filling is still warm, sealing the edges to the crust. Bake at 300°F (150°C) for 15–20 minutes until the meringue is lightly golden. Let cool completely before slicing.",
+            "If topping with meringue: Spread the meringue over the filling while the filling is still warm, sealing the edges to the crust. Bake at 300\u00b0F (150\u00b0C) for 15\u201320 minutes until the meringue is lightly golden. Let cool completely before slicing.",
             "If topping with whipped cream: Refrigerate the pie until fully set (at least 3 hours or overnight), then top with whipped cream just before serving.",
             "Store leftovers covered in the refrigerator for up to 3 days."
           ]
@@ -2565,7 +2530,7 @@
             "1 1/2 cups Granulated sugar (for filling)",
             "6 tablespoons Cornstarch (for filling)",
             "1 1/2 cups Water (boiling)",
-            "3/4 cup Egg yolks or egg substitute (about 4 egg yolks)",
+            "3/4 cup Egg yolks or large eggs (about 4 egg yolks)",
             "3 tablespoons Butter",
             "1/4 cup Fresh lemon juice (from about 2 lemons)",
             "1 1/2 tablespoons Fresh lemon zest (finely grated)",
@@ -2578,11 +2543,11 @@
             "Prepare the lemon filling: In a medium saucepan, whisk together the 1 1/2 cups sugar and cornstarch.",
             "Gradually stir in the 1 1/2 cups boiling water. Cook over medium heat, stirring constantly, until the mixture thickens and comes to a boil.",
             "Transfer the mixture to the top of a double boiler set over simmering water. Cook for 10 minutes, stirring occasionally.",
-            "In a small bowl, lightly beat the egg yolks or egg substitute. Slowly whisk about 1/2 cup of the hot sugar mixture into the eggs to temper them.",
+            "In a small bowl, lightly beat the egg yolks or large eggs. Slowly whisk about 1/2 cup of the hot sugar mixture into the eggs to temper them.",
             "Pour the tempered egg mixture back into the double boiler, whisking constantly. Cook for 5 more minutes, stirring constantly, until thick.",
-            "Remove from heat. Stir in the margarine, lemon juice, and lemon zest until the margarine is melted and everything is well combined.",
+            "Remove from heat. Stir in the unsalted butter, lemon juice, and lemon zest until the unsalted butter is melted and everything is well combined.",
             "Let the filling cool for about 10 minutes, stirring occasionally. Pour into the cooled, pre-baked pie shell. Set aside while you make the meringue.",
-            "Preheat oven to 350°F (175°C).",
+            "Preheat oven to 350\u00b0F (175\u00b0C).",
             "Make the meringue: In a clean, dry bowl, beat the egg whites with an electric mixer until foamy. Add the cream of tartar.",
             "Continue beating on high speed until soft peaks form. Gradually add the 6 tablespoons sugar, one tablespoon at a time, beating constantly until stiff, glossy peaks form. The meringue should stand up straight when the beaters are lifted.",
             "Spread the meringue over the warm (not hot) lemon filling, making sure to seal the meringue all the way to the edge of the crust. This prevents shrinking. Swirl or create peaks for a decorative look.",
@@ -2615,8 +2580,8 @@
             "1 cup (optional) Chopped walnuts or pecans"
           ],
           "instructions": [
-            "Preheat oven to 375°F (190°C).",
-            "In a large bowl, beat the softened margarine with both sugars until light and creamy.",
+            "Preheat oven to 375\u00b0F (190\u00b0C).",
+            "In a large bowl, beat the softened unsalted butter with both sugars until light and creamy.",
             "Add the eggs, milk, and vanilla, and beat until well combined.",
             "In a separate bowl, whisk together the flour, baking soda, and salt.",
             "Add the dry ingredients to the wet ingredients and mix until just combined.",
@@ -2644,12 +2609,12 @@
             "about 1/2 cup Granulated sugar for rolling"
           ],
           "instructions": [
-            "In a large bowl, cream together the margarine and 1 cup sugar until light and fluffy.",
+            "In a large bowl, cream together the unsalted butter and 1 cup sugar until light and fluffy.",
             "Beat in the egg and molasses until well combined.",
             "In a separate bowl, sift together the flour, baking soda, salt, cinnamon, and ginger.",
             "Gradually add the dry ingredients to the wet ingredients, mixing until just combined.",
             "Cover the dough and refrigerate for at least 1 hour, or until firm enough to handle.",
-            "Preheat oven to 350°F (175°C). Line baking sheets with parchment paper or coat with nonstick spray.",
+            "Preheat oven to 350\u00b0F (175\u00b0C). Line baking sheets with parchment paper or coat with nonstick spray.",
             "Shape the chilled dough into balls about 1 1/2 inches in diameter. Roll each ball in granulated sugar to coat.",
             "Place the balls 3 inches apart on the prepared baking sheets.",
             "Bake for 12-15 minutes, or until the edges are set and the tops are slightly cracked. The centers will still be soft.",
@@ -2677,8 +2642,8 @@
             "1 cup (optional) Chopped walnuts or pecans"
           ],
           "instructions": [
-            "Preheat oven to 375°F (190°C).",
-            "In a large bowl, beat the softened margarine with both sugars until light and creamy.",
+            "Preheat oven to 375\u00b0F (190\u00b0C).",
+            "In a large bowl, beat the softened unsalted butter with both sugars until light and creamy.",
             "Add the eggs, milk, and vanilla, and beat until well combined.",
             "In a separate bowl, whisk together the flour, cinnamon, nutmeg, baking soda, and salt.",
             "Add the dry ingredients to the wet ingredients and mix until just combined.",
@@ -2708,8 +2673,8 @@
             "optional Powdered sugar for dusting"
           ],
           "instructions": [
-            "Preheat oven to 350°F (175°C). Lightly grease an 8x8x2-inch baking pan or coat with nonstick spray.",
-            "For the crust: In a small bowl, blend together the flour, powdered sugar, ground almonds, and softened margarine until the mixture resembles coarse crumbs.",
+            "Preheat oven to 350\u00b0F (175\u00b0C). Lightly grease an 8x8x2-inch baking pan or coat with nonstick spray.",
+            "For the crust: In a small bowl, blend together the flour, powdered sugar, ground almonds, and softened unsalted butter until the mixture resembles coarse crumbs.",
             "Press the crust mixture evenly onto the bottom of the prepared pan.",
             "Bake for 20 minutes, or until the crust is lightly golden around the edges.",
             "Meanwhile, prepare the filling: In a medium bowl, beat the eggs with a mixer at medium speed until light. Add the sugar, lemon zest, lemon juice, baking powder, and salt. Beat for about 3 minutes until fluffy and well combined.",
@@ -2736,14 +2701,14 @@
             "1 cup Chopped pecans or walnuts"
           ],
           "instructions": [
-            "In a large bowl, beat the softened margarine at medium speed. Gradually add the brown sugar, beating until light and fluffy.",
+            "In a large bowl, beat the softened unsalted butter at medium speed. Gradually add the brown sugar, beating until light and fluffy.",
             "Add the eggs and vanilla, and mix well.",
             "In a separate bowl, combine the flour, baking soda, and salt.",
             "Gradually add the dry ingredients to the creamed mixture, mixing until well combined.",
             "Stir in the chopped nuts.",
             "Divide the dough in half. Shape each half into a 16-inch long roll (about 2 inches in diameter).",
             "Wrap each roll tightly in waxed paper or plastic wrap, and refrigerate for at least 4 hours or overnight. The dough can also be frozen for up to 3 months.",
-            "When ready to bake, preheat oven to 375°F (190°C).",
+            "When ready to bake, preheat oven to 375\u00b0F (190\u00b0C).",
             "Unwrap the chilled dough and cut into 1/3-inch slices using a sharp knife.",
             "Place the slices on ungreased cookie sheets, spacing them about 1 inch apart.",
             "Bake for 6-8 minutes, or until the edges are lightly golden. Do not overbake.",
@@ -2775,7 +2740,7 @@
             "Press a floured springerle mold (or rolling pin with designs) firmly into the dough to create embossed patterns.",
             "Cut the cookies apart along the design lines.",
             "Place the cookies on ungreased, flat trays or baking sheets. Cover with a clean kitchen towel and let them dry at room temperature overnight (12-24 hours). This drying step is important for the characteristic hard texture.",
-            "The next day, preheat oven to 300°F (150°C).",
+            "The next day, preheat oven to 300\u00b0F (150\u00b0C).",
             "Lightly coat cookie sheets with nonstick spray and sprinkle with crushed anise seeds if desired.",
             "Transfer the dried cookies to the prepared cookie sheets.",
             "Bake for 10-15 minutes. The cookies should remain pale; do not let them brown.",
@@ -2798,7 +2763,7 @@
             "1/2 teaspoon Salt"
           ],
           "instructions": [
-            "Preheat oven to 350°F (175°C). Line baking sheets with parchment paper or coat lightly with nonstick spray.",
+            "Preheat oven to 350\u00b0F (175\u00b0C). Line baking sheets with parchment paper or coat lightly with nonstick spray.",
             "In a small bowl, whisk together the vegetable oil and molasses until well combined.",
             "In a large bowl, sift together the flour, brown sugar, ginger, cinnamon, cloves, baking soda, and salt.",
             "Pour the molasses mixture into the dry ingredients and stir until a smooth, cohesive dough forms.",
@@ -2823,7 +2788,7 @@
             "1/2 teaspoon Salt"
           ],
           "instructions": [
-            "Preheat oven to 350°F (175°C). Line baking sheets with parchment paper or coat lightly with nonstick spray.",
+            "Preheat oven to 350\u00b0F (175\u00b0C). Line baking sheets with parchment paper or coat lightly with nonstick spray.",
             "In a medium bowl, whisk together the corn syrup, vegetable oil, lemon zest, and lemon juice or extract until smooth and well combined.",
             "In a separate bowl, sift together the flour, baking soda, and salt.",
             "Pour the wet ingredients into the dry ingredients and stir until a smooth dough forms.",
@@ -2848,8 +2813,8 @@
             "1 cup Chopped pecans"
           ],
           "instructions": [
-            "Preheat oven to 325°F (165°C). Lightly coat a 9x13-inch baking sheet or jelly roll pan with nonstick spray.",
-            "In a medium bowl, cream together the brown sugar and margarine or butter until light and fluffy.",
+            "Preheat oven to 325\u00b0F (165\u00b0C). Lightly coat a 9x13-inch baking sheet or jelly roll pan with nonstick spray.",
+            "In a medium bowl, cream together the brown sugar and unsalted butter or butter until light and fluffy.",
             "Beat in the egg and vanilla until well combined.",
             "In a small bowl, whisk together the flour, baking powder, and salt.",
             "Add the dry ingredients to the wet mixture and mix until just combined.",
@@ -2867,7 +2832,7 @@
           "ingredients": [
             "1 1/2 cups Powdered sugar (sifted)",
             "1 cup (2 sticks) Butter (softened)",
-            "1 large Egg (or 1/4 cup egg substitute)",
+            "1 large Egg (or 1/4 cup large eggs)",
             "1 teaspoon Vanilla extract",
             "1/2 teaspoon Almond extract",
             "2 1/2 cups All-purpose flour",
@@ -2875,12 +2840,12 @@
             "1 teaspoon Salt"
           ],
           "instructions": [
-            "In a large bowl, cream together the powdered sugar and softened margarine until light and fluffy.",
+            "In a large bowl, cream together the powdered sugar and softened unsalted butter until light and fluffy.",
             "Beat in the egg, vanilla, and almond extract until well combined.",
             "In a separate bowl, whisk together the flour, cream of tartar, and salt.",
             "Gradually add the dry ingredients to the wet ingredients, mixing until a soft dough forms.",
             "Wrap the dough tightly in plastic wrap and refrigerate for 2-3 hours, or overnight. This makes the dough easier to roll and helps the cookies hold their shape.",
-            "When ready to bake, preheat oven to 350°F (175°C). Line baking sheets with parchment paper or coat lightly with nonstick spray.",
+            "When ready to bake, preheat oven to 350\u00b0F (175\u00b0C). Line baking sheets with parchment paper or coat lightly with nonstick spray.",
             "On a lightly floured surface, roll out the chilled dough to your desired thickness (1/4 inch for crisp cookies, 1/2 inch for softer cookies).",
             "Cut into desired shapes using cookie cutters. Place on prepared baking sheets, spacing about 1 inch apart.",
             "Bake for 10-11 minutes, or until the edges are just barely golden. Do not overbake; the cookies should remain pale.",
@@ -2897,17 +2862,17 @@
             "1/2 teaspoon Salt",
             "1/2 cup (1 stick) Butter (softened)",
             "1 cup Granulated sugar (plus extra for sprinkling)",
-            "2 large Eggs (or 1/2 cup egg substitute)",
+            "2 large Eggs (or 1/2 cup large eggs)",
             "1/2 teaspoon Vanilla extract",
             "1 tablespoon Milk"
           ],
           "instructions": [
             "In a medium bowl, sift together the flour, baking powder, and salt. Set aside.",
-            "In a large bowl, cream the margarine and 1 cup sugar together until light and fluffy.",
+            "In a large bowl, cream the unsalted butter and 1 cup sugar together until light and fluffy.",
             "Beat in the eggs and vanilla until well combined.",
             "Gradually add the sifted dry ingredients to the creamed mixture, alternating with the milk, mixing until a dough forms.",
             "If the dough is too soft to roll, wrap it in plastic and refrigerate for 30 minutes to 1 hour.",
-            "Preheat oven to 375°F (190°C). Line baking sheets with parchment paper or coat lightly with nonstick spray.",
+            "Preheat oven to 375\u00b0F (190\u00b0C). Line baking sheets with parchment paper or coat lightly with nonstick spray.",
             "On a lightly floured surface, roll out the dough to your desired thickness (about 1/4 inch for crisp cookies).",
             "Cut into various shapes using cookie cutters and place on prepared baking sheets, spacing about 1 inch apart.",
             "Sprinkle the tops of the cookies lightly with granulated sugar.",
@@ -2925,19 +2890,19 @@
             "1/2 teaspoon Salt",
             "1 1/2 cups Granulated sugar",
             "1 1/2 cups (3 sticks) Butter (softened (traditional used lard))",
-            "2 large Eggs (or 1/2 cup egg substitute)",
-            "1/2 cup Low-fat buttermilk or sour milk",
+            "2 large Eggs (or 1/2 cup large eggs)",
+            "1/2 cup buttermilk or sour milk",
             "1 teaspoon Vanilla extract",
             "1 teaspoon Lemon extract"
           ],
           "instructions": [
-            "In a large bowl, cream together the sugar and margarine until light and fluffy.",
+            "In a large bowl, cream together the sugar and unsalted butter until light and fluffy.",
             "Beat in the eggs and mix well.",
             "In a separate bowl, combine the flour, baking soda, and salt.",
             "In a small bowl or measuring cup, combine the buttermilk, vanilla extract, and lemon extract.",
             "Add the dry ingredients and the flavored milk to the creamed mixture in stages: add about 1/3 of the dry ingredients, mix well, then add about 1/3 of the milk mixture, and mix well. Repeat until all ingredients are incorporated. The dough should be smooth and pliable.",
             "If the dough is too soft, wrap in plastic and refrigerate for 30 minutes to 1 hour.",
-            "Preheat oven to 350°F (175°C). Line baking sheets with parchment paper or coat lightly with nonstick spray.",
+            "Preheat oven to 350\u00b0F (175\u00b0C). Line baking sheets with parchment paper or coat lightly with nonstick spray.",
             "On a lightly floured surface, roll out the dough to 1/4-inch thickness (or thicker if you prefer softer cookies).",
             "Cut into various shapes using cookie cutters. Place on prepared baking sheets, spacing about 1 inch apart.",
             "Bake for 10-11 minutes, or until the edges are just barely golden. Do not overbake.",
@@ -2968,7 +2933,7 @@
             "In a food processor or grinder, finely grind the nuts and citron together. Add this mixture to the honey-flour mixture.",
             "Mix by hand, kneading until all ingredients are well blended into a stiff dough. This may take some time and effort.",
             "Cover the dough tightly and let it stand at room temperature overnight. This resting period allows the flavors to meld.",
-            "The next day, preheat oven to 325°F (165°C). Line baking sheets with parchment paper or coat lightly with nonstick spray.",
+            "The next day, preheat oven to 325\u00b0F (165\u00b0C). Line baking sheets with parchment paper or coat lightly with nonstick spray.",
             "On a lightly floured surface, roll out the dough to 1/4-inch thickness. Cut into diamond shapes (traditional) or use cookie cutters.",
             "Place the cookies on prepared baking sheets, spacing about 1 inch apart.",
             "Bake for 12-15 minutes, or until lightly browned. Do not overbake; the cookies should remain soft initially and will firm up as they cool.",
@@ -2981,7 +2946,7 @@
           "category": "Cookies & Bars",
           "servings": "About 8-10 dozen small cookies",
           "ingredients": [
-            "4 large Eggs (or 1 cup egg substitute)",
+            "4 large Eggs (or 1 cup large eggs)",
             "1 pound (about 4 cups) Powdered sugar (sifted)",
             "1 tablespoon Butter (melted)",
             "4 cups All-purpose flour",
@@ -2994,14 +2959,14 @@
             "1/2 teaspoon Vanilla extract (for glaze)"
           ],
           "instructions": [
-            "In a large bowl, beat the eggs slightly. Add 1 pound powdered sugar and the melted margarine.",
+            "In a large bowl, beat the eggs slightly. Add 1 pound powdered sugar and the melted unsalted butter.",
             "Mix with an electric mixer for 15 minutes, or beat by hand for 30 minutes. The mixture should be very light and fluffy.",
             "In a separate bowl, combine the flour, baking soda, cinnamon, cloves, and black pepper.",
             "Add the dry ingredients to the egg mixture one tablespoon at a time, mixing well after each addition. This gradual incorporation ensures a smooth dough.",
             "Once all dry ingredients are incorporated, the dough should be stiff but pliable.",
             "On a lightly floured surface, roll out the dough to 1/4-inch thickness.",
             "Cut into small rounds, about 1 1/4 inches in diameter. These are traditional \"pepper nuts\" - small and round.",
-            "Preheat oven to 300°F (150°C). Line baking sheets with parchment paper or coat lightly with nonstick spray.",
+            "Preheat oven to 300\u00b0F (150\u00b0C). Line baking sheets with parchment paper or coat lightly with nonstick spray.",
             "Place the cookies on prepared baking sheets and bake for about 20 minutes, or until slightly browned.",
             "While the cookies are still warm, prepare the glaze: Mix 2 cups powdered sugar with 3-4 tablespoons boiling water and 1/2 teaspoon vanilla until smooth.",
             "Brush or drizzle the glaze over the warm cookies, or dip each cookie into the glaze.",
@@ -3015,7 +2980,7 @@
           "ingredients": [
             "1 cup, packed Brown sugar",
             "1 cup (2 sticks) Butter (softened)",
-            "3 large Eggs (or 3/4 cup egg substitute)",
+            "3 large Eggs (or 3/4 cup large eggs)",
             "1 1/4 cups Molasses (dark or light)",
             "3 cups All-purpose flour (for initial mix)",
             "1 tablespoon Baking soda",
@@ -3027,11 +2992,11 @@
             "5 to 6 cups All-purpose flour (additional, for stiff dough)"
           ],
           "instructions": [
-            "Early in the day (or up to 2 days ahead): In a large bowl, combine the brown sugar, softened margarine, eggs, molasses, 3 cups flour, baking soda, salt, and all the spices (cinnamon, ginger, allspice, cloves).",
+            "Early in the day (or up to 2 days ahead): In a large bowl, combine the brown sugar, softened unsalted butter, eggs, molasses, 3 cups flour, baking soda, salt, and all the spices (cinnamon, ginger, allspice, cloves).",
             "Beat with an electric mixer on low speed until just mixed, then increase to medium speed and beat for 2 more minutes.",
             "Using a wooden spoon, gradually stir in 5 to 6 additional cups of flour until the dough is very stiff and no longer sticky. You may need the full 6 cups.",
             "Divide the dough in half and wrap each half tightly in plastic wrap. Refrigerate for at least 2 hours, or up to 2 days.",
-            "When ready to bake, preheat oven to 350°F (175°C). Line baking sheets with parchment paper.",
+            "When ready to bake, preheat oven to 350\u00b0F (175\u00b0C). Line baking sheets with parchment paper.",
             "Working with one half of the dough at a time (keep the other half refrigerated), roll out on a lightly floured surface to 1/8-inch thickness.",
             "Cut out gingerbread men shapes using a cookie cutter. Use a spatula to carefully transfer to prepared baking sheets.",
             "Bake for 12 minutes, or until the edges are firm and the cookies are set. Do not overbake.",
@@ -3044,7 +3009,7 @@
           "category": "Cookies & Bars",
           "servings": "About 4-5 dozen cookies",
           "ingredients": [
-            "4 large Eggs (or 1 cup egg substitute)",
+            "4 large Eggs (or 1 cup large eggs)",
             "1 pound (about 4 cups) Powdered sugar (sifted)",
             "1 pound (about 3 2/3 cups) All-purpose flour (sifted)",
             "2 teaspoons Baking powder",
@@ -3054,7 +3019,7 @@
           ],
           "instructions": [
             "In a large bowl with an electric mixer, beat the eggs and powdered sugar together for at least 15 minutes. The mixture should be very thick, pale, and fluffy, resembling a soft meringue.",
-            "Add the cooled melted margarine, anise oil, and grated lemon zest. Mix well until fully incorporated.",
+            "Add the cooled melted unsalted butter, anise oil, and grated lemon zest. Mix well until fully incorporated.",
             "Sift together the flour and baking powder. Add to the egg mixture and mix well until a smooth, firm dough forms.",
             "Cover the dough and let it rest for 15-20 minutes to make it easier to roll.",
             "On a lightly floured surface, roll out the dough to 3/8-inch thickness (slightly thicker than most cookies).",
@@ -3062,7 +3027,7 @@
             "Cut the cookies apart along the design lines using a sharp knife or pastry wheel.",
             "Place the cookies on lightly greased baking sheets or parchment paper. Leave space between them.",
             "Cover with a clean kitchen towel and let the cookies stand at room temperature overnight (12-24 hours). This drying step creates the characteristic hard texture.",
-            "The next day, preheat oven to 325°F (165°C).",
+            "The next day, preheat oven to 325\u00b0F (165\u00b0C).",
             "Bake for 15-20 minutes, or until the cookies are slightly browned on the bottom but still pale on top. Do not overbake.",
             "Cool completely on wire racks. Do not ice these cookies; the anise flavor and embossed design are meant to shine on their own.",
             "Store in airtight containers. Springerle improve with age and can be kept for several weeks. They will soften slightly over time."
@@ -3092,7 +3057,7 @@
             "Press a floured springerle mold or rolling pin firmly into the dough to emboss the traditional designs.",
             "Cut the cookies apart along the embossed lines using a sharp knife or pastry cutter.",
             "Place cookies on ungreased baking sheets. Cover with a clean kitchen towel and let dry at room temperature overnight (12-24 hours). This step is essential for the characteristic hard texture.",
-            "The next day, preheat oven to 300°F (150°C).",
+            "The next day, preheat oven to 300\u00b0F (150\u00b0C).",
             "Lightly grease cookie sheets and sprinkle with crushed anise seeds.",
             "Transfer the dried cookies to the prepared sheets.",
             "Bake for 12-15 minutes. The cookies should remain very pale; do not let them brown.",
@@ -3114,18 +3079,53 @@
             "1/2 teaspoon Salt"
           ],
           "instructions": [
-            "In a large bowl, cream together the softened margarine and sugar until light and fluffy.",
+            "In a large bowl, cream together the softened unsalted butter and sugar until light and fluffy.",
             "Beat in the eggs one at a time, then add the vanilla extract and mix well.",
             "In a separate bowl, sift together the flour, baking powder, and salt.",
             "Gradually add the dry ingredients to the creamed mixture, mixing until well combined.",
             "Cover the dough and refrigerate for at least 2 hours or overnight.",
-            "Preheat oven to 375°F (190°C). Line baking sheets with parchment paper.",
+            "Preheat oven to 375\u00b0F (190\u00b0C). Line baking sheets with parchment paper.",
             "On a lightly floured surface, roll out the chilled dough to 1/8-inch thickness.",
             "Cut out shapes with cookie cutters and place on prepared baking sheets about 1 inch apart.",
             "Bake for 8-10 minutes, or until the edges are just beginning to turn golden.",
             "Cool on baking sheets for 2 minutes, then transfer to wire racks to cool completely.",
             "Decorate with frosting, sprinkles, or colored sugar if desired.",
             "Note: This recipe was used by Alma Carle in the 1950s when the children were small."
+          ]
+        },
+        {
+          "name": "Frosted Pineapple Squares",
+          "category": "Cookies & Bars",
+          "servings": "About 24 squares",
+          "ingredients": [
+            "1/2 cup Sugar",
+            "1/4 teaspoon Salt",
+            "3 tablespoons Cornstarch",
+            "1 can (1 lb 14 oz) Pineapple chunks with juice",
+            "1/2 cup Milk",
+            "3 3/4 to 4 1/4 cups All-purpose flour (unsifted)",
+            "1 teaspoon Sugar (for activating yeast)",
+            "1 package (about 2 1/4 teaspoons) Active dry yeast",
+            "1/2 cup Water (warm, 105\u2013115\u00b0F / 40\u201346\u00b0C)",
+            "1 cup Butter (softened)",
+            "4 Egg yolks (room temperature (plus 1 extra yolk used in filling))",
+            "As needed Confectioners' sugar frosting (for drizzling over cooled squares)"
+          ],
+          "instructions": [
+            "Make the pineapple filling: In a medium saucepan, whisk together sugar, cornstarch, and salt. Stir in the pineapple (with its juice) and the milk.",
+            "Cook over medium heat, stirring constantly, until the mixture comes to a full boil and thickens to a spoon-coating consistency. Remove from heat and let cool to room temperature.",
+            "Make the dough sponge: In a large bowl, combine about 1 1/3 cups (160 g) of the flour, the 1 teaspoon sugar, and the dry yeast.",
+            "Warm the water and unsalted butter together until just warm to the touch (105\u2013115\u00b0F / 40\u201346\u00b0C). Add to the flour-yeast mixture and beat on medium speed for 2\u20133 minutes, scraping the bowl occasionally.",
+            "Beat in the egg yolks and another 1/2 cup (60 g) of flour. Continue adding just enough of the remaining flour to form a soft, slightly sticky dough.",
+            "Turn the dough out onto a lightly floured surface and knead 8\u201310 minutes, adding flour only as needed, until smooth and elastic.",
+            "Place the dough in a lightly greased bowl, turn to coat, cover, and let rise in a warm, draft-free place until doubled, about 1 hour.",
+            "Lightly grease a jelly-roll pan (about 10x15 in / 25x38 cm). Divide the dough in half. Roll one half to fit the bottom of the pan and transfer it to the pan.",
+            "Spread the cooled pineapple filling evenly over the dough in the pan.",
+            "Roll the remaining dough to the same size and place over the filling. Pinch edges to seal and snip the top in several places with scissors to allow steam to escape.",
+            "Cover and let rise again until puffy, 30\u201345 minutes.",
+            "Near the end of rising, preheat the oven to 350\u2013375\u00b0F (175\u2013190\u00b0C).",
+            "Bake 25\u201335 minutes, or until the top is deep golden brown and the bread sounds hollow when tapped.",
+            "Cool completely in the pan. Drizzle with confectioners' sugar frosting and cut into squares to serve."
           ]
         }
       ]

@@ -170,17 +170,23 @@ function showRecipeDetail(recipe) {
     const imageName = findBestImageMatch(recipe.name);
     const imagePath = `MeeMaw Recipe Book Image File/${imageName}`;
     
-    // Create image link
-    const imageLink = `
-        <div class="cookbook-image-link">
+    // Create inline action bar
+    const actionBar = `
+        <div class="recipe-action-bar">
             <button onclick="showCookbookImage('${imagePath}')" class="view-original-btn">
-                📖 View Original Cookbook Page
+                📖 View Original Page
+            </button>
+            <button onclick="showPrintDialog()" class="print-recipe-btn">
+                🖨️ Print Recipe
+            </button>
+            <button onclick="closeRecipeModal()" class="close-recipe-btn">
+                ❌ Close
             </button>
         </div>
     `;
     
     detailDiv.innerHTML = `
-        ${imageLink}
+        ${actionBar}
         ${formatRecipeContent(recipe)}
     `;
 
@@ -250,7 +256,8 @@ function formatRecipeContent(recipe, versionLabel) {
     // Build servings/timing info
     let metaInfo = '';
     if (recipe.servings || recipe.yield) {
-        metaInfo += `<p class="detail-servings">📊 ${recipe.yield || recipe.servings}</p>`;
+        const servingsText = recipe.yield || recipe.servings;
+        metaInfo += `<p class="detail-servings" id="recipeServings" data-original="${servingsText}">📊 ${servingsText}</p>`;
     }
     if (recipe.prep_time) {
         metaInfo += `<p class="detail-servings">⏱️ Prep: ${recipe.prep_time}</p>`;
@@ -419,60 +426,82 @@ function applyFilters() {
     }
 }
 
-// Scale ingredient quantities based on batch multiplier
+// Scale ingredient quantities based on batch multiplier with metric conversion
 function scaleIngredient(ingredient, multiplier) {
-    if (multiplier === 1) return ingredient;
+    // Extract quantity, unit, and item from string format
+    const match = ingredient.match(/^([\d\/.\s-]+)?\s*([a-zA-Z().,\s]*?)\s+(.+)$/);
     
-    // Match patterns like "1 cup", "2 tablespoons", "1/2 teaspoon", etc.
-    const fractionPattern = /^(\d+\/\d+|\d+\s+\d+\/\d+|\d+\.?\d*)\s+/;
-    const match = ingredient.match(fractionPattern);
-    
-    if (match) {
-        const quantityStr = match[1];
-        let quantity;
-        
-        // Handle fractions like "1/2" or "1 1/2"
-        if (quantityStr.includes('/')) {
-            const parts = quantityStr.split(/\s+/);
-            if (parts.length === 2) {
-                // Mixed number like "1 1/2"
-                const whole = parseInt(parts[0]);
-                const [num, den] = parts[1].split('/').map(Number);
-                quantity = whole + (num / den);
-            } else {
-                // Simple fraction like "1/2"
-                const [num, den] = quantityStr.split('/').map(Number);
-                quantity = num / den;
-            }
-        } else {
-            quantity = parseFloat(quantityStr);
-        }
-        
-        const scaled = quantity * multiplier;
-        const rest = ingredient.substring(match[0].length);
-        
-        // Format the scaled number nicely
-        let formattedQuantity;
-        if (scaled % 1 === 0) {
-            formattedQuantity = scaled.toString();
-        } else if (scaled % 0.5 === 0) {
-            const whole = Math.floor(scaled);
-            formattedQuantity = whole > 0 ? `${whole} 1/2` : '1/2';
-        } else if (scaled % 0.25 === 0) {
-            const whole = Math.floor(scaled);
-            const fraction = scaled - whole;
-            if (fraction === 0.25) formattedQuantity = whole > 0 ? `${whole} 1/4` : '1/4';
-            else if (fraction === 0.75) formattedQuantity = whole > 0 ? `${whole} 3/4` : '3/4';
-            else formattedQuantity = whole.toString();
-        } else {
-            formattedQuantity = scaled.toFixed(2).replace(/\.?0+$/, '');
-        }
-        
-        return formattedQuantity + ' ' + rest;
+    if (!match) {
+        return ingredient; // Return as-is if can't parse
     }
     
-    // If no quantity found, return original
-    return ingredient;
+    const [, quantityStr, unit, item] = match;
+    
+    // Skip metric conversion for non-numeric or "to taste" type ingredients
+    if (!quantityStr || quantityStr.trim() === '' || 
+        ingredient.toLowerCase().includes('to taste') ||
+        ingredient.toLowerCase().includes('as needed') ||
+        ingredient.toLowerCase().includes('dash') ||
+        ingredient.toLowerCase().includes('pinch') ||
+        ingredient.toLowerCase().includes('about') ||
+        ingredient.toLowerCase().includes('optional')) {
+        return ingredient;
+    }
+    
+    // Convert fraction to decimal
+    let quantity = 0;
+    const parts = quantityStr.trim().split(/\s+/);
+    
+    for (const part of parts) {
+        if (part.includes('/')) {
+            const [num, den] = part.split('/').map(Number);
+            quantity += num / den;
+        } else if (part.includes('-')) {
+            // Handle ranges like "2-3" - use average
+            const [min, max] = part.split('-').map(Number);
+            quantity += (min + max) / 2;
+        } else {
+            quantity += parseFloat(part) || 0;
+        }
+    }
+    
+    // Scale the quantity
+    const scaledQuantity = quantity * multiplier;
+    
+    // Format the scaled quantity
+    let formattedQuantity;
+    if (scaledQuantity % 1 === 0) {
+        formattedQuantity = scaledQuantity.toString();
+    } else if (scaledQuantity < 1) {
+        // Convert to fraction for small numbers
+        const fractions = {
+            0.25: '1/4',
+            0.33: '1/3',
+            0.5: '1/2',
+            0.66: '2/3',
+            0.75: '3/4'
+        };
+        const nearest = Object.keys(fractions).reduce((prev, curr) => 
+            Math.abs(curr - scaledQuantity) < Math.abs(prev - scaledQuantity) ? curr : prev
+        );
+        if (Math.abs(nearest - scaledQuantity) < 0.05) {
+            formattedQuantity = fractions[nearest];
+        } else {
+            formattedQuantity = scaledQuantity.toFixed(2).replace(/\.?0+$/, '');
+        }
+    } else {
+        formattedQuantity = scaledQuantity.toFixed(2).replace(/\.?0+$/, '');
+    }
+    
+    // Get metric conversion
+    const metricValue = convertToMetric(scaledQuantity, unit, item);
+    
+    // Show US measurement first, then metric in parentheses
+    if (metricValue) {
+        return `${formattedQuantity} ${unit.trim()} ${item} <span class="metric-conversion">(${metricValue})</span>`;
+    }
+    
+    return `${formattedQuantity} ${unit.trim()} ${item}`;
 }
 
 // Adjust batch size and re-render ingredients
@@ -489,6 +518,46 @@ function adjustBatchSize(multiplier) {
     if (ingredientsList) {
         ingredientsList.innerHTML = scaledIngredients.map(ing => `<li>${ing}</li>`).join('');
     }
+
+    // Update servings text
+    updateServingsText(multiplier);
+}
+
+function updateServingsText(multiplier) {
+    const servingsEl = document.getElementById('recipeServings');
+    if (!servingsEl) return;
+    
+    const originalText = servingsEl.getAttribute('data-original');
+    if (!originalText) return;
+    
+    // Regex to find numbers and ranges
+    // Matches:
+    // 1. Ranges: 20-24, 20–24
+    // 2. Simple numbers: 20, 2.5
+    const newText = originalText.replace(/(\d+(?:\.\d+)?)(?:\s*([-–])\s*(\d+(?:\.\d+)?))?/g, (match, n1, sep, n2, offset, string) => {
+        // Check for dimensions immediately following the match to avoid scaling them
+        // e.g. "9-inch", "350 degrees"
+        const remainder = string.slice(offset + match.length);
+        if (/^[\s-]*(?:inch|in\.|cm|mm|°|"|'|degree)/i.test(remainder)) {
+            return match; 
+        }
+        
+        const scale = (n) => {
+            const val = parseFloat(n) * multiplier;
+            // Format: if integer, show integer. If decimal, max 1 decimal place.
+            return Number.isInteger(val) ? val.toString() : val.toFixed(1).replace(/\.0$/, '');
+        };
+        
+        if (n2) {
+            // It's a range
+            return `${scale(n1)}${sep}${scale(n2)}`;
+        } else {
+            // Single number
+            return scale(n1);
+        }
+    });
+    
+    servingsEl.innerHTML = `📊 ${newText}`;
 }
 
 // Event listeners
@@ -525,6 +594,8 @@ document.addEventListener('DOMContentLoaded', function() {
             closeModal();
         }
     });
+
+    setupMobileNav();
 });
 
 // Print recipe function (can be added to modal if needed)
@@ -617,4 +688,271 @@ function printRecipe() {
     setTimeout(() => {
         printWindow.print();
     }, 250);
+}
+
+// ===== METRIC CONVERSION SYSTEM =====
+function convertToMetric(quantity, unit, ingredientName = '') {
+    // Skip if quantity is not numeric
+    if (!quantity || isNaN(parseFloat(quantity))) {
+        return null;
+    }
+    
+    const qty = parseFloat(quantity);
+    const lowerUnit = unit.toLowerCase().trim();
+    const lowerIngredient = ingredientName.toLowerCase();
+    
+    // 1. Handle Weight Units (oz, lb) - Always Grams
+    // Note: "fl oz" is handled in volume section
+    if (lowerUnit === 'oz' || lowerUnit === 'ounce' || lowerUnit === 'ounces') {
+        const grams = Math.round(qty * 28.35);
+        return grams >= 1000 ? `${(grams / 1000).toFixed(2)} kg` : `${grams} g`;
+    }
+    if (lowerUnit === 'lb' || lowerUnit === 'lbs' || lowerUnit === 'pound' || lowerUnit === 'pounds') {
+        const grams = Math.round(qty * 453.6);
+        return grams >= 1000 ? `${(grams / 1000).toFixed(2)} kg` : `${grams} g`;
+    }
+
+    // 2. Identify Ingredient Type for Volume-to-Weight Conversion
+    
+    // Special Case: Powdered Sugar is much lighter (~125g/cup)
+    const isPowderedSugar = lowerIngredient.includes('powdered sugar') || 
+                           lowerIngredient.includes('confectioners sugar') || 
+                           lowerIngredient.includes('icing sugar');
+
+    // Light Solids (~125g/cup): Flour, Oats, Cocoa, Cornmeal, Crumbs, Starch, Powdered Sugar
+    const isLightSolid = isPowderedSugar ||
+                        lowerIngredient.includes('flour') || 
+                        lowerIngredient.includes('oats') || 
+                        lowerIngredient.includes('cocoa') || 
+                        lowerIngredient.includes('cornmeal') || 
+                        lowerIngredient.includes('crumbs') || 
+                        lowerIngredient.includes('starch') ||
+                        lowerIngredient.includes('baking powder') ||
+                        lowerIngredient.includes('baking soda');
+
+    // Medium Solids (~200g/cup): Granulated/Brown Sugar, Rice, Cheese, Chocolate, Nuts, Fruit, Beans
+    const isMediumSolid = lowerIngredient.includes('sugar') || // Catches granulated and brown
+                         lowerIngredient.includes('rice') || 
+                         lowerIngredient.includes('cheese') || 
+                         lowerIngredient.includes('chocolate') || 
+                         lowerIngredient.includes('chips') || 
+                         lowerIngredient.includes('nut') || 
+                         lowerIngredient.includes('pecan') || 
+                         lowerIngredient.includes('walnut') || 
+                         lowerIngredient.includes('almond') || 
+                         lowerIngredient.includes('fruit') ||
+                         lowerIngredient.includes('raisin') ||
+                         lowerIngredient.includes('bean') ||
+                         lowerIngredient.includes('salt');
+
+    // Heavy Solids/Fats (~227g/cup): Butter, Margarine, Shortening, Lard
+    const isHeavySolid = lowerIngredient.includes('butter') || 
+                        lowerIngredient.includes('margarine') || 
+                        lowerIngredient.includes('shortening') || 
+                        lowerIngredient.includes('lard');
+
+    // 3. Perform Conversion based on Type
+    
+    // Helper to calculate grams based on density (g/cup)
+    const calcGrams = (density) => {
+        let grams = 0;
+        if (lowerUnit.includes('cup')) grams = qty * density;
+        else if (lowerUnit.includes('tablespoon') || lowerUnit.includes('tbsp')) grams = qty * (density / 16);
+        else if (lowerUnit.includes('teaspoon') || lowerUnit.includes('tsp')) grams = qty * (density / 48);
+        else return null; // Unknown unit for this path
+        
+        grams = Math.round(grams);
+        return grams >= 1000 ? `${(grams / 1000).toFixed(2)} kg` : `${grams} g`;
+    };
+
+    if (isLightSolid) return calcGrams(125);
+    if (isMediumSolid) return calcGrams(200);
+    if (isHeavySolid) return calcGrams(227);
+
+    // 4. Default to Volume (Liquids) - ml
+    const volumeConversions = {
+        'cup': 240,
+        'cups': 240,
+        'tablespoon': 15,
+        'tablespoons': 15,
+        'tbsp': 15,
+        'teaspoon': 5,
+        'teaspoons': 5,
+        'tsp': 5,
+        'fluid ounce': 30,
+        'fluid ounces': 30,
+        'fl oz': 30,
+        'pint': 473,
+        'pints': 473,
+        'quart': 946,
+        'quarts': 946,
+        'gallon': 3785,
+        'gallons': 3785
+    };
+    
+    for (const [key, mlPerUnit] of Object.entries(volumeConversions)) {
+        if (lowerUnit.includes(key)) {
+            const ml = Math.round(qty * mlPerUnit);
+            return ml >= 1000 ? `${(ml / 1000).toFixed(2)} L` : `${ml} ml`;
+        }
+    }
+    
+    return null; // No conversion available
+}
+
+// ===== PRINT DIALOG =====
+function showPrintDialog() {
+    // Create custom print dialog
+    const dialog = document.createElement('div');
+    dialog.className = 'print-dialog-overlay';
+    dialog.innerHTML = `
+        <div class="print-dialog">
+            <h3>Print Recipe</h3>
+            <p>Would you like to include the original cookbook page?</p>
+            <div class="print-dialog-buttons">
+                <button class="btn-secondary" onclick="executePrint(false)">Recipe Only</button>
+                <button class="btn-primary" onclick="executePrint(true)">Include Original Page</button>
+            </div>
+            <button class="print-dialog-close" onclick="closePrintDialog()">&times;</button>
+        </div>
+    `;
+    
+    document.body.appendChild(dialog);
+    setTimeout(() => dialog.classList.add('active'), 10);
+}
+
+function closePrintDialog() {
+    const dialog = document.querySelector('.print-dialog-overlay');
+    if (dialog) {
+        dialog.classList.remove('active');
+        setTimeout(() => dialog.remove(), 300);
+    }
+}
+
+function executePrint(includeImage) {
+    closePrintDialog();
+    
+    const recipeContent = document.getElementById('recipeDetail').innerHTML;
+    
+    let cookbookImageHTML = '';
+    if (includeImage && window.currentRecipe) {
+        const imageName = findBestImageMatch(window.currentRecipe.name);
+        const imagePath = `MeeMaw Recipe Book Image File/${imageName}`;
+        cookbookImageHTML = `
+            <div class="print-cookbook-image">
+                <h3 style="page-break-before: always;">Original Cookbook Page</h3>
+                <img src="${imagePath}" alt="Original Cookbook Page" style="max-width: 100%; height: auto; border: 2px solid #d9c9b3; margin: 20px 0;">
+            </div>
+        `;
+    }
+    
+    const printWindow = window.open('', '_blank', 'width=800,height=600');
+    printWindow.document.write(`
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <title>Print Recipe</title>
+            <style>
+                body {
+                    font-family: Georgia, serif;
+                    max-width: 800px;
+                    margin: 20px auto;
+                    padding: 20px;
+                    color: #2c1810;
+                }
+                h2 { color: #8b2e1f; margin-bottom: 10px; }
+                h3 { color: #704214; margin-top: 20px; margin-bottom: 10px; border-bottom: 2px solid #d4a574; padding-bottom: 5px; }
+                .detail-category { 
+                    background: #d4a574; 
+                    color: white; 
+                    padding: 5px 15px; 
+                    border-radius: 20px; 
+                    font-size: 0.9em;
+                    display: inline-block;
+                    margin-bottom: 10px;
+                }
+                .detail-servings { margin: 5px 0; }
+                ul, ol { margin-left: 25px; line-height: 1.8; }
+                li { margin-bottom: 8px; }
+                .metric-conversion { color: #2d5a7b; font-size: 0.9em; }
+                .recipe-action-bar, .cookbook-image-link { display: none; }
+                @media print {
+                    body { margin: 0; padding: 15px; }
+                }
+            </style>
+        </head>
+        <body>
+            ${recipeContent}
+            ${cookbookImageHTML}
+        </body>
+        </html>
+    `);
+    printWindow.document.close();
+    setTimeout(() => printWindow.print(), 250);
+}
+
+
+
+// Mobile Navigation Functions
+function toggleMobileNav() {
+    const mobileNav = document.getElementById('mobileNav');
+    if (mobileNav) mobileNav.classList.toggle('active');
+}
+
+function closeMobileNav() {
+    const mobileNav = document.getElementById('mobileNav');
+    if (mobileNav) mobileNav.classList.remove('active');
+}
+
+function setupMobileNav() {
+    const hamburgerBtn = document.getElementById('hamburgerBtn');
+    const mobileNavClose = document.getElementById('mobileNavClose');
+    const mobileNavLinks = document.querySelectorAll('.mobile-nav-links a');
+    
+    if (hamburgerBtn) {
+        hamburgerBtn.addEventListener('click', toggleMobileNav);
+    }
+    
+    if (mobileNavClose) {
+        mobileNavClose.addEventListener('click', closeMobileNav);
+    }
+    
+    // Close nav when clicking a link
+    mobileNavLinks.forEach(link => {
+        link.addEventListener('click', (e) => {
+            e.preventDefault();
+            const sectionId = link.getAttribute('data-section');
+            scrollToSection(sectionId);
+        });
+    });
+    
+    // Close nav when clicking outside
+    document.addEventListener('click', (e) => {
+        const mobileNav = document.getElementById('mobileNav');
+        const hamburgerBtn = document.getElementById('hamburgerBtn');
+        
+        if (mobileNav && hamburgerBtn && 
+            !mobileNav.contains(e.target) && 
+            !hamburgerBtn.contains(e.target) &&
+            mobileNav.classList.contains('active')) {
+            closeMobileNav();
+        }
+    });
+}
+
+
+
+// Smooth scroll to section
+function scrollToSection(sectionId) {
+    const section = document.getElementById(sectionId);
+    if (section) {
+        const headerOffset = 100;
+        const elementPosition = section.getBoundingClientRect().top;
+        const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+
+        window.scrollTo({
+            top: offsetPosition,
+            behavior: 'smooth'
+        });
+    }
 }
